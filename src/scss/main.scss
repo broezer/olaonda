@@ -1,4 +1,67 @@
+@import "../../bower_components/bourbon/app/assets/stylesheets/_bourbon";
+@import "_core/base";
+@import "../../bower_components/neat/app/assets/stylesheets/_neat";
+
+
+
+
 body{
-  background:purple;
-  color:white;
+  background:#E9E9E9;
+  color:black;
+  margin:0;
 }
+
+.wrapper{
+    @include span-columns(10);
+    @include shift(1);
+}
+
+.flex{
+  display:flex;
+}
+
+main{
+  @include outer-container(1400px);
+  background:white;
+  position:relative;
+  article{
+    position:relative;
+    display: inline-block;
+    @include fill-parent();
+    //Mobile
+    @include fluid-type(padding-top, 320px, 768px, 30px, 60px);
+    @include fluid-type(padding-bottom, 320px, 768px, 10px , 20px);
+    //Dekstop
+    @include fluid-type(padding-top, 768px, 1440px, 60px, 130px);
+    @include fluid-type(padding-bottom, 768px, 1440px, 20px, 80px);
+    //padding-top:rem(130);
+    //padding-bottom:rem(80);
+
+    header{
+      @include span-columns(10);
+      @include shift(1);
+      @include omega();
+      //margin-bottom:rem(110);
+      @include fluid-type(margin-bottom, 768px, 1440px, 62px, 110px);
+    }
+    .left-6{
+        @include span-columns(6 of 10);
+
+    }
+    .left-4{
+      @include span-columns(4 of 10);
+
+    }
+
+    .right-4{
+        @include span-columns(4 of 10);
+    }
+    .right-6{
+        @include span-columns(6 of 10);
+    }
+  }
+}
+
+@import "_parts/intro";
+
+@import "views/home";

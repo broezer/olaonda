@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,500,500i,700,700i');
+body {
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-size: modular-scale(1);
+  line-height: $heading-line-height;
+  margin: 0 0 $small-spacing;
+}
+
+p {
+  margin: 0 0 $small-spacing;
+}
+
+a {
+  color: $action-color;
+  text-decoration: none;
+  transition: color $base-duration $base-timing;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: shade($action-color, 25%);
+  }
+}
+
+hr {
+  border-bottom: $base-border;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: $base-spacing 0;
+}
+
+/*Custom*/
+
+.green{
+  color:$green;
+}
+.yellow{
+  color:$yellow;
+}
+
+h1.base{
+  //ont-size: rem(72);
+  //color: $green
+  //letter-spacing: rem(8);
+
+  //Mobile
+  @include fluid-type(font-size, 320px, 768px, 20px, 42px);
+  @include fluid-type(letter-spacing, 768px, 1440px, 2.3px,  4.6px);
+  //Desktop
+  @include fluid-type(font-size, 768px, 1440px, 42px, 72px);
+  @include fluid-type(letter-spacing, 768px, 1440px, 4.6px, 8px);
+  margin:0;
+  text-transform:uppercase;
+}
+h2.undertitle{
+  font-weight:300;
+  font-style:italic;
+  //font-size: rem(36);
+  //color: $green;
+  //letter-spacing: rem(5);
+
+  //Mobile
+  @include fluid-type(font-size, 320px, 768px, 10px, 25px);
+  @include fluid-type(letter-spacing, 320px, 768px, 2.3px, 4.6px);
+  //Desktop
+  @include fluid-type(font-size, 768px, 1440px, 25px, 36px);
+  @include fluid-type(letter-spacing, 768px, 1440px, 4.6px, 5px);
+  margin:0;
+}
+
+p{
+  font-weight:300;
+  color: $gray;
+  font-size: rem(24);
+  letter-spacing: rem(5);
+  line-height: rem(48);
+
+  //Mobile
+  @include fluid-type(font-size, 320px, 768px, 8px, 16px);
+  @include fluid-type(letter-spacing, 320px, 768px, 1px, 3.3px);
+  @include fluid-type(line-height, 320px, 768px, 16px, 32px);
+  //Dekstop
+  @include fluid-type(font-size, 768px, 1440px, 16px, 24px);
+  @include fluid-type(letter-spacing, 768px, 1440px, 3.3px, 5px);
+  @include fluid-type(line-height, 768px, 1440px, 32px, 48px);
+
+}

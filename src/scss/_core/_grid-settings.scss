@@ -1,0 +1,15 @@
+//@import "neat-helpers"; // or "../neat/neat-helpers" when not in Rails
+
+// Neat Overrides
+$column: 73px;
+$gutter: 48px;
+$grid-columns: 12;
+$max-width: 1400px;
+
+// Neat Breakpoints
+$small-screen-size: 425px;
+$medium-screen-size: 768px;
+$large-screen-size: 1024px;
+
+$small-screen: max-width $medium-screen-size;
+$medium-screen: max-width $large-screen-size;

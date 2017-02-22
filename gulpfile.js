@@ -17,7 +17,7 @@ gulp.task('default', function() {
 
 gulp.task('serve', function() {
     browserSync.init({
-        proxy: 'start-me-up:8888' //Specify your localhost here
+        proxy: 'olaonda.test' //Specify your localhost here
     });
     gulp.watch('./src/scss/**/*.scss', ['sass']);
     gulp.watch('./dist/main.css', ['css']);

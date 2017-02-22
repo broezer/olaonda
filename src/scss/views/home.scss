@@ -1,0 +1,114 @@
+/*Enjoy Ola */
+h1.enjoy-ola{
+  @include span-columns(5 of 6);
+
+  text-transform:uppercase;
+  letter-spacing:5px;
+  text-align:left;
+
+  //Mobile
+  @include fluid-type(letter-spacing, 320px, 768px, 0px, 3.2px);
+  @include fluid-type(line-height, 320px, 768px, 30px, 60px);
+  //Desktop
+  @include fluid-type(letter-spacing, 768px, 1440px, 3.2px, 5px);
+  @include fluid-type(line-height, 768px, 1440px, 60px, 90px);
+}
+
+.enjoy{
+  color:$green;
+  //Mobile
+  @include fluid-type(font-size, 320px, 768px, 38.5px, 81px);
+  //Desktop
+  @include fluid-type(font-size, 768px, 1440px, 81px, 151px);
+
+}
+.ericeira{
+  color:$yellow;
+  //Mobile
+  @include fluid-type(font-size, 320px, 768px, 26px, 56px);
+  //Desktop
+  @include fluid-type(font-size, 768px, 1440px, 56px, 103px);
+
+}
+.with-us{
+  color:$green;
+  //Mobile
+  @include fluid-type(font-size, 320px, 768px, 28px, 62px);
+  //Desktop
+  @include fluid-type(font-size, 768px, 1440px, 62px, 114px);
+
+}
+
+
+
+.intro-beach{
+  margin-top:6vw;
+  margin-bottom:6vw;
+}
+
+/*More Link */
+.more-link{
+
+  border-color:$green;
+  border-style:solid;
+
+  text-align:center;
+  text-transform: uppercase;
+  display: block;
+  box-sizing: border-box;
+  padding-top:rem(24);
+  padding-bottom:rem(16);
+  transition: all 150ms ease-in;
+
+
+  //Desktop
+  @include fluid-type(font-size, 320px, 768px, 16px, 31px);
+  @include fluid-type(letter-spacing, 320px, 768px, 1px, 2px);
+  @include fluid-type(line-height, 320px, 768px, 20px, 40px);
+  @include fluid-type(border-width, 320px, 768px, 7px, 15px);
+  //@include fluid-type(padding, 320px, 768px, 9px 2px 5.3px 2px , 18px 4px 10.6px 4px);
+
+  //Desktop
+  @include fluid-type(font-size, 768px, 1440px, 31px, 61px);
+  @include fluid-type(letter-spacing, 768px, 1440px, 2px, 6px);
+  @include fluid-type(line-height, 768px, 1440px, 40px, 81px);
+  @include fluid-type(border-width, 768px, 1440px, 15px, 20px);
+  //@include fluid-type(padding, 768px, 1440px, 18px 4px 10.6px 4px, 27px 6px 16px 6px);
+
+  &:link, &:visited{
+    color:$green;
+    background:white;
+  }
+  &:hover, &:active{
+    color:white;
+    background:$green;
+  }
+}
+
+/*about-ola-onda*/
+.about-ola-onda{
+  p{
+    @include span-columns(10);
+    @include shift(1);
+    font-weight: 500;
+    font-style: italic;
+    //color: $gray;
+    //font-size: rem(24);
+    //letter-spacing: rem(4.6);
+    //line-height: rem(48);
+
+
+    //@include fluid-type(font-size, 768px, 1440px, 16px, 24px);
+    //@include fluid-type(letter-spacing, 768px, 1440px, 3.3px, 5px);
+    //@include fluid-type(line-height, 768px, 1440px, 32px, 48px);
+  }
+}
+
+/*our-rooms*/
+.rooms-01{
+  margin-bottom:6vw;
+}
+
+.rooms-02{
+  margin-top:3vw;
+}

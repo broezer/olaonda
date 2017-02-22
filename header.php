@@ -18,7 +18,7 @@
 
 	<?php
 	  $hostname = $_SERVER['HTTP_HOST']; // For local development
-	  if ($hostname == 'start-me-up:8888'  ): //Set hostname as provided
+	  if ($hostname == 'olaonda.test'  ): //Set hostname as provided
 	?>
 	<!-- bower:css -->
 	<!-- endbower -->
