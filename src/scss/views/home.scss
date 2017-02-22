@@ -59,7 +59,7 @@ h1.enjoy-ola{
   padding-top:rem(24);
   padding-bottom:rem(16);
   transition: all 150ms ease-in;
-
+  font-weight:700;
 
   //Desktop
   @include fluid-type(font-size, 320px, 768px, 16px, 31px);
