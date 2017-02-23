@@ -1,22 +1,12 @@
 header.intro{
-
-  border-color:$green;
-  border-style:solid;
   @include aspect-ratio(16,9);
   //Mobile
   @include media($small-screen){
     @include aspect-ratio(16,20);
   }
-
-  @include fluid-type(border-width, 320px, 768px, 7px, 15px);
-  //Desktop
-  @include fluid-type(border-width, 768px, 1440px, 15px, 20px);
-
+  @include border();
   .content{
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-image:url('../assets/img/homepage.jpg');
+    @include bg-cover('../assets/img/homepage.jpg');
     //display:table;
   }
   .logo-container{

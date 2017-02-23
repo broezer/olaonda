@@ -7,7 +7,15 @@
  */
 ?>
 
-
+<footer class="footer">
+  <img class="footer-logo" src="../wp-content/themes/olaonda/assets/img/logo.png" alt="Ola Ondá Guesthouse">
+   <section class="adres">
+  </section>
+  <section class="social">
+  </section>
+  <section class="footer-menu">
+  </section>
+</footer>
 <?php wp_footer(); ?>
 
 <?php

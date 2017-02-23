@@ -1,5 +1,6 @@
 @import "../../bower_components/bourbon/app/assets/stylesheets/_bourbon";
 @import "_core/base";
+@import "../../bower_components/neat/app/assets/stylesheets/_neat-helpers";
 @import "../../bower_components/neat/app/assets/stylesheets/_neat";
 
 
@@ -20,7 +21,7 @@ body{
   display:flex;
 }
 
-main{
+main, footer{
   @include outer-container(1400px);
   background:white;
   position:relative;
@@ -44,24 +45,36 @@ main{
       //margin-bottom:rem(110);
       @include fluid-type(margin-bottom, 768px, 1440px, 62px, 110px);
     }
-    .left-6{
-        @include span-columns(6 of 10);
 
-    }
     .left-4{
       @include span-columns(4 of 10);
 
     }
+    .left-5{
+      @include span-columns(5 of 10);
 
+    }
+    .left-6{
+        @include span-columns(6 of 10);
+
+    }
     .right-4{
         @include span-columns(4 of 10);
+    }
+    .right-5{
+        @include span-columns(5 of 10);
     }
     .right-6{
         @include span-columns(6 of 10);
     }
   }
+  p.full-width{
+    @include span-columns(10);
+    @include shift(1);
+  }
 }
 
 @import "_parts/intro";
+@import "_parts/footer";
 
 @import "views/home";

@@ -1,0 +1,10 @@
+@mixin border() {
+  border-color:$green;
+  border-style:solid;
+
+  //Mobile
+  @include fluid-type(border-width, 320px, 768px, 7px, 15px);
+  //Desktop
+  @include fluid-type(border-width, 768px, 1440px, 15px, 20px);
+
+}

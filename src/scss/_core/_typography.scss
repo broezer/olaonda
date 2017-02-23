@@ -50,22 +50,25 @@ hr {
 .yellow{
   color:$yellow;
 }
+.white{
+  color:white;
+}
 
-h1.base{
+h1{
   //ont-size: rem(72);
   //color: $green
   //letter-spacing: rem(8);
 
   //Mobile
   @include fluid-type(font-size, 320px, 768px, 20px, 42px);
-  @include fluid-type(letter-spacing, 768px, 1440px, 2.3px,  4.6px);
+  @include fluid-type(letter-spacing, 768px, 1400px, 2.3px,  4.6px);
   //Desktop
-  @include fluid-type(font-size, 768px, 1440px, 42px, 72px);
-  @include fluid-type(letter-spacing, 768px, 1440px, 4.6px, 8px);
+  @include fluid-type(font-size, 768px, 1400px, 42px, 72px);
+  @include fluid-type(letter-spacing, 768px, 1400px, 4.6px, 8px);
   margin:0;
   text-transform:uppercase;
 }
-h2.undertitle{
+h2{
   font-weight:300;
   font-style:italic;
   //font-size: rem(36);
@@ -76,9 +79,24 @@ h2.undertitle{
   @include fluid-type(font-size, 320px, 768px, 10px, 25px);
   @include fluid-type(letter-spacing, 320px, 768px, 2.3px, 4.6px);
   //Desktop
-  @include fluid-type(font-size, 768px, 1440px, 25px, 36px);
-  @include fluid-type(letter-spacing, 768px, 1440px, 4.6px, 5px);
+  @include fluid-type(font-size, 768px, 1400px, 25px, 36px);
+  @include fluid-type(letter-spacing, 768px, 1400px, 4.6px, 5px);
   margin:0;
+}
+
+h3{
+
+}
+
+h4{
+  font-style:normal;
+  font-weight:500;
+  //Mobile
+  @include fluid-type(font-size, 320px, 768px, 7.75px, 15.5px);
+  @include fluid-type(letter-spacing, 320px, 768px, 1.3px, 2.7px);
+  //Desktop
+  @include fluid-type(font-size, 768px, 1400px, 15.5px, 28px);
+  @include fluid-type(letter-spacing, 768px, 1400px, 2.7px, 5px);
 }
 
 p{
@@ -93,8 +111,30 @@ p{
   @include fluid-type(letter-spacing, 320px, 768px, 1px, 3.3px);
   @include fluid-type(line-height, 320px, 768px, 16px, 32px);
   //Dekstop
-  @include fluid-type(font-size, 768px, 1440px, 16px, 24px);
-  @include fluid-type(letter-spacing, 768px, 1440px, 3.3px, 5px);
-  @include fluid-type(line-height, 768px, 1440px, 32px, 48px);
+  @include fluid-type(font-size, 768px, 1400px, 16px, 24px);
+  @include fluid-type(letter-spacing, 768px, 1400px, 3.3px, 5px);
+  @include fluid-type(line-height, 768px, 1400px, 32px, 48px);
 
+}
+
+
+blockquote{
+  @extend h2;
+  color:$gray;
+  @include fluid-type(margin-bottom, 320px, 768px, 42px, 84px);
+  @include fluid-type(margin-bottom, 768px, 1400px, 84px, 150px);
+
+  @include fluid-type(line-height, 320px, 768px, 17px, 34px);
+  @include fluid-type(line-height, 768px, 1400px, 34px, 62px);
+  footer{
+    text-align:right;
+    @include fluid-type(margin-top, 320px, 768px, 17px, 34px);
+    @include fluid-type(margin-top, 768px, 1400px, 34px, 60px);
+  }
+  cite{
+    font-style:normal;
+  }
+  &:last-child{
+    margin-bottom:0;
+  }
 }

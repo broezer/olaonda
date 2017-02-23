@@ -1,0 +1,11 @@
+footer.footer{
+  //background:white;
+}
+
+
+.footer-logo{
+  margin:0 auto;
+  display: block;
+  position:relative;
+  @include fluid-type(width, 768px, 1440px, 311px, 560px);
+}
