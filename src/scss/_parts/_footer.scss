@@ -1,11 +1,32 @@
 footer.footer{
   //background:white;
+
+  p, a{
+    font-weight:500;
+    font-style:normal;
+    margin:0;
+    text-align:center;
+    width:100%;
+    display:block;
+    //Mobile
+    @include fluid-type(font-size, 320px, 768px, 10px, 14px);
+    @include fluid-type(letter-spacing, 320px, 768px, 2px, 2.8px);
+    @include fluid-type(line-height, 320px, 768px, 20px, 32px);
+    //Dekstop
+    @include fluid-type(font-size, 768px, 1400px, 14px, 21px);
+    @include fluid-type(letter-spacing, 768px, 1400px, 2.8px, 4.3px);
+    @include fluid-type(line-height, 768px, 1400px, 21.3px, 32px);
+  }
 }
 
 
 .footer-logo{
-  margin:0 auto;
-  display: block;
-  position:relative;
-  @include fluid-type(width, 768px, 1440px, 311px, 560px);
+  @include span-columns(5);
+  @include shift(3.5);
+}
+
+section.vcard{
+  clear:both;
+  @include fluid-type(padding-top, 320px, 768px, 36px, 54px);
+  @include fluid-type(padding-top, 768px, 1400px, 54px, 81px);
 }

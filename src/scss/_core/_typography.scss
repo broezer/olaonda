@@ -91,6 +91,7 @@ h3{
 h4{
   font-style:normal;
   font-weight:500;
+  text-transform: uppercase;
   //Mobile
   @include fluid-type(font-size, 320px, 768px, 7.75px, 15.5px);
   @include fluid-type(letter-spacing, 320px, 768px, 1.3px, 2.7px);

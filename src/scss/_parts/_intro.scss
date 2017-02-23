@@ -26,20 +26,32 @@ header.intro{
       background-size:contain;
       background-repeat:no-repeat;
       background-position: center center;
-      width: 30%;
-      height: 45%;
+      width: 40%;
+      height: 20vw;;
       margin:0 auto;
+      @include media($small-screen){
+        width:40%;
+        height: 40vw;
+      }
       span{
         opacity:0;
       }
     }
     h2{
-      font-size: rem(31);
+      //font-size: rem(31);
+      font-style:normal;
+      font-weight:700;
       color: #FFFFFF;
       letter-spacing: rem(5);
       text-transform:uppercase;
       text-align:center;
       padding-top:rem(52);
+
+      @include fluid-type(padding-top, 320px, 768px, 14px, 28.8px);
+      @include fluid-type(font-size, 320px, 768px, 9px, 17.2px);
+
+      @include fluid-type(padding-top, 768px, 1440px, 28.8px, 52px);
+      @include fluid-type(font-size, 768px, 1440px, 17.2px, 31px);
     }
   }
 }
