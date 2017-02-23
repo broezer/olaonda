@@ -17,7 +17,7 @@
         <span class="postal-code">2655-432</span>
         <span class="locality">Ericeira</span>
       </p><br>
-      <a class="email underline">info@ola-onda-ericeira.com</a><br>
+      <a class="email underline" href="mailto:info@ola-onda-ericeira.com">info@ola-onda-ericeira.com</a><br>
       <p class="tel phone-number">+351 937 323 140</p>
     </section>
 
