@@ -1,6 +1,23 @@
 footer.footer{
   //background:white;
 
+
+}
+
+
+.footer-logo{
+  @include span-columns(5);
+  @include shift(3.5);
+}
+
+section.vcard{
+  clear:both;
+  @include fluid-type(padding-top, 320px, 768px, 36px, 54px);
+  @include fluid-type(padding-top, 768px, 1400px, 54px, 81px);
+
+  @include fluid-type(padding-bottom, 320px, 768px, 36px, 54px);
+  @include fluid-type(padding-bottom, 768px, 1400px, 54px, 81px);
+
   p, a{
     font-weight:500;
     font-style:normal;
@@ -20,13 +37,75 @@ footer.footer{
 }
 
 
-.footer-logo{
-  @include span-columns(5);
-  @include shift(3.5);
+section.social, section.footer-menu{
+  display: table;
+  width:100%;
+  @include fluid-type(height, 320px, 768px, 60px, 90px);
+  @include fluid-type(height, 768px, 1400px, 90px, 162px);
 }
 
-section.vcard{
-  clear:both;
-  @include fluid-type(padding-top, 320px, 768px, 36px, 54px);
-  @include fluid-type(padding-top, 768px, 1400px, 54px, 81px);
+section.social{
+  background:$yellow;
+  div.content{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  h1{
+    float:left;
+    color:white;
+    @include span-columns(6);
+    //padding-left:$gutter;
+    @include shift(0.5);
+    display: inline-block;
+
+    //Mobile
+    @include fluid-type(font-size, 320px, 768px, 14px, 28px);
+    @include fluid-type(letter-spacing, 320px, 768px, 1.1px, 2px);
+    @include fluid-type(line-height, 320px, 768px, 26px, 60px);
+    //Desktop
+    @include fluid-type(font-size, 768px, 1400px, 28px, 51px);
+    @include fluid-type(letter-spacing, 768px, 1400px, 2px, 3.6px);
+    @include fluid-type(line-height, 768px, 1400px, 60px, 108px);
+  }
+  ul{
+    @include span-columns(4);
+    @include shift(1);
+    display:flex;
+    justify-content: space-between;
+    li{
+      //float:left;
+      height:auto;
+
+      //Mobile
+      @include fluid-type(height, 320px, 768px, 28px , 53.8px);
+      @include fluid-type(width, 320px, 768px, 28px  , 53.8px);
+
+      //Desktop
+      @include fluid-type(height, 768px, 1400px, 53.8px, 97px);
+      @include fluid-type(width, 768px, 1400px, 53.8px, 97px);
+      svg{
+        max-width:100%;
+        height:auto;
+        circle.bg{
+          transition: all 150ms ease-in;
+        }
+        .facebook, .pin, .insta{
+          transition: all 150ms ease-in;
+        }
+      }
+      a:hover, a:active{
+        circle.bg{
+          fill:white;
+        }
+        .facebook, .pin, .insta{
+          fill:$yellow;
+        }
+
+      }
+    }
+  }
+}
+
+section.footer-menu{
+  background:$green;;
 }
