@@ -1,0 +1,121 @@
+header.ola-onda{
+    @include bg-cover('../assets/img/ola-onda.jpg');
+}
+
+
+.walk-to-the-beach{
+  header{
+    margin-bottom:0;
+  }
+  h1{
+    span.meter{
+      //Mobile
+      @include fluid-type(font-size, 320px, 768px, 32.3px, 58.3px);
+      @include fluid-type(letter-spacing, 320px, 768px, 1.5px, 2.7px);
+      @include fluid-type(line-height, 320px, 768px, 40.1px, 72.2px);
+
+      //Desktop
+      @include fluid-type(font-size, 768px, 1400px, 58.3px, 105px);
+      @include fluid-type(letter-spacing, 768px, 1400px, 2.7px, 5px);
+      @include fluid-type(line-height, 768px, 1400px, 72.2px, 130px);
+    }
+    span.beach{
+      //Mobile
+      @include fluid-type(font-size, 320px, 768px, 40.1px, 72.2px);
+      @include fluid-type(letter-spacing, 320px, 768px, 1.5px, 2.7px);
+      @include fluid-type(line-height, 320px, 768px, 40.1px, 72.2px);
+
+      //Desktop
+      @include fluid-type(font-size, 768px, 1400px, 72.2px, 130px);
+      @include fluid-type(letter-spacing, 768px, 1400px, 2.7px, 5px);
+      @include fluid-type(line-height, 768px, 1400px, 72.2px, 130px);
+    }
+  }
+  h2{
+    margin-top:1vw;
+    margin-left:1vw;
+  }
+  section.images{
+    @include span-columns(10);
+    @include shift(1);
+    .content{
+      display:flex;
+      width:100%;
+      align-items:flex-end;
+    }
+    .image-01{
+
+      width: (675/1159)*100%;
+    }
+    .image-02{
+
+      width: ((1159-675)/1159)*100%;
+    }
+  }
+}
+
+article.breakfast{
+  @include bg-cover('../assets/img/breakfast.jpg');
+  background-position: 88% 60%;
+  background-size:25%;
+
+}
+
+section.ericeira-img{
+  padding-right:$column*0.75;
+}
+
+/*location*/
+.location{
+  h1{
+    span.minutes{
+      //Mobile
+      @include fluid-type(font-size, 320px, 768px, 53.3px, 96px);
+      @include fluid-type(letter-spacing, 320px, 768px, 1.5px, 2.7px);
+      @include fluid-type(line-height, 320px, 768px, 31.7px, 57.2px);
+
+      //Desktop
+      @include fluid-type(font-size, 768px, 1400px, 96px, 173px);
+      @include fluid-type(letter-spacing, 768px, 1400px, 2.7px, 5px);
+      @include fluid-type(line-height, 768px, 1400px, 57.2px, 103px);
+    }
+    span.drive{
+      //Mobile
+      @include fluid-type(font-size, 320px, 768px, 27.7px, 50px);
+      @include fluid-type(letter-spacing, 320px, 768px, 1.5px, 2.7px);
+      @include fluid-type(line-height, 320px, 768px, 15.4px, 27.7px);
+
+      //Desktop
+      @include fluid-type(font-size, 768px, 1400px, 50px, 90px);
+      @include fluid-type(letter-spacing, 768px, 1400px, 2.7px, 5px);
+      @include fluid-type(line-height, 768px, 1400px, 27.7px, 50px);
+    }
+  }
+  section p{
+    @include fluid-type(padding-bottom, 320px, 768px, 10px , 20px);
+    @include fluid-type(padding-bottom, 768px, 1440px, 20px, 80px);
+  }
+}
+
+/*sun*/
+article.sun{
+  background:$yellow;
+  display: flex;
+  @include bg-cover('../assets/svg/sun.svg');
+  background-position: 90% 50%;
+  background-size:25%;
+}
+article.sea-temp{
+  background:$green;
+  display: flex;
+  @include bg-cover('../assets/svg/water-temp.svg');
+  background-position: 10% 50%;
+  background-size:25%;
+  padding-right:$gutter;
+}
+
+article.surf-bus{
+  @include bg-cover('../assets/svg/bus.svg');
+  background-position: 90% 60%;
+  background-size:25%;
+}

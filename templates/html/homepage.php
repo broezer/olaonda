@@ -23,7 +23,7 @@
     </section>
     <section class="right-4">
       <img class="intro-beach" src="../wp-content/themes/olaonda/assets/img/intro-beach.jpg" alt="Ola"/>
-      <a class="more-link" href="#">Get to know us</a>
+      <a class="more-link" href="/ola-onda">Get to know us</a>
     </section>
   </div>
 </article>
@@ -85,7 +85,7 @@
                 <use xlink:href="#path-1"></use>
             </mask>
         </defs>
-        <use id="chevron" stroke="#89DAC1" mask="url(#mask-2)" stroke-width="40" fill="none" xlink:href="#path-1"></use>
+        <use class="chevron" stroke="#89DAC1" mask="url(#mask-2)" stroke-width="40" fill="none" xlink:href="#path-1"></use>
         <text id="DISCOVER-MORE" stroke="none" fill="none" font-family="Montserrat-Bold, Montserrat" font-size="55" font-weight="bold" letter-spacing="11.458333">
             <tspan x="262" y="6365" fill="#89DAC1">DISCOVER MORE</tspan>
         </text>

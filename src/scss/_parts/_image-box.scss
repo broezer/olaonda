@@ -1,0 +1,16 @@
+header.image-box{
+  @include aspect-ratio(21,11);
+  @include border();
+  @include bg-cover('../assets/img/surf-in-ericeira.jpg');
+  @include fill-parent();
+  @include shift(0);
+  .content{
+    @include span-columns(11);
+    @include shift(0.5);
+    @include fluid-type(margin-top, 320px, 768px, 17px, 34px);
+    @include fluid-type(margin-top, 768px, 1400px, 34px, 60px);
+  }
+  h2{
+    font-style:normal;
+  }
+}
