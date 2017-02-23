@@ -113,7 +113,7 @@ h1.see-the-ocean{
   @include shift(1);
   //Mobile
   @include fluid-type(font-size, 320px, 768px, 26.5px, 64px);
-  @include fluid-type(line-height, 320px, 768px, 21px, 44px);
+  @include fluid-type(line-height, 320px, 768px, 20px, 44px);
   @include fluid-type(letter-spacing, 320px, 768px, 3.2px, 7.8px);
   //Desktop
   @include fluid-type(font-size, 768px, 1400px, 64px, 119px);

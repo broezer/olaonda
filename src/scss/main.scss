@@ -43,6 +43,7 @@ main, footer{
       @include shift(1);
       @include omega();
       //margin-bottom:rem(110);
+      @include fluid-type(margin-bottom, 320px, 768px, 31px, 62px);
       @include fluid-type(margin-bottom, 768px, 1440px, 62px, 110px);
     }
 
