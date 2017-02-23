@@ -69,11 +69,11 @@
       <img class="map" src="../wp-content/themes/olaonda/assets/img/map.jpg" alt="Ola"/>
     </section>
     <section class="right-6">
-      <h3 class="green">By Car<h3>
+      <h3 class="green">By Car</h3>
       <p>Renting a car is a good idea when coming to Ericeira. You will be free to go wherever and whenever you want. It’s easy to rent a car on the airport, and not too expensive. However, don’t forget to read all the details in your contract, to avoid higher costs. It’s a 30 minute drive if you take the A8 Oeste. Directions from Google Maps.</p>
-      <h3 class="green">Pickup Service<h3>
+      <h3 class="green">Pickup Service</h3>
       <p>We would be happy to pick you up from the airport. Let us know beforehand and we will be there when you land. No stress, no waiting, just sit and relax. Costs: €30,- per person.</p>
-      <h3 class="green">By bus<h3>
+      <h3 class="green">By bus</h3>
       <p>For those on a budget and ready for some adventure, the bus will take you to Ericeira as well. At the airport you need to take the metro (first red and then the green line) to the Campo Grande busstation, or you can take a taxi (costs about €6). Campo Grande is where the bus will leave to to Ericeira. Here you’ll find the timetable. From the bus you can walk to Olá Onda guest house (12 minutes), or we can pick you up.</p>
     </section>
   </div>

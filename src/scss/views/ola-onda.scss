@@ -10,7 +10,7 @@ header.ola-onda{
   h1{
     span.meter{
       //Mobile
-      @include fluid-type(font-size, 320px, 768px, 32.3px, 58.3px);
+      @include fluid-type(font-size, 320px, 768px, 24.2px, 58.3px);
       @include fluid-type(letter-spacing, 320px, 768px, 1.5px, 2.7px);
       @include fluid-type(line-height, 320px, 768px, 40.1px, 72.2px);
 
@@ -21,9 +21,9 @@ header.ola-onda{
     }
     span.beach{
       //Mobile
-      @include fluid-type(font-size, 320px, 768px, 40.1px, 72.2px);
+      @include fluid-type(font-size, 320px, 768px, 30px, 72.2px);
       @include fluid-type(letter-spacing, 320px, 768px, 1.5px, 2.7px);
-      @include fluid-type(line-height, 320px, 768px, 40.1px, 72.2px);
+      @include fluid-type(line-height, 320px, 768px, 25px, 72.2px);
 
       //Desktop
       @include fluid-type(font-size, 768px, 1400px, 72.2px, 130px);
@@ -34,6 +34,7 @@ header.ola-onda{
   h2{
     margin-top:1vw;
     margin-left:1vw;
+    margin-bottom:1vw;
   }
   section.images{
     @include span-columns(10);
@@ -70,7 +71,7 @@ section.ericeira-img{
   h1{
     span.minutes{
       //Mobile
-      @include fluid-type(font-size, 320px, 768px, 53.3px, 96px);
+      @include fluid-type(font-size, 320px, 768px, 45px, 96px);
       @include fluid-type(letter-spacing, 320px, 768px, 1.5px, 2.7px);
       @include fluid-type(line-height, 320px, 768px, 31.7px, 57.2px);
 
@@ -81,7 +82,7 @@ section.ericeira-img{
     }
     span.drive{
       //Mobile
-      @include fluid-type(font-size, 320px, 768px, 27.7px, 50px);
+      @include fluid-type(font-size, 320px, 768px, 23.3px, 50px);
       @include fluid-type(letter-spacing, 320px, 768px, 1.5px, 2.7px);
       @include fluid-type(line-height, 320px, 768px, 15.4px, 27.7px);
 
