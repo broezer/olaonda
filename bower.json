@@ -24,9 +24,11 @@
   ],
   "devDependencies": {
     "bourbon": "~4.2.7",
-    "neat": "^1.8.0"
+    "neat": "^1.8.0",
+    "isMobile": "^0.4.1"
   },
   "dependencies": {
-    "jquery": "~3.1.0"
+    "jquery": "~3.1.0",
+    "isMobile": "^0.4.1"
   }
 }

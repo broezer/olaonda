@@ -18,7 +18,7 @@
         <span class="locality">Ericeira</span>
       </p><br>
       <a class="email underline">info@ola-onda-ericeira.com</a><br>
-      <p class="tel">+351 937 323 140</p>
+      <p class="tel phone-number">+351 937 323 140</p>
     </section>
 
   <section class="social">
@@ -75,6 +75,7 @@
 ?>
 <!-- bower:js -->
 <script src="<?php echo get_template_directory_uri(); ?>/bower_components/jquery/dist/jquery.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/bower_components/isMobile/isMobile.js"></script>
 <!-- endbower -->
 
 <!-- custom:js -->

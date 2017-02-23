@@ -1,1 +1,1 @@
-!function(o){o(document).ready(function(){console.log("Hello World")})}(jQuery);
+!function(e){e(document).ready(function(){console.log("Hello World")}),isMobile.phone&&e(".phone-number").each(function(){e(this).replaceWith(e('<a href="tel:'+this.innerHTML+'">'+this.innerHTML+"</a>"))})}(jQuery);
