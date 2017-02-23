@@ -26,7 +26,7 @@ section.vcard{
     text-align:center;
     width:auto;
     display:inline-block;;
-    
+
     //Mobile
     @include fluid-type(font-size, 320px, 768px, 10px, 14px);
     @include fluid-type(letter-spacing, 320px, 768px, 2px, 2.8px);
@@ -88,6 +88,13 @@ section.social{
       svg{
         max-width:100%;
         height:auto;
+        //Mobile
+        @include fluid-type(height, 320px, 768px, 28px , 53.8px);
+        @include fluid-type(width, 320px, 768px, 28px  , 53.8px);
+
+        //Desktop
+        @include fluid-type(height, 768px, 1400px, 53.8px, 97px);
+        @include fluid-type(width, 768px, 1400px, 53.8px, 97px);
         circle.bg{
           transition: all 150ms ease-in;
         }
