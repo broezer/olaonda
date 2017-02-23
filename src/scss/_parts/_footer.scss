@@ -12,6 +12,7 @@ footer.footer{
 
 section.vcard{
   clear:both;
+  text-align: center;
   @include fluid-type(padding-top, 320px, 768px, 36px, 54px);
   @include fluid-type(padding-top, 768px, 1400px, 54px, 81px);
 
@@ -23,8 +24,9 @@ section.vcard{
     font-style:normal;
     margin:0;
     text-align:center;
-    width:100%;
-    display:block;
+    width:auto;
+    display:inline-block;;
+    
     //Mobile
     @include fluid-type(font-size, 320px, 768px, 10px, 14px);
     @include fluid-type(letter-spacing, 320px, 768px, 2px, 2.8px);

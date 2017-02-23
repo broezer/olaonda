@@ -11,13 +11,13 @@
   <img class="footer-logo" src="../wp-content/themes/olaonda/assets/img/logo.png" alt="Ola Ondá Guesthouse">
 
     <section class="vcard">
-      <p class="fn org">Olá Onda Ericeira</p>
+      <p class="fn org">Olá Onda Ericeira</p><br>
       <p class="adr">
-      <span class="street-address">Rua Encosta da Abadia, 4</span>
-      <span class="postal-code">2655-432</span>
-      <span class="locality">Ericeira</span><br>
-      </p>
-      <a class="email">info@ola-onda-ericeira.com</a>
+        <span class="street-address">Rua Encosta da Abadia, 4</span>
+        <span class="postal-code">2655-432</span>
+        <span class="locality">Ericeira</span>
+      </p><br>
+      <a class="email underline">info@ola-onda-ericeira.com</a><br>
       <p class="tel">+351 937 323 140</p>
     </section>
 
