@@ -3,7 +3,7 @@
     <div class="logo-container">
       <div class="logo">
         <h1>
-          <span>Ola Ondá Guesthouse</span>
+          <span>Olá Onda Guesthouse</span>
         </h1>
         <h2>Ericeira Guesthouse<h2>
       </div>
@@ -42,7 +42,7 @@
   <div class="wrapper">
     <section class="left-4">
       <img class="rooms-01" src="../wp-content/themes/olaonda/assets/img/rooms-01.jpg" alt="Ola"/>
-      <a class="more-link" href="#">View rooms</a>
+      <a class="more-link" href="/rooms">View rooms</a>
     </section>
     <section class="right-6">
       <p class="base">

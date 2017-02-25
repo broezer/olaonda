@@ -34,3 +34,20 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+<!--
+<nav class="main-menu">
+	<div class="content">
+		<section class="list">
+			<ul>
+				<li>
+					<a href="/">Home</a>
+				</li>
+				<li>
+					<a href="/">Olá Onda</a>
+				</li>
+			</ul>
+		</section>
+	</div>
+</nav>
+-->

@@ -1,0 +1,93 @@
+header.rooms{
+    @include bg-cover('../assets/img/rooms-header.jpg');
+}
+
+section.amenities{
+  @include span-columns(10);
+  @include shift(1);
+  //Mobile
+  @include fluid-type(padding-top, 320px, 768px, 30px, 60px);
+  @include fluid-type(padding-bottom, 320px, 768px, 10px , 20px);
+  //Dekstop
+  @include fluid-type(padding-top, 768px, 1440px, 60px, 130px);
+  @include fluid-type(padding-bottom, 768px, 1440px, 20px, 80px);
+  ul{
+    display: flex;
+    padding-right:$gutter;
+    li{
+      width:25%;
+        text-align: center;
+    }
+  }
+  svg{
+    margin:0 auto;
+    display: inline-block;
+  }
+  h3{
+    @extend p;
+    text-transform: none;
+    @include fluid-type(line-height, 320px, 768px, 10px, 17px);
+    @include fluid-type(line-height, 768px, 1440px, 17px, 31px);
+
+    @include fluid-type(padding-top, 320px, 768px, 10px, 17px);
+    @include fluid-type(padding-top, 768px, 1440px, 17px, 31px);
+  }
+}
+
+
+h2.special-notice{
+  @extend h3;
+  @include span-columns(10);
+  @include shift(1);
+  background:$yellow;
+  text-transform:none;
+  color:white;
+  padding-top:1vw;
+  padding-bottom:1vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+}
+
+
+article.room{
+  header{
+    @include fluid-type(margin-bottom, 320px, 768px, 16px, 31px);
+    @include fluid-type(margin-bottom, 768px, 1440px, 31px, 55px);
+    p{
+      @include fluid-type(margin-top, 320px, 768px, 9px, 17px);
+      @include fluid-type(margin-top, 768px, 1400px, 17px, 30px);
+    }
+  }
+}
+section.gallery{
+  @include span-columns(10);
+  @include shift(1);
+  display:flex;
+  align-items:stretch;
+  figure.main-image{
+    display:block;
+    background-color:$yellow;
+    width:75%;
+    border-right:0.4vw solid white;
+    @include bg-cover('../assets/img/rooms-header.jpg');
+  }
+  ul{
+    width:25%;
+    display:block;
+    li{
+      @include aspect-ratio(16,10);
+      background-color:$green;
+      border-bottom:0.4vw solid white;
+      &:first-child{
+        @include bg-cover('../assets/img/room-01.jpg');
+      }
+      &:nth-child(2){
+        @include bg-cover('../assets/img/room-02.jpg');
+      }
+      &:last-child{
+        border-bottom:0;
+        @include bg-cover('../assets/img/rooms-header.jpg');
+      }
+    }
+  }
+}

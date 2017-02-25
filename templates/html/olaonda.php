@@ -1,11 +1,11 @@
 <header class="image-box ola-onda">
   <section class="content">
-    <h1 class="white">Ola Ondá</h1>
+    <h1 class="white">Olá Onda</h1>
     <h2 class="white">Guesthouse on a hill in the north part of the city Ericeira</h2>
   </section>
 </header>
 <article class="about-ola-onda">
-  <p class="full-width">
+  <p class="full-width medium-italic">
     The beautiful beach and surf spot Matadouro is only 10 minutes walking. The guesthouse has 5 rooms for 2 to 3 people. All rooms all have a private bathroom, and some have a private balcony with seaview. There is a common area where breakfast is served and where you can grab a cup of coffee or tea all day. The house is surrounded by a big garden with terraces to lounge on and there’s an outside kitchen where you can cook up anything you like.
   </p>
 </article>

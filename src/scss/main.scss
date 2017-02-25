@@ -12,6 +12,45 @@ body{
   margin:0;
 }
 
+nav.main-menu{
+  position: fixed;
+  width:100%;
+  z-index:99;
+  .content{
+    @include outer-container(1400px);
+    @include border-small();
+    border-top:0;
+    border-right:0;
+    border-left:0;
+    border-width:4px;
+    background:white;
+  }
+  .list{
+    @include span-columns(12);
+    text-align:center;
+  }
+  ul{
+    display: inline-block;
+    width:auto;
+    margin:0 auto;
+    padding-top:1.5vw;
+    padding-bottom:0.5vw;
+    li{
+      float:left;
+      font-weight:300;
+      text-transform:uppercase;
+      margin-right:3vw;
+      @include fluid-type(font-size, 768px, 1400px, 15.5px, 28px);
+      @include fluid-type(letter-spacing, 768px, 1400px, 2.3px, 4px);
+
+      &:last-child{
+        margin-right:0;
+      }
+    }
+
+  }
+}
+
 .wrapper{
     @include span-columns(10);
     @include shift(1);
@@ -40,6 +79,7 @@ body{
 .flex{
   display:flex;
 }
+
 
 main, footer{
   @include outer-container(1400px);
@@ -136,3 +176,4 @@ p > a, a.email{
 
 @import "views/home";
 @import "views/ola-onda";
+@import "views/rooms";
