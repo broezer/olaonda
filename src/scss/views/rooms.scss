@@ -13,7 +13,7 @@ section.amenities{
   @include fluid-type(padding-bottom, 768px, 1440px, 20px, 80px);
   ul{
     display: flex;
-    padding-right:$gutter;
+    padding-right:2vw;
     li{
       width:25%;
         text-align: center;
@@ -22,6 +22,7 @@ section.amenities{
   svg{
     margin:0 auto;
     display: inline-block;
+    max-width:8vw;
   }
   h3{
     @extend p;
