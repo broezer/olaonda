@@ -84,6 +84,8 @@ h2{
   margin:0;
 }
 
+
+
 h3{
   font-style:normal;
   font-weight:700;
@@ -152,4 +154,28 @@ blockquote{
   &:last-child{
     margin-bottom:0;
   }
+}
+
+/*Blog Post*/
+.blog-post h2{
+  text-transform: none;
+  font-style:normal;
+  font-weight:bold;
+  @include fluid-type(font-size, 768px, 1400px, 23px, 42px);
+  @include fluid-type(margin-top, 768px, 1400px, 23px, 42px);
+  @include fluid-type(margin-bottom, 768px, 1400px, 11.5px, 21px);
+  &:nth-of-type(even){
+    color:$yellow;
+  }
+  &:nth-of-type(odd){
+    color:$green;
+  }
+}
+
+.blog-post p{
+    @include fluid-type(padding-bottom, 768px, 1400px, 11.5px, 21px);
+    &:nth-of-type(1){
+      font-weight: 500;
+      font-style: italic;
+    }
 }

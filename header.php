@@ -41,7 +41,12 @@
 	</span>
 </a>
 
-<nav class="main-menu scroll">
+<?php
+if ( is_singular('post') ) :?>
+	<nav class="main-menu fixed">
+<?php else :?>
+	<nav class="main-menu scroll">
+<?php endif;?>
 	<div class="content">
 		<section class="list">
 			<ul class="">

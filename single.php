@@ -8,13 +8,18 @@
 
 get_header(); ?>
 
+
+<main>
 <?php while ( have_posts() ) : the_post(); ?>
-
-	<?php the_title(); ?>
-
-	<?php the_content(); ?>
-
+	<article>
+		<header>
+			<h1 class="green"><?php the_title(); ?></h1>
+		</header>
+		<section class="wrapper blog-post">
+			<?php the_content(); ?>
+		</section>
+	</article>
 <?php endwhile;  ?>
-
+</main>
 
 <?php get_footer(); ?>
