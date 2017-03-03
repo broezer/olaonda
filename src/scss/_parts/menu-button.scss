@@ -1,0 +1,31 @@
+.menu-button{
+  //@extend .more-button;
+  border:none;
+  font-size:rem(32);
+
+  cursor:pointer;
+  position: fixed;
+  float: right;
+  right: 0;
+  top: 0;
+  margin: 0;
+  z-index:9999;
+  background:$yellow;
+  padding:10px 12px;
+  display: none;
+  @include fluid-type(right, 320px, 768px, 7px, 15px);
+  @include fluid-type(top, 320px, 768px, 7px, 15px);
+  @include media($small-screen){
+    display: block;
+  }
+  span{
+    float:left;
+  }
+  span.c-hamburger{
+    //margin: 8px 8px 8px 16px;
+  }
+
+}
+.menu-button:active, .menu-button:link, .menu-button:hover, .menu-button:visited{
+  border:none;
+}

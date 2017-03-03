@@ -1,12 +1,13 @@
 (function($){
   var introHeight = $('header.intro-box').height();
   var menuHeight = $('nav.main-menu').height();
-
+  var $currentScrollPos = 0;
   $(document).ready(function(){
     console.log('Hello World');
     menuPosition();
     checkPosition();
     animateLogo();
+
   });
 
   $(window).resize(function(){
@@ -51,8 +52,14 @@
            newHeight = introHeight - menuHeight;
            //console.log($(window).scrollTop());
            if ($(window).scrollTop() > newHeight) {
-             $('nav.scroll').addClass('fixed');
-               $('nav.main-menu').css('transform', 'translateY(0)');
+
+              if ($('.main-menu').hasClass('is-active')){
+
+              }else{
+                $('nav.scroll').addClass('fixed');
+                $('nav.main-menu').css('transform', 'translateY(0)');
+              }
+
            } else {
              $('nav.scroll').removeClass('fixed');
              $('nav.main-menu').css('transform', 'translateY(' + newHeight + 'px)');
@@ -75,6 +82,47 @@
   }
 
 
+
+
+
+  /*Mobile Menu*/
+
+  $(window).scroll(function () {
+       $currentScrollPos = $(document).scrollTop();
+      console.log('scroll' + $currentScrollPos);
+   });
+
+  var toggles = document.querySelectorAll(".menu-button");
+    for (var i = toggles.length - 1; i >= 0; i--) {
+      var toggle = toggles[i];
+      toggleHandler(toggle);
+    };
+    function toggleHandler(toggle) {
+      toggle.addEventListener( "click", function(e) {
+        e.preventDefault();
+        (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
+
+
+        if($('.menu-button').hasClass('is-active')){
+           console.log('current ' + $currentScrollPos);
+
+          $('.main-menu').addClass('is-active');
+          $('body').css({
+                        'position': 'fixed',
+                        'top' : -$currentScrollPos
+                    });
+          localStorage.cachedScrollPos = $currentScrollPos;
+          console.log('localStorage.cachedScrollPos ' + localStorage.cachedScrollPos);
+        }else{
+            $('.main-menu').removeClass('is-active');
+            $('body').css({
+                          'position': 'relative',
+                           'top' : 0
+                      });
+          $('body').scrollTop(localStorage.cachedScrollPos);
+        }
+      });
+    }
 
 
 

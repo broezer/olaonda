@@ -35,6 +35,11 @@
 
 <body <?php body_class(); ?>>
 
+<a class="menu-button hvr-sweep-to-bottom ">
+	<span class="c-hamburger c-hamburger--htx">
+	  <span>toggle menu</span>
+	</span>
+</a>
 
 <nav class="main-menu scroll">
 	<div class="content">
@@ -42,7 +47,7 @@
 			<ul class="">
 				<li class="logo">
 					<a href="/">
-						<img class="logo-small" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-small.png">
+						<img class="logo-small" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png">
 					</a>
 				</li>
 				<li>

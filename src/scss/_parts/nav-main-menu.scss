@@ -39,7 +39,6 @@ nav.main-menu{
   }
 }
 
-
 nav.main-menu.fixed{
   position: fixed;
   width:100%;
@@ -74,4 +73,49 @@ nav.main-menu.fixed{
   .logo-small{
     opacity:1;
   }
+}
+
+nav.main-menu{
+  @include media($small-screen){
+    display:block;
+    height:110%;
+    top:0;
+    position: fixed;
+    background:white;
+    transform: translateX(-100%) !important;
+    transition: transform 300ms ease-in;
+    .content{
+        height:100%;
+      }
+    .list{
+      @include outer-container();
+    }
+    ul{
+      text-align:left;
+      padding-top:rem(12);
+      @include span-columns(10);
+      @include shift(1);
+      li{
+        float:none;
+        font-size:rem(21);
+        line-height:rem(41);
+        &.logo{
+              max-width: 120px;
+        }
+
+      }
+    }
+    .logo-small{
+      opacity:1;
+    }
+  }
+
+  a:link, a:visited{
+    color:black;
+  }
+}
+
+
+nav.main-menu.is-active{
+  transform: translateX(0) !important;
 }
