@@ -1,4 +1,4 @@
-<header class="image-box ola-onda">
+<header class="image-box ola-onda intro-box">
   <section class="content">
     <h1 class="white">Olá Onda</h1>
     <h2 class="white">Guesthouse on a hill in the north part of the city Ericeira</h2>

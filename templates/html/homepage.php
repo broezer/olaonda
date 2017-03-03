@@ -1,4 +1,4 @@
-<header class="intro">
+<header class="intro intro-box">
   <div class="content content--home">
     <div class="logo-container">
       <div class="logo">

@@ -35,19 +35,35 @@
 
 <body <?php body_class(); ?>>
 
-<!--
-<nav class="main-menu">
+
+<nav class="main-menu scroll">
 	<div class="content">
 		<section class="list">
-			<ul>
-				<li>
-					<a href="/">Home</a>
+			<ul class="">
+				<li class="logo">
+					<a href="/">
+						<img class="logo-small" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-small.png">
+					</a>
 				</li>
 				<li>
-					<a href="/">Olá Onda</a>
+					<a href="/ola-onda">Olá Onda</a>
+				</li>
+				<li>
+					<a href="/rooms">Rooms</a>
+				</li>
+				<li>
+					<a href="/">Surf</a>
+				</li>
+				<li>
+					<a href="/">Adventures</a>
+				</li>
+				<li>
+					<a href="/">Blog</a>
+				</li>
+				<li>
+					<a href="/">Contact</a>
 				</li>
 			</ul>
 		</section>
 	</div>
 </nav>
--->

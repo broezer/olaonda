@@ -1,0 +1,77 @@
+nav.main-menu{
+  width:100%;
+  position: absolute;
+  z-index: 9;
+  .content{
+    @include outer-container(1400px);
+    background:transparent;
+    transition: background 150ms ease-in, border 150ms ease-in;
+
+  }
+  .list{
+    @include span-columns(12);
+    text-align:center;
+  }
+  ul{
+    display: inline-block;
+    width:auto;
+    margin:0 auto;
+    padding-top:1.5vw;
+    padding-bottom:0.5vw;
+    li{
+      float:left;
+      font-weight:300;
+      text-transform:uppercase;
+      margin-right:3vw;
+      @include fluid-type(font-size, 768px, 1400px, 15.5px, 28px);
+      @include fluid-type(letter-spacing, 768px, 1400px, 2.3px, 4px);
+
+      &:last-child{
+        margin-right:0;
+      }
+    }
+  }
+  a{
+    transition:color 150ms ease-in,
+  }
+  a:link, a:visited{
+    color:white;
+  }
+}
+
+
+nav.main-menu.fixed{
+  position: fixed;
+  width:100%;
+  z-index:99;
+  .content{
+    @include border-small();
+    border-top:0;
+    border-right:0;
+    border-left:0;
+    background:white;
+    @include fluid-type(border-width, 768px, 1400px, 2.3px, 4px);
+  }
+  a:link, a:visited{
+    color:black;
+  }
+
+
+}
+
+
+li.logo{
+  @include fluid-type(max-width, 768px, 1400px, 26px, 40px);
+}
+
+.logo-small{
+  //@include fluid-type(width, 768px, 1400px, 25%, 40%);
+  opacity:0;
+  transition:opacity 150ms ease-in;
+}
+
+nav.main-menu.fixed{
+  .logo-small{
+    opacity:1;
+  }
+}

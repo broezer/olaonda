@@ -1,4 +1,4 @@
-<header class="image-box rooms">
+<header class="image-box rooms intro-box">
   <section class="content">
     <h1 class="white">Rooms</h1>
     <h2 class="white">Get a room!</h2>
