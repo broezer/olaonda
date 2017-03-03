@@ -4,6 +4,7 @@ header.ola-onda{
 
 
 .walk-to-the-beach{
+  @include fluid-type(padding-top, 768px, 1440px, 10px, 20px);
   header{
     margin-bottom:0;
   }

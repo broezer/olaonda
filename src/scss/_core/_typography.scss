@@ -96,9 +96,9 @@ h3{
   @include fluid-type(letter-spacing, 320px, 768px, 1px, 3.3px);
   @include fluid-type(line-height, 320px, 768px, 16px, 32px);
   //Dekstop
-  @include fluid-type(font-size, 768px, 1400px, 16px, 24px);
+  @include fluid-type(font-size, 768px, 1400px, 11.5px, 18px);
   @include fluid-type(letter-spacing, 768px, 1400px, 3.3px, 5px);
-  @include fluid-type(line-height, 768px, 1400px, 32px, 48px);
+  @include fluid-type(line-height, 768px, 1400px, 17.7px, 32px);
 }
 
 h4{
@@ -125,9 +125,9 @@ p{
   @include fluid-type(letter-spacing, 320px, 768px, 1px, 3.3px);
   @include fluid-type(line-height, 320px, 768px, 16px, 32px);
   //Dekstop
-  @include fluid-type(font-size, 768px, 1400px, 16px, 24px);
+  @include fluid-type(font-size, 768px, 1400px, 11.5px, 18px);
   @include fluid-type(letter-spacing, 768px, 1400px, 3.3px, 5px);
-  @include fluid-type(line-height, 768px, 1400px, 32px, 48px);
+  @include fluid-type(line-height, 768px, 1400px, 17.7px, 32px);
   &.medium-italic{
     font-weight:500;
     font-style:italic;
