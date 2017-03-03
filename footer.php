@@ -26,7 +26,7 @@
       <h1>#olaondaericeira</h1>
       <ul class="social-links">
         <li>
-          <a href="" target="_blank" title="Ola Ondá on Facebook">
+          <a href="https://www.facebook.com/olaondaericeira" target="_blank" title="Ola Ondá on Facebook">
             <svg width="97px" height="97px" viewBox="889 11389 96 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="iconmonstr-facebook-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(889.000000, 11389.322971)">
                     <circle class="bg" fill="#FFE581" cx="48" cy="49" r="41"></circle>
@@ -37,7 +37,7 @@
           </a>
         </li>
         <li>
-          <a href="" target="_blank" title="Ola Ondá on Pinterest">
+          <a href="https://www.pinterest.com/olondaguesthous/" target="_blank" title="Ola Ondá on Pinterest">
             <svg width="97px" height="97px" viewBox="1082 11389 97 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="pinterest-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1082.000000, 11389.322971)">
                     <circle class="bg" fill="#FFE581" cx="48" cy="48.6770294" r="41"></circle>
@@ -49,7 +49,7 @@
           </a>
         </li>
         <li>
-          <a href="" target="_blank" title="Ola Ondá on Instagram">
+          <a href="https://www.instagram.com/ola.onda.ericeira/" target="_blank" title="Ola Ondá on Instagram">
             <svg width="97px" height="97px" viewBox="1275 11389 97 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="iconmonstr-instagram-15" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1275.000000, 11389.322971)">
                     <circle class="bg" fill="#FFE581" cx="49" cy="48.6770294" r="41"></circle>
