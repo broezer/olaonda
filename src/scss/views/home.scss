@@ -18,24 +18,30 @@ h1.enjoy-ola{
   color:$green;
   //Mobile
   @include fluid-type(font-size, 320px, 768px, 38.5px, 81px);
-  //Desktop
-  @include fluid-type(font-size, 768px, 1400px, 81px, 151px);
+  //Desktop large
+  @include fluid-type(font-size, 768px, 1200px, 81px, 130px);
+  //Desktop xL
+  //@include fluid-type(font-size, 1200px, 1300px, 133px, 151px);
 
 }
 .ericeira{
   color:$yellow;
   //Mobile
   @include fluid-type(font-size, 320px, 768px, 26px, 56px);
-  //Desktop
-  @include fluid-type(font-size, 768px, 1400px, 56px, 103px);
+  //Desktop large
+  @include fluid-type(font-size, 768px, 1200px, 56px, 88px);
+  //Desktop xl
+  //@include fluid-type(font-size, 1200px, 1400px, 91px, 96px);
 
 }
 .with-us{
   color:$green;
   //Mobile
   @include fluid-type(font-size, 320px, 768px, 28px, 62px);
-  //Desktop
-  @include fluid-type(font-size, 768px, 1400px, 62px, 114px);
+  //Desktop large
+  @include fluid-type(font-size, 768px, 1200px, 62px, 98px);
+  //Desktop xl
+  //@include fluid-type(font-size, 1200px, 1400px, 96px, 104px);
 
 }
 
@@ -66,9 +72,9 @@ h1.enjoy-ola{
   //@include fluid-type(padding, 320px, 768px, 9px 2px 5.3px 2px , 18px 4px 10.6px 4px);
 
   //Desktop
-  @include fluid-type(font-size, 768px, 1400px, 31px, 61px);
-  @include fluid-type(letter-spacing, 768px, 1400px, 2px, 6px);
-  @include fluid-type(line-height, 768px, 1400px, 40px, 81px);
+  @include fluid-type(font-size, 768px, 1200px, 31px, 61px);
+  @include fluid-type(letter-spacing, 768px, 1200px, 2px, 6px);
+  @include fluid-type(line-height, 768px, 1200px, 40px, 81px);
 
   //@include fluid-type(padding, 768px, 1400px, 18px 4px 10.6px 4px, 27px 6px 16px 6px);
   @include border();
@@ -116,9 +122,9 @@ h1.see-the-ocean{
   @include fluid-type(line-height, 320px, 768px, 20px, 44px);
   @include fluid-type(letter-spacing, 320px, 768px, 3.2px, 7.8px);
   //Desktop
-  @include fluid-type(font-size, 768px, 1400px, 64px, 119px);
-  @include fluid-type(line-height, 768px, 1400px, 44px, 84px);
-  @include fluid-type(letter-spacing, 768px, 1400px, 7.8px, 13px);
+  @include fluid-type(font-size, 768px, 1200px, 64px, 100px);
+  @include fluid-type(line-height, 768px, 1200px, 44px, 70px);
+  @include fluid-type(letter-spacing, 768px, 1200px, 7.8px, 13px);
 }
 
 figure.sea-the-ocean{
@@ -142,7 +148,7 @@ h2.sea-the-ocean{
   //Mobile
 
   //Desktop
-  @include fluid-type(margin-top, 768px, 1400px, 10px, 30px);
+  @include fluid-type(margin-top, 768px, 1200px, 10px, 30px);
 
 }
 
@@ -154,8 +160,8 @@ section.surf-the-best-waves{
   @include fluid-type(padding-top, 320px, 768px, 30px, 60px);
   @include fluid-type(padding-bottom, 320px, 768px, 10px , 20px);
   //Dekstop
-  @include fluid-type(padding-top, 768px, 1440px, 60px, 130px);
-  @include fluid-type(padding-bottom, 768px, 1440px, 20px, 80px);
+  @include fluid-type(padding-top, 768px, 1200px, 60px, 130px);
+  @include fluid-type(padding-bottom, 768px, 1200px, 20px, 80px);
   header{
     @include shift(0);
   }
@@ -167,9 +173,9 @@ h1.surf-the-best-waves{
   @include fluid-type(line-height, 320px, 768px, 31px, 65.5px);
   @include fluid-type(letter-spacing, 320px, 768px, 4.4px, 8.8px);
   //Desktop
-  @include fluid-type(font-size, 768px, 1400px, 64px, 115px);
-  @include fluid-type(line-height, 768px, 1400px, 65.5px, 118px);
-  @include fluid-type(letter-spacing, 768px, 1400px, 8.8px, 15.9px);
+  @include fluid-type(font-size, 768px, 1200px, 64px, 115px);
+  @include fluid-type(line-height, 768px, 1200px, 65.5px, 118px);
+  @include fluid-type(letter-spacing, 768px, 1200px, 8.8px, 15.9px);
 }
 
 .floor-surf{

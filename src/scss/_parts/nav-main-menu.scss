@@ -3,7 +3,8 @@ nav.main-menu{
   position: absolute;
   z-index: 9;
   .content{
-    @include outer-container(1400px);
+    @include outer-container();
+    @include fluid-type(max-width, 1440px, 1920px, 1200px, 1400px);
     background:transparent;
     transition: background 150ms ease-in, border 150ms ease-in;
 
