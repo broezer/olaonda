@@ -7,11 +7,14 @@
 
 
 body{
-  background:#E9E9E9;
+  background:white;
   color:black;
   margin:0;
 }
 
+main{
+  margin-top:60px
+}
 
 .noscroll {
   overflow: hidden;
@@ -107,6 +110,10 @@ main, footer{
     @include span-columns(10);
     @include shift(1);
   }
+}
+
+footer{
+  max-width:100%;
 }
 
 p > a, a.email{

@@ -51,7 +51,7 @@
            var menuHeight = $('nav.main-menu').height();
            newHeight = introHeight - menuHeight;
            //console.log($(window).scrollTop());
-           if ($(window).scrollTop() > newHeight) {
+           if ($(window).scrollTop() - 60 > newHeight) {
 
               if ($('.main-menu').hasClass('is-active')){
 
@@ -68,12 +68,12 @@
   }
 
   var menuPosition = function(){
-    var introHeight = $('header.intro-box').height();
+    var introHeight = $('header.intro-box').height()  ;
     var menuHeight = $('nav.main-menu').height();
-    newHeight = introHeight - menuHeight;
+    newHeight = introHeight  - menuHeight;
     $('nav.main-menu').css('transform', 'translateY(' + newHeight + 'px)');
 
-    if ($(window).scrollTop() > newHeight) {
+    if ($(window).scrollTop() - 60 > newHeight) {
       $('nav.main-menu').css('transform', 'translateY(0)');
 
     } else {

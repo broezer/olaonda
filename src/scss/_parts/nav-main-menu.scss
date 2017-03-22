@@ -4,7 +4,8 @@ nav.main-menu{
   z-index: 9;
   .content{
     @include outer-container();
-    @include fluid-type(max-width, 1440px, 1920px, 1200px, 1400px);
+    //@include fluid-type(max-width, 1440px, 1920px, 1200px, 1400px);
+    max-width:100%;
     background:transparent;
     transition: background 150ms ease-in, border 150ms ease-in;
 
@@ -24,9 +25,9 @@ nav.main-menu{
       font-weight:300;
       text-transform:uppercase;
       margin-right:3vw;
-      @include fluid-type(font-size, 768px, 1400px, 15.5px, 28px);
-      @include fluid-type(letter-spacing, 768px, 1400px, 2.3px, 4px);
-
+      @include fluid-type(font-size, 768px, 1200px, 12px, 21px);
+      @include fluid-type(letter-spacing, 768px, 1200px, 2.3px, 4px);
+      @include fluid-type(line-height, 768px, 1400px, 32px, 41px);
       &:last-child{
         margin-right:0;
       }
@@ -44,6 +45,7 @@ nav.main-menu.fixed{
   position: fixed;
   width:100%;
   z-index:99;
+  top:0;
   .content{
     @include border-small();
     border-top:0;

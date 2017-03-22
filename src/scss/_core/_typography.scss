@@ -136,13 +136,13 @@ p{
 
 
 blockquote{
-  @extend h2;
+  @extend p;
   color:$gray;
   @include fluid-type(margin-bottom, 320px, 768px, 42px, 84px);
   @include fluid-type(margin-bottom, 768px, 1400px, 84px, 150px);
 
-  @include fluid-type(line-height, 320px, 768px, 17px, 34px);
-  @include fluid-type(line-height, 768px, 1400px, 34px, 62px);
+  //@include fluid-type(line-height, 320px, 768px, 17px, 34px);
+  //@include fluid-type(line-height, 768px, 1400px, 34px, 62px);
   footer{
     text-align:right;
     @include fluid-type(margin-top, 320px, 768px, 17px, 34px);
