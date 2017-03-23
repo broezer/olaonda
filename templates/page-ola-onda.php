@@ -125,7 +125,7 @@ get_header(); ?>
     </div>
   </article>
   <article>
-    <a class="chevron-sign" href="" title="">
+    <a class="chevron-sign" href="../rooms" title="">
       <svg width="100%"  viewBox="141 10728 1158 187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <defs>
               <polygon id="path-1" points="0 0 1053.19176 0 1158 93.5 1053.19176 187 0 187"></polygon>
