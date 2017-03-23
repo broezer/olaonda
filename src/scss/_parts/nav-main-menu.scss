@@ -2,6 +2,8 @@ nav.main-menu{
   width:100%;
   position: absolute;
   z-index: 9;
+
+
   .content{
     @include outer-container();
     //@include fluid-type(max-width, 1440px, 1920px, 1200px, 1400px);
@@ -20,6 +22,10 @@ nav.main-menu{
     margin:0 auto;
     padding-top:1.5vw;
     padding-bottom:0.5vw;
+    /*temp styles*/
+    float: left;
+    margin-left: 130px;
+
     li{
       float:left;
       font-weight:300;

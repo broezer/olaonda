@@ -55,24 +55,7 @@ if ( is_singular('post') ) :?>
 						<img class="logo-small" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png">
 					</a>
 				</li>
-				<li>
-					<a href="/ola-onda">Olá Onda</a>
-				</li>
-				<li>
-					<a href="/rooms">Rooms</a>
-				</li>
-				<li>
-					<a href="/">Surf</a>
-				</li>
-				<li>
-					<a href="/">Adventures</a>
-				</li>
-				<li>
-					<a href="/">Blog</a>
-				</li>
-				<li>
-					<a href="/">Contact</a>
-				</li>
+				 <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => '', 'items_wrap' => '%3$s') ); ?>
 			</ul>
 		</section>
 	</div>
