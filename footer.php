@@ -8,8 +8,9 @@
 ?>
 
 <footer class="footer">
-  <img class="footer-logo" src="../wp-content/themes/olaonda/assets/img/logo.png" alt="Ola Ondá Guesthouse">
-
+  <section class="footer-logo-wrapper">
+    <img class="footer-logo" src="../wp-content/themes/olaonda/assets/img/logo.png" alt="Ola Ondá Guesthouse">
+  </section>
     <section class="vcard">
       <p class="fn org">Olá Onda Ericeira</p><br>
       <p class="adr">

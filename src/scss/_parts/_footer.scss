@@ -4,6 +4,10 @@ footer.footer{
 
 }
 
+.footer-logo-wrapper{
+  @include outer-container();
+}
+
 
 .footer-logo{
   @include span-columns(5);
