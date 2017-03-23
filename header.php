@@ -42,7 +42,7 @@
 </a>
 
 <?php
-if ( is_singular('post') ) :?>
+if ( is_singular('post') || is_page_template('default') ) :?>
 	<nav class="main-menu fixed">
 <?php else :?>
 	<nav class="main-menu scroll">
