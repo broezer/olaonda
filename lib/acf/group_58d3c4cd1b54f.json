@@ -1,0 +1,330 @@
+{
+    "key": "group_58d3c4cd1b54f",
+    "title": "Ol\u00e1 Onda",
+    "fields": [
+        {
+            "key": "field_58d3c9bcd70f5",
+            "label": "Header Subtitle",
+            "name": "header_subtitle",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Guesthouse on a hill in the north part of the city Ericeira",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d3c5159b1a3",
+            "label": "Intro Text",
+            "name": "intro_text",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "The beautiful beach and surf spot Matadouro is only 10 minutes walking. The guesthouse has 5 rooms for 2 to 3 people. All rooms all have a private bathroom, and some have a private balcony with seaview. There is a common area where breakfast is served and where you can grab a cup of coffee or tea all day. The house is surrounded by a big garden with terraces to lounge on and there\u2019s an outside kitchen where you can cook up anything you like.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_58d3c5319b1a4",
+            "label": "Beach Untertitle",
+            "name": "beach_untertitle",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Close to the surf & sun",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d3c5649b1a5",
+            "label": "Ericeira Title",
+            "name": "ericeira_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "10 minute walk to the city center of ericeira",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d3c5949b1a6",
+            "label": "Ericeira Subtitle",
+            "name": "ericeira_subtitle",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "A typical Portuguese fisherman\u2019s village on the atlantic coast",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d3c5ad9b1a7",
+            "label": "Ericeira Text",
+            "name": "ericeira_text",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Narrow streets with cobblehead stones, tiny blue and white houses and on every corner you\u2019ll find some local fishermen or charming old ladies. Ericeira is a typically Portuguese fisherman\u2019s village on the atlantic coast, turned into a surfersvillage over the last decade. Being the first World Surf Reserve in Europe, it has a magical draw to surfers from all over the world. There is always a place to peek at the ocean and the golden sand beaches with wild cliffs are spread out all over the coast, because the city is build on a rock. It\u2019s the perfect place to learn how to surf, go hiking, enjoy sunsets and drink the best wine.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_58d3c5d49b1a8",
+            "label": "Surf Title",
+            "name": "surf_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "World Surf Reserve",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d3c6299b1a9",
+            "label": "Surf Subtitle",
+            "name": "surf_subtitle",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "The first World Surf Reserve in Europe",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d3c6429b1aa",
+            "label": "Surf Text",
+            "name": "surf_text",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Ericeira is the first World Surf Reserve in Europe, since october 2011. It means that part of the coastal area in and around Ericeira is a protected area, and can never be changed in a way the waves and\/or coast is affected. The World Surfing Reserves (WSR) represent a commitment to identify and preserve our planet\u2019s most extraordinary surfing areas and the habitats around them. So what makes the Ericeira coastline so special? It\u2019s quite unique; there is a very high density of high quality waves in only a couple of kilometers. You\u2019ll find gentle waves that break on sand for beginners as well as extreme reefbreaks for experienced surfers. Want to learn more?",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_58d3c6919b1ab",
+            "label": "Transport Subtitle",
+            "name": "transport_subtitle",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Come here by car, pickup or bus",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d3c6d89b1ac",
+            "label": "Car Text",
+            "name": "car_text",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Renting a car is a good idea when coming to Ericeira. You will be free to go wherever and whenever you want. It\u2019s easy to rent a car on the airport, and not too expensive. However, don\u2019t forget to read all the details in your contract, to avoid higher costs. It\u2019s a 30 minute drive if you take the A8 Oeste. Directions from Google Maps.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_58d3c6ee9b1ad",
+            "label": "Pickup Text",
+            "name": "pickup_text",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "We would be happy to pick you up from the airport. Let us know beforehand and we will be there when you land. No stress, no waiting, just sit and relax. Costs: \u20ac30,- per person.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_58d3c76e9b1ae",
+            "label": "Bus Text",
+            "name": "bus_text",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "For those on a budget and ready for some adventure, the bus will take you to Ericeira as well. At the airport you need to take the metro (first red and then the green line) to the Campo Grande busstation, or you can take a taxi (costs about \u20ac6). Campo Grande is where the bus will leave to to Ericeira. Here you\u2019ll find the timetable. From the bus you can walk to Ol\u00e1 Onda guest house (12 minutes), or we can pick you up.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_58d3c7909b1af",
+            "label": "Weather Text",
+            "name": "weather_text",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Sunny of course! Well, most of the time. The best time to travel to Ericeira are the months may to october. The warmest months are June, July, August and September, with an average temperature of 28 degrees. It hardly ever gets over 32 degrees, and there\u2019s always a seabreeze, so it\u2019s never too hot. The coolest month is January and the wettest is December.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_58d3c7ad9b1b0",
+            "label": "Sea Text",
+            "name": "sea_text",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "With an average of 17 degrees, the sea temperature in Ericeira is pretty low compared to other southern European locations. A cold water stream runs through the Atlantic ocean and hits Portugal right at the coast of Ericeira. The ocean is warmest in August, September and October, when temperatures can reach 21 degrees. If you want to go surfing you\u2019ll need to bring or rent a wetsuit. In autumn a 3.2 millimeter is warm enough, spring and early summer a 4.3 millimeter and in the winter months you will be kept warm only by a 5.4 millimeter suit. Some also prefer booties.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_58d3c7bd9b1b1",
+            "label": "Beach Text",
+            "name": "beach_text",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "From Matadouro beach, 10 minutes walking from Ol\u00e1 Onda, you can catch the surfbus. Kind of like a skibus, this \u2018Ericeira Beach Bus\u2019 runs all days in summer from Ribeira d\u2019Ilhas to Foz do Lizandro. You can hop on and hop off for only \u20ac1. All famous surfspots of Ericeira are within a couple of kilometers, so even if you don\u2019t have a car, you can still go and surf, swim or sunbath anywhere you want.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "wpautop"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/page-ola-onda.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1490275299
+}
