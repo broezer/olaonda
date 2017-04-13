@@ -53,18 +53,19 @@ hr {
 .white{
   color:white;
 }
-
+$base-divide:0.75;
+$h1-divide:0.65;
 h1{
   //ont-size: rem(72);
   //color: $green
   //letter-spacing: rem(8);
 
   //Mobile
-  @include fluid-type(font-size, 320px, 768px, 20px, 42px);
-  @include fluid-type(letter-spacing, 768px, 1400px, 2.3px,  4.6px);
+  @include fluid-type(font-size, 320px, 768px, 20px * $h1-divide, 42px * $h1-divide);
+  @include fluid-type(letter-spacing, 768px, 1400px, 2.3px * $h1-divide,  4.6px * $h1-divide);
   //Desktop
-  @include fluid-type(font-size, 768px, 1400px, 42px, 72px);
-  @include fluid-type(letter-spacing, 768px, 1400px, 4.6px, 8px);
+  @include fluid-type(font-size, 768px, 1400px, 42px * $h1-divide, 72px * $h1-divide);
+  @include fluid-type(letter-spacing, 768px, 1400px, 4.6px * $h1-divide, 8px * $h1-divide);
   margin:0;
   text-transform:uppercase;
 }
@@ -76,11 +77,11 @@ h2{
   //letter-spacing: rem(5);
 
   //Mobile
-  @include fluid-type(font-size, 320px, 768px, 10px, 25px);
-  @include fluid-type(letter-spacing, 320px, 768px, 2.3px, 4.6px);
+  @include fluid-type(font-size, 320px, 768px, 10px  * $h1-divide, 25px * $h1-divide);
+  @include fluid-type(letter-spacing, 320px, 768px, 2.3px * $h1-divide, 4.6px * $h1-divide);
   //Desktop
-  @include fluid-type(font-size, 768px, 1400px, 25px, 36px);
-  @include fluid-type(letter-spacing, 768px, 1400px, 4.6px, 5px);
+  @include fluid-type(font-size, 768px, 1400px, 25px * $h1-divide, 36px * $h1-divide);
+  @include fluid-type(letter-spacing, 768px, 1400px, 4.6px * $h1-divide, 5px * $h1-divide);
   margin:0;
 }
 
@@ -92,13 +93,13 @@ h3{
   text-transform: uppercase;
   margin:0;
   //Mobile
-  @include fluid-type(font-size, 320px, 768px, 8px, 16px);
-  @include fluid-type(letter-spacing, 320px, 768px, 1px, 3.3px);
-  @include fluid-type(line-height, 320px, 768px, 16px, 32px);
+  @include fluid-type(font-size, 320px, 768px, 8px * $base-divide, 16px * $base-divide);
+  @include fluid-type(letter-spacing, 320px, 768px, 1px * $base-divide, 3.3px * $base-divide);
+  @include fluid-type(line-height, 320px, 768px, 16px * $base-divide, 32px * $base-divide);
   //Dekstop
-  @include fluid-type(font-size, 768px, 1400px, 11.5px, 18px);
-  @include fluid-type(letter-spacing, 768px, 1400px, 3.3px, 5px);
-  @include fluid-type(line-height, 768px, 1400px, 17.7px, 32px);
+  @include fluid-type(font-size, 768px, 1400px, 11.5px * $base-divide, 18px * $base-divide);
+  @include fluid-type(letter-spacing, 768px, 1400px, 3.3px * $base-divide, 5px * $base-divide);
+  @include fluid-type(line-height, 768px, 1400px, 17.7px * $base-divide, 32px * $base-divide);
 }
 
 h4{
@@ -106,11 +107,11 @@ h4{
   font-weight:500;
   text-transform: uppercase;
   //Mobile
-  @include fluid-type(font-size, 320px, 768px, 7.75px, 15.5px);
-  @include fluid-type(letter-spacing, 320px, 768px, 1.3px, 2.7px);
+  @include fluid-type(font-size, 320px, 768px, 7.75px * $base-divide, 15.5px * $base-divide);
+  @include fluid-type(letter-spacing, 320px, 768px, 1.3px * $base-divide, 2.7px * $base-divide);
   //Desktop
-  @include fluid-type(font-size, 768px, 1400px, 15.5px, 28px);
-  @include fluid-type(letter-spacing, 768px, 1400px, 2.7px, 5px);
+  @include fluid-type(font-size, 768px, 1400px, 15.5px * $base-divide, 28px * $base-divide);
+  @include fluid-type(letter-spacing, 768px, 1400px, 2.7px * $base-divide, 5px * $base-divide);
 }
 
 p{
@@ -121,13 +122,13 @@ p{
   line-height: rem(48);
 
   //Mobile
-  @include fluid-type(font-size, 320px, 768px, 8px, 16px);
-  @include fluid-type(letter-spacing, 320px, 768px, 1px, 3.3px);
-  @include fluid-type(line-height, 320px, 768px, 16px, 32px);
+  @include fluid-type(font-size, 320px, 768px, 8px * $base-divide, 16px * $base-divide);
+  @include fluid-type(letter-spacing, 320px, 768px, 1px * $base-divide, 3.3px * $base-divide);
+  @include fluid-type(line-height, 320px, 768px, 16px * $base-divide, 32px * $base-divide);
   //Dekstop
-  @include fluid-type(font-size, 768px, 1400px, 11.5px, 18px);
-  @include fluid-type(letter-spacing, 768px, 1400px, 3.3px, 5px);
-  @include fluid-type(line-height, 768px, 1400px, 17.7px, 32px);
+  @include fluid-type(font-size, 768px, 1400px, 11.5px * $base-divide, 18px * $base-divide);
+  @include fluid-type(letter-spacing, 768px, 1400px, 3.3px * $base-divide, 5px * $base-divide);
+  @include fluid-type(line-height, 768px, 1400px, 17.7px * $base-divide, 32px * $base-divide);
   &.medium-italic{
     font-weight:500;
     font-style:italic;
