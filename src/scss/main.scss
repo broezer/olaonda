@@ -51,9 +51,10 @@ main{
 }
 
 
+
 main, footer{
   @include outer-container();
-  //include fluid-type(max-width, 1440px, 1920px, 1200px, 1400px);
+  @include fluid-type(max-width, 1440px, 1920px, 1200px, 1400px);
   background:white;
   position:relative;
   article{

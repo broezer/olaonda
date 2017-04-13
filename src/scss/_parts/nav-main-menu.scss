@@ -2,11 +2,12 @@ nav.main-menu{
   width:100%;
   position: relative;
   z-index: 9;
-  padding-bottom:2vw;
+  padding-bottom:0.75vw;
 
   .content{
-    @include outer-container();
-    //@include fluid-type(max-width, 1440px, 1920px, 1200px, 1400px);
+    //@include outer-container();
+    @include fluid-type(max-width, 1440px, 1920px, 1200px, 1400px);
+    margin:0 auto;
     //max-width:100%;
     background:transparent;
     transition: background 150ms ease-in, border 150ms ease-in;
@@ -19,7 +20,7 @@ nav.main-menu{
   ul{
     display: table;
     width:auto;
-    padding-top:1.5vw;
+    padding-top:0.75vw;
     padding-bottom:0;
     /*temp styles*/
     //float: left;
@@ -34,9 +35,9 @@ nav.main-menu{
       text-transform:uppercase;
       //padding-right:1vw;
       //padding-left:1vw;
-      @include fluid-type(font-size, 768px, 1200px, 10px, 15px);
-      @include fluid-type(letter-spacing, 768px, 1200px, 2px, 3.5px);
-      @include fluid-type(line-height, 768px, 1400px, 32px, 41px);
+      @include fluid-type(font-size, 768px, 1200px, 8px, 12px);
+      @include fluid-type(letter-spacing, 768px, 1200px, 1.8px, 3.2px);
+      @include fluid-type(line-height, 768px, 1400px, 18px, 28px);
 
       &:last-child{
         padding-right:0;
@@ -46,7 +47,8 @@ nav.main-menu{
           }
         }
       }
-      &:first-child{
+      &.logo{
+        @include fluid-type(max-width, 768px, 1400px, 100px, 140px);
         padding-left:1vw;
         padding-right:1vw;
         a{
@@ -80,8 +82,11 @@ nav.main-menu{
 
 .nav-adress{
   display: block;
+  clear: both;
   //background:$green;
   section.content{
+      @include fluid-type(max-width, 1440px, 1920px, 1200px, 1400px);
+      margin:0 auto;
       padding-top:0;
       padding-bottom:0;
       text-align:left;
@@ -92,6 +97,7 @@ nav.main-menu{
         font-weight:300;
         @include fluid-type(font-size, 768px, 1400px, 8px, 10px);
         @include fluid-type(letter-spacing, 768px, 1400px, 1.8px, 2px);
+        @include fluid-type(line-height, 768px, 1400px, 18px, 22px);
         color:$green;
       }
       a{
@@ -103,38 +109,36 @@ nav.main-menu{
   }
 }
 
+
+
+
+
+
 nav.main-menu.fixed{
   position: fixed;
   width:100%;
   z-index:99;
   top:0;
-  .content{
-    @include border-small();
-    border-top:0;
-    border-right:0;
-    border-left:0;
-    background:white;
-    @include fluid-type(border-width, 768px, 1400px, 2.3px, 4px);
+  background:rgba(255,255,255,0.8);
+  padding-bottom:0;
+  .nav-adress{
+    background:$green;
+
+    section.content{
+      p, a{
+        color:white;
+      }
+    }
   }
-  a:link, a:visited{
-    color:black;
-  }
-
-
 }
 
 
-li.logo{
-  @include fluid-type(max-width, 768px, 1400px, 112px, 167px);
-}
-
-.logo-small{
-  //@include fluid-type(width, 768px, 1400px, 25%, 40%);
-
-}
-
-nav.main-menu.fixed{
-  .logo-small{
-    opacity:1;
+nav.main-menu.fixed--later{
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 500ms ease-in;
+  &.is-active{
+    transform: translateY(0);
+    opacity: 1;
   }
 }

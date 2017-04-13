@@ -1,8 +1,11 @@
 header.intro{
-  @include aspect-ratio(16,9);
+  @include aspect-ratio(21,9);
+  width:96%;
+  margin-left: 2%;
+  margin-right:2%;
   //Mobile
   @include media($small-screen){
-    @include aspect-ratio(16,20);
+    @include aspect-ratio(21,9);
   }
   @include border();
   .content{

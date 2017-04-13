@@ -1,9 +1,13 @@
 header.image-box{
-  @include aspect-ratio(21,11);
+
+  @include aspect-ratio(21,9);
   @include border();
   @include bg-cover('../assets/img/surf-in-ericeira.jpg');
-  @include fill-parent();
-  @include shift(0);
+  //@include fill-parent();
+  //@include shift(0);
+  width:96%;
+  margin-left: 2%;
+  margin-right:2%;
   .content{
     @include span-columns(11);
     @include shift(0.5);

@@ -7,6 +7,7 @@
     //menuPosition();
     //checkPosition();
     animateLogo();
+    fixLater();
 
   });
 
@@ -16,6 +17,7 @@
     newHeight = introHeight - menuHeight;
     //menuPosition();
     //checkPosition();
+    fixLater();
   });
 
 
@@ -80,6 +82,23 @@
       $('nav.main-menu').css('transform', 'translateY(' + newHeight + 'px)');
     }
   }
+
+
+  var fixLater = function(){
+    $(window).scroll( function (){
+           //console.log('scroll');
+           var introHeight = $('header.intro-box').height();
+           var menuHeight = $('nav.main-menu').height();
+           newHeight = introHeight;
+           //console.log($(window).scrollTop());
+           if ($(window).scrollTop() > newHeight) {
+             $('nav.main-menu.fixed--later').addClass('is-active');
+           } else {
+             $('nav.main-menu.fixed--later').removeClass('is-active');
+           }
+       });
+  }
+
 
 
 
