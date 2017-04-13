@@ -62,11 +62,11 @@ main, footer{
     display: inline-block;
     @include fill-parent();
     //Mobile
-    @include fluid-type(padding-top, 320px, 768px, 30px, 60px);
-    @include fluid-type(padding-bottom, 320px, 768px, 10px , 20px);
+    @include fluid-type(padding-top, 320px, 768px, 15px, 30px);
+    @include fluid-type(padding-bottom, 320px, 768px, 5px , 10px);
     //Dekstop
-    @include fluid-type(padding-top, 768px, 1440px, 60px, 130px);
-    @include fluid-type(padding-bottom, 768px, 1440px, 20px, 80px);
+    @include fluid-type(padding-top, 768px, 1440px, 30px, 65px);
+    @include fluid-type(padding-bottom, 768px, 1440px, 5px, 20px);
     //padding-top:rem(130);
     //padding-bottom:rem(80);
 
@@ -75,8 +75,8 @@ main, footer{
       @include shift(1);
       @include omega();
       //margin-bottom:rem(110);
-      @include fluid-type(margin-bottom, 320px, 768px, 31px, 62px);
-      @include fluid-type(margin-bottom, 768px, 1440px, 62px, 110px);
+      @include fluid-type(margin-bottom, 320px, 768px, 15px, 30px);
+      @include fluid-type(margin-bottom, 768px, 1440px, 30px, 55px);
     }
 
     .left-4{
