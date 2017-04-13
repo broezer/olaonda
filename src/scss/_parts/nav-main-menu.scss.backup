@@ -1,0 +1,131 @@
+nav.main-menu{
+  width:100%;
+  position: absolute;
+  z-index: 9;
+
+
+  .content{
+    @include outer-container();
+    //@include fluid-type(max-width, 1440px, 1920px, 1200px, 1400px);
+    max-width:100%;
+    background:transparent;
+    transition: background 150ms ease-in, border 150ms ease-in;
+
+  }
+  .list{
+    @include span-columns(12);
+    text-align:center;
+  }
+  ul{
+    display: inline-block;
+    width:auto;
+    margin:0 auto;
+    padding-top:1.5vw;
+    padding-bottom:0.5vw;
+    /*temp styles*/
+    //float: left;
+    //margin-left: 130px;
+
+    li{
+      float:left;
+      font-weight:300;
+      text-transform:uppercase;
+      margin-right:3vw;
+      @include fluid-type(font-size, 768px, 1200px, 12px, 21px);
+      @include fluid-type(letter-spacing, 768px, 1200px, 2.3px, 4px);
+      @include fluid-type(line-height, 768px, 1400px, 32px, 41px);
+      &:last-child{
+        margin-right:0;
+      }
+    }
+  }
+  a{
+    transition:color 150ms ease-in,
+  }
+  a:link, a:visited{
+    color:white;
+  }
+}
+
+nav.main-menu.fixed{
+  position: fixed;
+  width:100%;
+  z-index:99;
+  top:0;
+  .content{
+    @include border-small();
+    border-top:0;
+    border-right:0;
+    border-left:0;
+    background:white;
+    @include fluid-type(border-width, 768px, 1400px, 2.3px, 4px);
+  }
+  a:link, a:visited{
+    color:black;
+  }
+
+
+}
+
+
+li.logo{
+  @include fluid-type(max-width, 768px, 1400px, 26px, 40px);
+}
+
+.logo-small{
+  //@include fluid-type(width, 768px, 1400px, 25%, 40%);
+  opacity:0;
+  transition:opacity 150ms ease-in;
+}
+
+nav.main-menu.fixed{
+  .logo-small{
+    opacity:1;
+  }
+}
+
+nav.main-menu{
+  @include media($small-screen){
+    display:block;
+    height:110%;
+    top:0;
+    position: fixed;
+    background:white;
+    transform: translateX(-100%) !important;
+    transition: transform 300ms ease-in;
+    .content{
+        height:100%;
+      }
+    .list{
+      @include outer-container();
+    }
+    ul{
+      text-align:left;
+      padding-top:rem(12);
+      @include span-columns(10);
+      @include shift(1);
+      li{
+        float:none;
+        font-size:rem(21);
+        line-height:rem(41);
+        &.logo{
+              max-width: 120px;
+        }
+
+      }
+    }
+    .logo-small{
+      opacity:1;
+    }
+    a:link, a:visited{
+      color:black;
+    }
+  }
+
+
+}
+
+
+nav.main-menu.is-active{
+  transform: translateX(0) !important;
+}

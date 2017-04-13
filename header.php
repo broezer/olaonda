@@ -52,11 +52,22 @@ if ( is_singular('post') || is_page_template('default') ) :?>
 			<ul class="">
 				<li class="logo">
 					<a href="/">
-						<img class="logo-small" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png">
+						<img class="logo-small" src="<?php echo get_template_directory_uri(); ?>/assets/svg/olaonda.svg">
 					</a>
 				</li>
 				 <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => '', 'items_wrap' => '%3$s') ); ?>
 			</ul>
 		</section>
+	</div>
+	<div class="nav-adress">
+		<section class="content vcard">
+      <p class="adr">
+        <span class="street-address">Rua Encosta da Abadia, 4</span>
+        <span class="postal-code">2655-432</span>
+        <span class="locality">Ericeira</span>
+      </p>
+      <a class="email underline" href="mailto:info@ola-onda-ericeira.com">info@ola-onda-ericeira.com</a>
+      <p class="tel phone-number">+351 937 323 140</p>
+    </section>
 	</div>
 </nav>

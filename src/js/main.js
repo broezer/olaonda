@@ -4,8 +4,8 @@
   var $currentScrollPos = 0;
   $(document).ready(function(){
     console.log('Hello World');
-    menuPosition();
-    checkPosition();
+    //menuPosition();
+    //checkPosition();
     animateLogo();
 
   });
@@ -14,8 +14,8 @@
     var introHeight = $('header.intro-box').height();
     var menuHeight = $('nav.main-menu').height();
     newHeight = introHeight - menuHeight;
-    menuPosition();
-    checkPosition();
+    //menuPosition();
+    //checkPosition();
   });
 
 
