@@ -45,7 +45,7 @@
   }
 
 
-
+  /*
   var checkPosition = function(){
     $(window).scroll( function (){
            //console.log('scroll');
@@ -82,7 +82,7 @@
       $('nav.main-menu').css('transform', 'translateY(' + newHeight + 'px)');
     }
   }
-
+  */
 
   var fixLater = function(){
     $(window).scroll( function (){
