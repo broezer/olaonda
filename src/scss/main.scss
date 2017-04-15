@@ -12,6 +12,8 @@ body{
   margin:0;
 }
 
+img
+
 main{
   //margin-top:60px
 }
@@ -155,3 +157,4 @@ p > a, a.email{
 @import "views/home";
 @import "views/ola-onda";
 @import "views/rooms";
+@import "views/single-post";
