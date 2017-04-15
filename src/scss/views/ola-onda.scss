@@ -107,20 +107,20 @@ article.sun{
   background:$yellow;
   display: flex;
   @include bg-cover('../assets/svg/sun.svg');
-  background-position: 90% 50%;
-  background-size:25%;
+  background-position: 80% 50%;
+  background-size:15%;
 }
 article.sea-temp{
   background:$green;
   display: flex;
   @include bg-cover('../assets/svg/water-temp.svg');
-  background-position: 10% 50%;
-  background-size:25%;
+  background-position: 20% 50%;
+  background-size:15%;
   padding-right:$gutter;
 }
 
 article.surf-bus{
   @include bg-cover('../assets/svg/bus.svg');
-  background-position: 90% 60%;
-  background-size:25%;
+  background-position: 80% 60%;
+  background-size:15%;
 }
