@@ -34,3 +34,34 @@
     }
   }
 }
+
+.svg-link{
+  //background:red;
+  svg{
+    width:100%;
+    height:auto;
+    transition: all 150ms ease-in;
+    rect{
+      fill:white;
+      transition: all 150ms ease-in;
+    }
+    text{
+      text-transform:uppercase;
+      transition: all 150ms ease-in;
+    }
+    polygon{
+      transition: all 150ms ease-in;
+    }
+  }
+  &:hover, &:active{
+    svg{
+      rect{
+        fill:$green;
+      }
+      text, polygon{
+        fill:white;
+      }
+    }
+
+  }
+}

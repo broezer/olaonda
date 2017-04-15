@@ -41,9 +41,25 @@ get_header(); ?>
       </section>
       <section class="right-4">
         <img class="intro-beach" src="../wp-content/themes/olaonda/assets/img/intro-beach.jpg" alt="Ola"/>
-        <a class="more-link" href="/ola-onda">Get to know us</a>
+        <a class="svg-link" href="/ola-onda">
+          <svg width="100%" height="125" viewBox="0 0 433 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <defs></defs>
+                <g>
+                    <rect id="Rectangle-2" stroke="#89DAC1" stroke-width="11" x="5.5" y="5.5" width="422" height="114"></rect>
+                    <text id="" font-family="Montserrat-Bold, Montserrat" font-size="24" font-weight="bold" letter-spacing="5.5999999" fill="#89DAC1">
+                        <tspan x="42" y="72">Get to know us</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#89DAC1" points="374 63.5 349 76 349 51"></polygon>
+                </g>
+          </svg>
+        </a>
       </section>
     </div>
+
+
+
+
+
   </article>
 
   <article class="our-rooms">
@@ -54,7 +70,18 @@ get_header(); ?>
     <div class="wrapper">
       <section class="left-4">
         <img class="rooms-01" src="../wp-content/themes/olaonda/assets/img/rooms-01.jpg" alt="Ola"/>
-        <a class="more-link" href="/rooms">View rooms</a>
+        <a class="svg-link" href="/rooms">
+          <svg width="100%" height="125" viewBox="0 0 433 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <defs></defs>
+                <g>
+                    <rect id="Rectangle-2" stroke="#89DAC1" stroke-width="11" x="5.5" y="5.5" width="422" height="114"></rect>
+                    <text id="" font-family="Montserrat-Bold, Montserrat" font-size="24" font-weight="bold" letter-spacing="5.5999999" fill="#89DAC1">
+                        <tspan x="42" y="72">View rooms</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#89DAC1" points="374 63.5 349 76 349 51"></polygon>
+                </g>
+          </svg>
+        </a>
       </section>
       <section class="right-6">
         <p class="base">
