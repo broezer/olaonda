@@ -46,12 +46,13 @@ section.vcard{
   }
 }
 
+$footer-divide: 0.5;
 
 section.social, section.footer-menu{
   display: table;
   width:100%;
-  @include fluid-type(height, 320px, 768px, 60px, 90px);
-  @include fluid-type(height, 768px, 1400px, 90px, 162px);
+  @include fluid-type(height, 320px, 768px, 60px * $footer-divide, 90px * $footer-divide);
+  @include fluid-type(height, 768px, 1400px, 90px * $footer-divide, 162px * $footer-divide);
 }
 
 section.social{
@@ -69,17 +70,17 @@ section.social{
     display: inline-block;
 
     //Mobile
-    @include fluid-type(font-size, 320px, 768px, 14px, 28px);
-    @include fluid-type(letter-spacing, 320px, 768px, 1.1px, 2px);
-    @include fluid-type(line-height, 320px, 768px, 26px, 60px);
+    @include fluid-type(font-size, 320px, 768px, 14px * $footer-divide, 28px * $footer-divide);
+    @include fluid-type(letter-spacing, 320px, 768px, 1.1px * $footer-divide, 2px * $footer-divide);
+    @include fluid-type(line-height, 320px, 768px, 26px * $footer-divide, 60px * $footer-divide);
     //Desktop
-    @include fluid-type(font-size, 768px, 1400px, 28px, 51px);
-    @include fluid-type(letter-spacing, 768px, 1400px, 2px, 3.6px);
-    @include fluid-type(line-height, 768px, 1400px, 60px, 108px);
+    @include fluid-type(font-size, 768px, 1400px, 28px * $footer-divide, 51px * $footer-divide);
+    @include fluid-type(letter-spacing, 768px, 1400px, 2px * $footer-divide, 3.6px * $footer-divide);
+    @include fluid-type(line-height, 768px, 1400px, 60px * $footer-divide, 108px * $footer-divide);
   }
   ul{
-    @include span-columns(4);
-    @include shift(1);
+    @include span-columns(2);
+    @include shift(3);
     display:flex;
     justify-content: space-between;
     li{
@@ -87,22 +88,22 @@ section.social{
       height:auto;
 
       //Mobile
-      @include fluid-type(height, 320px, 768px, 28px , 53.8px);
-      @include fluid-type(width, 320px, 768px, 28px  , 53.8px);
+      @include fluid-type(height, 320px, 768px, 28px * $footer-divide, 53.8px * $footer-divide);
+      @include fluid-type(width, 320px, 768px, 28px * $footer-divide , 53.8px * $footer-divide);
 
       //Desktop
-      @include fluid-type(height, 768px, 1400px, 53.8px, 97px);
-      @include fluid-type(width, 768px, 1400px, 53.8px, 97px);
+      @include fluid-type(height, 768px, 1400px, 53.8px * $footer-divide, 97px * $footer-divide);
+      @include fluid-type(width, 768px, 1400px, 53.8px * $footer-divide, 97px * $footer-divide);
       svg{
         max-width:100%;
         height:auto;
         //Mobile
-        @include fluid-type(height, 320px, 768px, 28px , 53.8px);
-        @include fluid-type(width, 320px, 768px, 28px  , 53.8px);
+        @include fluid-type(height, 320px, 768px, 28px * $footer-divide, 53.8px * $footer-divide);
+        @include fluid-type(width, 320px, 768px, 28px * $footer-divide , 53.8px * $footer-divide);
 
         //Desktop
-        @include fluid-type(height, 768px, 1400px, 53.8px, 97px);
-        @include fluid-type(width, 768px, 1400px, 53.8px, 97px);
+        @include fluid-type(height, 768px, 1400px, 53.8px * $footer-divide, 97px * $footer-divide);
+        @include fluid-type(width, 768px, 1400px, 53.8px * $footer-divide, 97px * $footer-divide);
         circle.bg{
           transition: all 150ms ease-in;
         }
