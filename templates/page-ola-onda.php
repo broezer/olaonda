@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Ola Ondá
+ * Template Name: Ola Ondá Guesthouse
  * The template for Ola Ondá
  *
  */
@@ -10,7 +10,7 @@ get_header(); ?>
   <?php //get_template_part( 'templates/html/olaonda' );?>
   <header class="image-box ola-onda intro-box">
     <section class="content">
-      <h1 class="white">Olá Onda</h1>
+      <h1 class="white"><?php the_title();?></h1>
       <h2 class="white"><?php the_field('header_subtitle')?></h2>
     </section>
   </header>
