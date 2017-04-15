@@ -11,6 +11,12 @@
   </div>
 </header>
 
+<article class="about-ola-onda">
+  <p class="full-width">
+    Olá Onda is a guesthouse for everyone who loves surfing, beautiful beaches, pastries, wine, nature and Portuguese culture. Because you’ll find all that. We are located in a quiet area of fishermen's town Ericeira, 10 minutes walking to the beach and downtown Ericeira. We offer spacious rooms with seaview and private balcony, as well as smaller, cozier rooms, all with private bathrooms.
+  </p>
+</article>
+
 <article class="enjoy-with-us">
   <div class="wrapper">
     <section class="left-6">
@@ -28,11 +34,6 @@
   </div>
 </article>
 
-<article class="about-ola-onda">
-  <p class="full-width">
-    Olá Onda is a guesthouse for everyone who loves surfing, beautiful beaches, pastries, wine, nature and Portuguese culture. Because you’ll find all that. We are located in a quiet area of fishermen's town Ericeira, 10 minutes walking to the beach and downtown Ericeira. We offer spacious rooms with seaview and private balcony, as well as smaller, cozier rooms, all with private bathrooms.
-  </p>
-</article>
 
 <article class="our-rooms">
   <header>

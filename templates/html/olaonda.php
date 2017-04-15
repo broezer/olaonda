@@ -5,7 +5,7 @@
   </section>
 </header>
 <article class="about-ola-onda">
-  <p class="full-width medium-italic">
+  <p class="full-width">
     The beautiful beach and surf spot Matadouro is only 10 minutes walking. The guesthouse has 5 rooms for 2 to 3 people. All rooms all have a private bathroom, and some have a private balcony with seaview. There is a common area where breakfast is served and where you can grab a cup of coffee or tea all day. The house is surrounded by a big garden with terraces to lounge on and there’s an outside kitchen where you can cook up anything you like.
   </p>
 </article>

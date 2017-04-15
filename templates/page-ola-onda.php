@@ -15,7 +15,7 @@ get_header(); ?>
     </section>
   </header>
   <article class="about-ola-onda">
-    <p class="full-width medium-italic">
+    <p class="full-width ">
       <?php the_field('intro_text')?>
     </p>
   </article>

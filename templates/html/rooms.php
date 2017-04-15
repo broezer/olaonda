@@ -6,7 +6,7 @@
 </header>
 
 <article class="rooms">
-  <p class="full-width medium-italic">
+  <p class="full-width">
     Olá Onda Guesthouse has 5 rooms for 2 to 3 people. All rooms have a private bathroom with a roomy rainshower. All beds are made by ourselves, with wood from the Portuguese countryside. Big, sturdy &amp; comfortable were the keywords in building them.
   </p>
   <section class="amenities">

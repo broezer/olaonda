@@ -23,6 +23,12 @@ get_header(); ?>
     </div>
   </header>
 
+  <article class="about-ola-onda">
+    <p class="full-width">
+      <?php the_field('intro_text');?>
+    </p>
+  </article>
+
   <article class="enjoy-with-us">
     <div class="wrapper">
       <section class="left-6">
@@ -38,12 +44,6 @@ get_header(); ?>
         <a class="more-link" href="/ola-onda">Get to know us</a>
       </section>
     </div>
-  </article>
-
-  <article class="about-ola-onda">
-    <p class="full-width">
-      <?php the_field('intro_text');?>
-    </p>
   </article>
 
   <article class="our-rooms">
