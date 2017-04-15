@@ -8,5 +8,5 @@ function wpsmu_setup(){
 }
 
 add_action( 'after_setup_theme', 'wpsmu_setup' );
-
+add_theme_support( 'post-thumbnails' );
 ?>
