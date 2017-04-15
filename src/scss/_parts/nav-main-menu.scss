@@ -37,7 +37,7 @@ nav.main-menu{
       //padding-left:1vw;
       @include fluid-type(font-size, 768px, 1200px, 8px, 12px);
       @include fluid-type(letter-spacing, 768px, 1200px, 1.8px, 3.2px);
-      @include fluid-type(line-height, 768px, 1400px, 18px, 28px);
+      @include fluid-type(line-height, 768px, 1400px, 18px * 1.25, 28px * 1.25);
 
       &:last-child{
         padding-right:0;
@@ -50,7 +50,7 @@ nav.main-menu{
       &.logo{
         @include fluid-type(max-width, 768px, 1400px, 100px, 140px);
         padding-left:1vw;
-        padding-right:1vw;
+        padding-right:1.5vw;
         a{
           &:after{
             display: none;
