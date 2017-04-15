@@ -98,38 +98,22 @@ get_header(); ?>
       <h1 class="base green"><?php the_field('title_why');?></h1>
       <h2 class="undertitle green"><?php the_field('untertitle_why');?></h2>
     </header>
-    <section class="see-the-ocean">
-      <h1 class="see-the-ocean yellow">See the ocean</h1>
-      <figure class="sea-the-ocean">
-        <div class="content">
-          <h2 class="undertitle sea-the-ocean">
-            <?php the_field('text_see_the_ocean');?>
-          </h2>
-        </div>
-      </figure>
-    </section>
-    <section class="surf-the-best-waves">
-      <header class="left-5">
-        <h1 class="base green surf-the-best-waves">Surf the best waves</h1>
-      </header>
-      <figure class="right-5">
-        <img class="floor-surf" src="../wp-content/themes/olaonda/assets/img/floor-surf.jpg" alt="Ola"/>
-      </figure>
-    </section>
-    <a class="chevron-sign" href="" title="">
-      <svg width="100%"  viewBox="141 6246 1158 187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <defs>
-              <polygon id="path-1" points="141 6246 1194.19176 6246 1299 6339.5 1194.19176 6433 141 6433"></polygon>
-              <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1158" height="187" fill="white">
-                  <use xlink:href="#path-1"></use>
-              </mask>
-          </defs>
-          <use class="chevron" stroke="#89DAC1" mask="url(#mask-2)" stroke-width="40" fill="none" xlink:href="#path-1"></use>
-          <text id="DISCOVER-MORE" stroke="none" fill="none" font-family="Montserrat-Bold, Montserrat" font-size="55" font-weight="bold" letter-spacing="11.458333">
-              <tspan x="262" y="6365" fill="#89DAC1">DISCOVER MORE</tspan>
-          </text>
-      </svg>
-    </a>
+    <div class="wrapper">
+      <section class="right-4">
+        <a class="svg-link" href="/ola-onda">
+          <svg width="100%" height="125" viewBox="0 0 433 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <defs></defs>
+                <g>
+                    <rect id="Rectangle-2" stroke="#89DAC1" stroke-width="11" x="5.5" y="5.5" width="422" height="114"></rect>
+                    <text id="" font-family="Montserrat-Bold, Montserrat" font-size="24" font-weight="bold" letter-spacing="5.5999999" fill="#89DAC1">
+                        <tspan x="42" y="72">Discover more</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#89DAC1" points="374 63.5 349 76 349 51"></polygon>
+                </g>
+          </svg>
+        </a>
+      </section>
+    </div>
   </article>
 
   <article class="testimonials">

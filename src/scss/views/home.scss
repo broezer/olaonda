@@ -210,8 +210,11 @@ a.chevron-sign{
 /*testiomonials*/
 .testimonials{
   blockquote{
-    @include span-columns(10);
-    @include shift(1);
+    @include span-columns(5);
+    @include omega(2n);
+  }
+  blockquote:first-child{
+      @include shift(1);
   }
 }
 
