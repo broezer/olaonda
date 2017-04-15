@@ -114,7 +114,7 @@ h4{
   @include fluid-type(letter-spacing, 768px, 1400px, 2.7px * $base-divide, 5px * $base-divide);
 }
 
-p{
+p, a{
   font-weight:300;
   color: $gray;
   font-size: rem(24);

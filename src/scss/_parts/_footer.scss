@@ -6,12 +6,16 @@ footer.footer{
 
 .footer-logo-wrapper{
   @include outer-container();
+  text-align: center;
+  display: block;
+  position: relative;
 }
 
 
 .footer-logo{
-  @include span-columns(5);
-  @include shift(3.5);
+    width:15%;
+    display: block;
+    margin:0 auto;
 }
 
 section.vcard{
@@ -32,13 +36,13 @@ section.vcard{
     display:inline-block;;
 
     //Mobile
-    @include fluid-type(font-size, 320px, 768px, 10px, 14px);
-    @include fluid-type(letter-spacing, 320px, 768px, 2px, 2.8px);
-    @include fluid-type(line-height, 320px, 768px, 20px, 32px);
+    //@include fluid-type(font-size, 320px, 768px, 10px, 14px);
+    //@include fluid-type(letter-spacing, 320px, 768px, 2px, 2.8px);
+    //@include fluid-type(line-height, 320px, 768px, 20px, 32px);
     //Dekstop
-    @include fluid-type(font-size, 768px, 1400px, 14px, 21px);
-    @include fluid-type(letter-spacing, 768px, 1400px, 2.8px, 4.3px);
-    @include fluid-type(line-height, 768px, 1400px, 21.3px, 32px);
+    //@include fluid-type(font-size, 768px, 1400px, 14px, 21px);
+    //@include fluid-type(letter-spacing, 768px, 1400px, 2.8px, 4.3px);
+    //@include fluid-type(line-height, 768px, 1400px, 21.3px, 32px);
   }
 }
 
