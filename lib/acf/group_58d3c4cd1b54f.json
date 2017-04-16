@@ -174,6 +174,24 @@
             "new_lines": "br"
         },
         {
+            "key": "field_58f35cd865050",
+            "label": "Google Maps",
+            "name": "gmaps_guesthouse",
+            "type": "google_map",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "center_lat": "",
+            "center_lng": "",
+            "zoom": 5,
+            "height": ""
+        },
+        {
             "key": "field_58d3c6919b1ab",
             "label": "Transport Subtitle",
             "name": "transport_subtitle",
@@ -326,5 +344,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1490275299
+    "modified": 1492344740
 }

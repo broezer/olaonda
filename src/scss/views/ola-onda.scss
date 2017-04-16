@@ -72,6 +72,17 @@ section.ericeira-img{
 
 /*location*/
 .location{
+  .wrapper{
+    display: flex;
+  }
+  .acf-map{
+    position: absolute;
+    top:0;
+    left:0;
+    height:85%;
+    margin:0;
+    border:none;
+  }
   h1{
     span.minutes{
       //Mobile

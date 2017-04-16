@@ -8,5 +8,21 @@ function wpsmu_setup(){
 }
 
 add_action( 'after_setup_theme', 'wpsmu_setup' );
+
+//Add Featured Image Support
 add_theme_support( 'post-thumbnails' );
+
+//Add Google Maps Api key
+
+
+function my_acf_google_map_api( $api ){
+
+	$api['key'] = 'AIzaSyAe7KpDXYpw3HSegMtdnzc7ec58zkjK6b0';
+
+	return $api;
+
+}
+
+add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
+
 ?>

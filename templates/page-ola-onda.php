@@ -73,9 +73,20 @@ get_header(); ?>
       </h1>
       <h2 class="green"><?php the_field('transport_subtitle'); ?></h2>
     </header>
+
     <div class="wrapper">
       <section class="left-4">
-        <img class="map" src="../wp-content/themes/olaonda/assets/img/map.jpg" alt="Ola"/>
+        <!--<img class="map" src="../wp-content/themes/olaonda/assets/img/map.jpg" alt="Ola"/>-->
+        <?php
+
+        $location = get_field('gmaps_guesthouse');
+
+        if( !empty($location) ):
+        ?>
+        <div class="acf-map">
+        	<div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>"></div>
+        </div>
+        <?php endif; ?>
       </section>
       <section class="right-6">
         <h3 class="green">By Car</h3>
