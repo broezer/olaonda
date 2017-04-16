@@ -220,3 +220,69 @@ a.chevron-sign{
 
 
 /*surf-in-ericeir*/
+
+
+/*social- feed*/
+article.social-feed{
+  @include span-columns(10);
+  @include shift(1);
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .insta-feed{
+    width:34%;
+    @include aspect-ratio(1,1);
+    header{
+      display: table;
+      margin:0;
+      svg, p{
+        display: table-cell;
+        vertical-align: middle;
+        color:white;
+      }
+    }
+  }
+  .blog-item{
+    width:62%;
+  }
+
+  .insta-feed, .blog-item{
+    padding:0;
+    background-size:100%;
+    background-position: center center;
+    transition: all 300ms ease-in;
+    margin-bottom:$gutter * 0.75;
+    a{
+      position: absolute;
+      height:100%;
+      width:100%;
+      color:white;
+      top:0;
+      left:0;
+      padding:2vw;
+      background:rgba(white,0.3);
+      h2{
+          @extend h2;
+          font-weight:700;
+          font-style:normal;
+          text-transform:uppercase;
+          position: absolute;
+          bottom:2vw;
+          span{
+            @extend p;
+            color:white;
+            text-transform: lowercase;
+          }
+      }
+    }
+    &:hover{
+        background-size:110%;
+        transition: all 700ms ease-out;
+        a{
+          background:rgba($green,0.7);
+        }
+    }
+  }
+}

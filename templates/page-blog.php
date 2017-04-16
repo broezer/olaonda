@@ -19,7 +19,7 @@ get_header(); ?>
         <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
 
         <article class="blog-item" style="background-image:url('<?php echo $url;?>')">
-          <a href="<?php the_permalink(); ?>" title="Read more">
+          <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?> - Read more">
         		<h2>
               <?php the_title(); ?>
             </h2>
