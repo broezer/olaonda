@@ -13,8 +13,10 @@
   background:$yellow;
   padding:10px 12px;
   display: none;
-  @include fluid-type(right, 320px, 768px, 7px, 15px);
-  @include fluid-type(top, 320px, 768px, 7px, 15px);
+  //@include fluid-type(right, 320px, 768px, 7px, 15px);
+  //@include fluid-type(top, 320px, 768px, 7px, 15px);
+  top:2vw;
+  right:2vw;
   @include media($small-screen){
     display: block;
   }
