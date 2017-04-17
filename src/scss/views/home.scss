@@ -105,7 +105,61 @@ h1.enjoy-ola{
   margin-top:3vw;
 }
 
-/*sea-the-ocean*/
+article.why{
+  .wrapper{
+    .discover-more{
+      float:none;
+      margin:0 auto;
+    }
+
+    .usp{
+      display: flex;
+      margin-bottom:3vw;
+      li{
+        width:25%;
+        @include aspect-ratio(1,1);
+        background-color:$yellow;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:nth-child(even){
+          background-color: $green;
+        }
+        &:nth-child(1){
+          background-image:url('../assets/img/usp-pool.png');
+        }
+        &:nth-child(2){
+          background-image:url('../assets/img/usp-beach.png');
+        }
+        &:nth-child(3){
+          background-image:url('../assets/img/usp-bath.png');
+        }
+        &:nth-child(4){
+          background-image:url('../assets/img/usp-ocean.png');
+        }
+        &:before{
+          width:0;
+        }
+        h2{
+          @extend h4;
+          font-weight:700;
+          text-transform: uppercase;
+          font-style: normal;
+
+          text-align:center;
+          color:white;
+          width:100%;
+        }
+
+
+      }
+    }
+  }
+
+}
+
+/*sea-the-ocean
 section.see-the-ocean{
   display:inline-block;
   @include fill-parent();
@@ -152,7 +206,7 @@ h2.sea-the-ocean{
 
 }
 
-/*surf-the-best-waves*/
+/*surf-the-best-waves
 section.surf-the-best-waves{
   @include span-columns(10);
   @include shift(1);
@@ -206,7 +260,7 @@ a.chevron-sign{
   }
 
 }
-
+*/
 /*testiomonials*/
 .testimonials{
   blockquote{

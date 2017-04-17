@@ -98,8 +98,24 @@ get_header(); ?>
       <h1 class="base green"><?php the_field('title_why');?></h1>
       <h2 class="undertitle green"><?php the_field('untertitle_why');?></h2>
     </header>
+    <section class="wrapper">
+      <ul class="usp">
+        <li>
+          <h2>Take a dip<br/>in the <span class="green">pool</a></h2>
+        </li>
+        <li>
+          <h2><span class="yellow">Close</span> to the<br/>beach and<br/>downtown</a></h2>
+        </li>
+        <li>
+          <h2><span class="green">Private</span><br/>bathrooms</h2>
+        </li>
+        <li>
+          <h2><span class="yellow">See</span> the ocean<br/>right after you<br/>wake up</h2>
+        </li>
+      </ul>
+    </wrapper>
     <div class="wrapper">
-      <section class="right-4">
+      <section class="left-4 discover-more">
         <a class="svg-link" href="/ola-onda">
           <svg width="100%" height="125" viewBox="0 0 433 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <defs></defs>

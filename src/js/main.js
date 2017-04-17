@@ -2,12 +2,15 @@
   var introHeight = $('header.intro-box').height();
   var menuHeight = $('nav.main-menu').height();
   var $currentScrollPos = 0;
+
+
   $(document).ready(function(){
-    console.log('Hello World');
+    //console.log('Hello World');
     //menuPosition();
     //checkPosition();
     animateLogo();
     fixLater();
+    //loadInstagram();
 
   });
 
@@ -108,7 +111,7 @@
 
   $(window).scroll(function () {
        $currentScrollPos = $(document).scrollTop();
-      console.log('scroll' + $currentScrollPos);
+      //console.log('scroll' + $currentScrollPos);
    });
 
   var toggles = document.querySelectorAll(".menu-button");
@@ -123,7 +126,7 @@
 
 
         if($('.menu-button').hasClass('is-active')){
-           console.log('current ' + $currentScrollPos);
+           //console.log('current ' + $currentScrollPos);
 
           $('.main-menu').addClass('is-active');
           $('body').css({
@@ -131,7 +134,7 @@
                         'top' : -$currentScrollPos
                     });
           localStorage.cachedScrollPos = $currentScrollPos;
-          console.log('localStorage.cachedScrollPos ' + localStorage.cachedScrollPos);
+          //console.log('localStorage.cachedScrollPos ' + localStorage.cachedScrollPos);
         }else{
             $('.main-menu').removeClass('is-active');
             $('body').css({
@@ -144,6 +147,30 @@
     }
 
 
+    var loadInstagram = function(){
+
+      $.ajax({
+          url: "https://api.instagram.com/v1/users/4493500693/media/recent/?access_token=4493500693.1677ed0.ba6587e1f9004855b04648af332997c4&count=2",
+
+          // The name of the callback parameter, as specified by the YQL service
+          jsonp: "callback",
+
+          // Tell jQuery we're expecting JSONP
+          dataType: "jsonp",
+
+          // Tell YQL what we want and that we want JSON
+          data: {
+              q: "select title,abstract,url from search.news where query=\"cat\"",
+              format: "json"
+          },
+
+          // Work with the response
+          success: function( response ) {
+              console.log( response ); // server response
+          }
+      });
+
+    }
 
 
 
