@@ -42,7 +42,7 @@
 </a>
 
 <?php
-if ( is_singular('post') || is_page_template('default') ||  is_page_template('templates/page-blog.php') ) :?>
+if ( is_singular('post') || is_page_template('default') ||  is_page_template('templates/page-blog.php') ||  is_page_template('templates/page-surfguide.php')) :?>
 <nav class="main-menu fixed">
 <?php else :?>
 <nav class="main-menu scroll">
@@ -73,7 +73,7 @@ if ( is_singular('post') || is_page_template('default') ||  is_page_template('te
 </nav>
 
 
-<?php if ( is_singular('post') || is_page_template('default')  ||  is_page_template('templates/page-blog.php')) :?>
+<?php if ( is_singular('post') || is_page_template('default')  ||  is_page_template('templates/page-blog.php') ||  is_page_template('templates/page-blog.php')) :?>
 <?php else :?>
 <nav class="main-menu fixed fixed--later">
 	<div class="content">
