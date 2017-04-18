@@ -203,3 +203,10 @@ nav.main-menu.is-active {
   transform: translateX(0) !important;
   }
 }
+
+
+.logged-in{
+  nav.main-menu.fixed{
+    top:32px;
+  }
+}
