@@ -11,7 +11,7 @@ get_header(); ?>
   <header class="image-box adventures intro-box">
     <section class="content">
       <h1 class="white"><?php the_title();?></h1>
-      <h2 class="white"><?php the_field('undertitle')?></h2>
+      <h2 class="white"><?php the_field('subtitle')?></h2>
     </section>
   </header>
 

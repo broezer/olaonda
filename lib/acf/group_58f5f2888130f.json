@@ -3,6 +3,25 @@
     "title": "Adventures",
     "fields": [
         {
+            "key": "field_58f5f703e7839",
+            "label": "Subtitle",
+            "name": "subtitle",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_58f5f28888722",
             "label": "Intro",
             "name": "intro",
@@ -20,25 +39,6 @@
             "maxlength": "",
             "rows": 2,
             "new_lines": "br"
-        },
-        {
-            "key": "field_58f5f703e7839",
-            "label": "Undertitle",
-            "name": "undertitle",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
         },
         {
             "key": "field_58f5f28888737",
@@ -318,5 +318,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1492516337
+    "modified": 1492533298
 }
