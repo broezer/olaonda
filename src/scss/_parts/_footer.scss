@@ -18,32 +18,42 @@ footer.footer{
     margin:0 auto;
 }
 
-section.vcard{
-  clear:both;
-  text-align: center;
-  @include fluid-type(padding-top, 320px, 768px, 36px, 54px);
-  @include fluid-type(padding-top, 768px, 1400px, 54px, 81px);
+footer{
+  section.vcard{
+    display: block;
+    text-align: center;
+    @include fluid-type(padding-top, 320px, 768px, 36px, 54px);
+    @include fluid-type(padding-top, 768px, 1400px, 54px, 81px);
 
-  @include fluid-type(padding-bottom, 320px, 768px, 36px, 54px);
-  @include fluid-type(padding-bottom, 768px, 1400px, 54px, 81px);
+    @include fluid-type(padding-bottom, 320px, 768px, 36px, 54px);
+    @include fluid-type(padding-bottom, 768px, 1400px, 54px, 81px);
 
-  p, a{
-    font-weight:500;
-    font-style:normal;
-    margin:0;
-    text-align:center;
-    width:auto;
-    display:inline-block;;
-
-    //Mobile
-    //@include fluid-type(font-size, 320px, 768px, 10px, 14px);
-    //@include fluid-type(letter-spacing, 320px, 768px, 2px, 2.8px);
-    //@include fluid-type(line-height, 320px, 768px, 20px, 32px);
-    //Dekstop
-    //@include fluid-type(font-size, 768px, 1400px, 14px, 21px);
-    //@include fluid-type(letter-spacing, 768px, 1400px, 2.8px, 4.3px);
-    //@include fluid-type(line-height, 768px, 1400px, 21.3px, 32px);
+    @include clearfix();
+    p, a{
+      font-weight:500;
+      font-style:normal;
+      margin:0;
+      text-align:center;
+      width:100%;
+      display:block;;
+      float:left;
+      //Mobile
+      //@include fluid-type(font-size, 320px, 768px, 10px, 14px);
+      //@include fluid-type(letter-spacing, 320px, 768px, 2px, 2.8px);
+      //@include fluid-type(line-height, 320px, 768px, 20px, 32px);
+      //Dekstop
+      //@include fluid-type(font-size, 768px, 1400px, 14px, 21px);
+      //@include fluid-type(letter-spacing, 768px, 1400px, 2.8px, 4.3px);
+      //@include fluid-type(line-height, 768px, 1400px, 21.3px, 32px);
+    }
+    a{
+      width:auto;
+      margin:0 auto;
+      float:none;
+      display: table;
+    }
   }
+
 }
 
 $footer-divide: 0.5;

@@ -95,6 +95,7 @@ nav.main-menu{
       }
       p, a{
         font-weight:300;
+        display: inline-block;
         @include fluid-type(font-size, 768px, 1400px, 8px, 10px);
         @include fluid-type(letter-spacing, 768px, 1400px, 1.8px, 2px);
         @include fluid-type(line-height, 768px, 1400px, 18px, 22px);
