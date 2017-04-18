@@ -1,0 +1,121 @@
+main.adventures{
+  header.adventures{
+    @include bg-cover('../assets/img/adventures-header.jpg');
+  }
+  article section{
+    //display: flex;
+    //flex-wrap: wrap;
+    //flex-direction: row;
+
+    p.content{
+      @include span-columns(5 of 10);
+    }
+    figure{
+      @include aspect-ratio(1,1);
+      @include span-columns(5 of 10);
+      background-size:cover;
+      background-position: center center;
+    }
+  }
+
+
+  article:nth-child(even){
+    h1, h2{
+      color:$yellow;
+    }
+    section.wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+
+    p.content{
+      margin-right: 0;
+
+    }
+    figure{
+      @include span-columns(5 of 10);
+
+    }
+  }
+
+  article.surfing section{
+    p.content{
+      @include span-columns(4 of 10);
+
+    }
+    figure{
+      @include span-columns(5 of 10);
+      @include shift(1);
+      @include aspect-ratio(3,4);
+    }
+  }
+
+  article.mountainbiking{
+
+  }
+  article.skateboarding{
+    figure{
+      @include aspect-ratio(16,9)
+    }
+  }
+  article.nightlife{
+    figure{
+      @include aspect-ratio(21,11)
+    }
+
+  }
+  article.sunbathing{
+
+  }
+}
+
+
+
+article.sightseeing{
+  header{
+    padding-bottom:0;
+    margin-bottom:0;
+  }
+  article section{
+    display: inline-block;
+  }
+  article{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    section{
+      @include span-columns(5 of 10);
+      margin-right: 0;
+      p.content{
+        width:100%;
+      }
+    }
+
+    figure{
+      @include span-columns(5 of 10);
+      @include aspect-ratio(4,3);
+      background-size:cover;
+      background-position: center center;
+    }
+  }
+
+  article.lisbon{
+    section{
+      width:100%;
+      flex:0  0 100%;
+    }
+    figure{
+      width:100%;
+      flex:0  0 100%;
+      @include aspect-ratio(21,10);
+    }
+  }
+
+
+  article:nth-child(even){
+    flex-direction: row-reverse;
+  }
+
+}
