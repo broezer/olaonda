@@ -38,9 +38,17 @@ main.surf{
       section, figure{
         margin-right:0;
       }
+      a.svg-link{
+        margin-top:3vw;
+        margin-left:-2px;
+
+
+      }
     }
     .wrapper:nth-child(odd){
       flex-direction: row-reverse;
     }
   }
+
+
 }

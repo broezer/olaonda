@@ -25,12 +25,26 @@ $undertitle = get_sub_field('undertitle');
           if( get_row_layout() == 'text' ):
 
             $text = get_sub_field('text');
+
           ?>
           <section class="wrapper">
             <p class="content">
               <?php echo $text; ?>
             </p>
-
+            <?php if($class === 'ericeira surfguide'):?>
+              <a class="svg-link" href="../surf/ericeira-surf-guide/">
+                <svg width="100%" height="125" viewBox="0 0 433 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                      <g>
+                          <rect id="Rectangle-2" stroke="#89DAC1" stroke-width="11" x="5.5" y="5.5" width="422" height="114"></rect>
+                          <text id="" font-family="Montserrat-Bold, Montserrat" font-size="24" font-weight="bold" letter-spacing="5.5999999" fill="#89DAC1">
+                              <tspan x="42" y="72">Go read it</tspan>
+                          </text>
+                          <polygon id="Triangle" fill="#89DAC1" points="374 63.5 349 76 349 51"></polygon>
+                      </g>
+                </svg>
+              </a>
+            <?php endif;?>
           </section>
 
 

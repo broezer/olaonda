@@ -50,6 +50,16 @@ main.adventures{
       @include shift(1);
       @include aspect-ratio(3,4);
     }
+    a{
+      position: relative;
+      margin-top:4vw;
+      margin-left:-2px;
+      display: block;
+      width:80%;
+      &:before{
+        display:none;
+      }
+    }
   }
 
   article.mountainbiking{
