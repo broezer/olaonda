@@ -1,6 +1,6 @@
 {
     "key": "group_58d3c4cd1b54f",
-    "title": "Ol\u00e1 Onda",
+    "title": "Ol\u00e1 Onda Guesthouse",
     "fields": [
         {
             "key": "field_58d3c9bcd70f5",
@@ -323,6 +323,25 @@
             "maxlength": "",
             "rows": "",
             "new_lines": "wpautop"
+        },
+        {
+            "key": "field_58f75a34019a0",
+            "label": "About us",
+            "name": "about_us",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "wpautop"
         }
     ],
     "location": [
@@ -344,5 +363,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1492344740
+    "modified": 1492605501
 }

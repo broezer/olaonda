@@ -66,6 +66,11 @@
     </div>
   </section>
   <section class="footer-menu">
+    <nav>
+      <ul>
+       <?php wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container' => '', 'items_wrap' => '%3$s') ); ?>
+     </ul>
+    </nav>
   </section>
 </footer>
 <?php wp_footer(); ?>

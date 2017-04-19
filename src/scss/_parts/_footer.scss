@@ -135,5 +135,43 @@ section.social{
 }
 
 section.footer-menu{
-  background:$green;;
+  background:$green;
+  nav{
+    @include outer-container();
+    position: relative;
+    margin-top:2vw;
+    ul{
+      display: table;
+      margin:0 auto;
+      position: relative;
+      li{
+        position: relative;
+        display: block;
+        float:left;
+        margin-right:0.2vw;
+        &:last-child{
+          margin-right:0;
+          a:after{
+            display: none;
+          }
+        }
+        a{
+          transition:color 150ms ease-in;
+          padding-right:0.2vw;
+          &:after{
+            content: "-";
+            color:black;
+            padding-left:0.2vw;
+            color:white;
+          }
+          &:link, &:visited{
+            color:white;
+          }
+          &:hover, &:active{
+            color:$yellow;
+          }
+        }
+      }
+    }
+  }
 }

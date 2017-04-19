@@ -25,4 +25,11 @@ function my_acf_google_map_api( $api ){
 
 add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
 
+
+function register_my_menu() {
+  register_nav_menu('main-menu',__( 'Main Menu' ));
+  register_nav_menu('footer-menu',__( 'Footer Menu' ));
+}
+add_action( 'init', 'register_my_menu' );
+
 ?>
