@@ -1,14 +1,14 @@
 <?php
 /**
- * Template Name: Adventures
- * The template for Adventures
+ * Template Name: Surf
+ * The template for Surf
  *
  */
 get_header(); ?>
 
 
-<main class="adventures">
-  <header class="image-box adventures intro-box">
+<main class="surf">
+  <header class="image-box surf intro-box">
     <section class="content">
       <h1 class="white"><?php the_title();?></h1>
       <h2 class="white"><?php the_field('subtitle')?></h2>
@@ -25,18 +25,14 @@ get_header(); ?>
 
     <?php
     // check if the flexible content field has rows of data
-    if( have_rows('activities') ):
+    if( have_rows('content') ):
 
          // loop through the rows of data
-        while ( have_rows('activities') ) : the_row();
+        while ( have_rows('content') ) : the_row();
 
-            if( get_row_layout() == 'spot' ):
+            if( get_row_layout() == 'article' ):
 
-              get_template_part( 'templates/parts/activity');
-
-            elseif( get_row_layout() == 'sigthseeing' ):
-
-            	get_template_part( 'templates/parts/sightseeing');
+              get_template_part( 'templates/parts/content-article');
 
             endif;
 

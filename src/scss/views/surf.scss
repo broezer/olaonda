@@ -1,0 +1,46 @@
+main.surf{
+  header.surf{
+    @include bg-cover('../assets/img/surf-header.jpg')
+  }
+
+  article{
+
+    h1, h2, h3, h4{
+      color:$green;
+    }
+
+  }
+  article:nth-child(even){
+
+    h1, h2, h3, h4{
+      color:$yellow;
+    }
+
+  }
+
+  article{
+    .wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin-bottom:4vw;
+      justify-content: space-between;
+
+      section{
+          @include span-columns(6 of 10);
+      }
+      figure{
+          @include span-columns(4 of 10);
+          @include aspect-ratio(16,11);
+          background-size:cover;
+          background-position: center center;
+      }
+      section, figure{
+        margin-right:0;
+      }
+    }
+    .wrapper:nth-child(odd){
+      flex-direction: row-reverse;
+    }
+  }
+}
