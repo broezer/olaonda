@@ -1,6 +1,6 @@
 .page-template-default{
   main{
-    margin-top:120px;
+    margin-top:6vw;
 
     section.content{
       @include span-columns(10);
@@ -12,6 +12,13 @@
 
 .page-template-page-surfguide{
   main{
-    margin-top:120px;
+    margin-top:6vw;
+  }
+}
+
+.page-default{
+.blog-post p{
+    font-style:normal;
+    font-weight:300;
   }
 }

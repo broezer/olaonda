@@ -17,6 +17,8 @@
   //@include fluid-type(top, 320px, 768px, 7px, 15px);
   top:2vw;
   right:2vw;
+  transform: translateY(-75%);
+  transition: all 150ms ease-in;
   @include media($small-screen){
     display: block;
   }
@@ -30,4 +32,9 @@
 }
 .menu-button:active, .menu-button:link, .menu-button:hover, .menu-button:visited{
   border:none;
+}
+
+.menu-button.is-active, .menu-button.move-down{
+  transform: translateY(0);
+
 }

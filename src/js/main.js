@@ -12,6 +12,7 @@
     fixLater();
     //loadInstagram();
 
+
   });
 
   $(window).resize(function(){
@@ -25,7 +26,8 @@
 
 
   var animateLogo = function(){
-    $(window).scroll(function(){
+    $(window).scroll(function(e){
+      e.preventDefault();
       var fadeStart = 80 ;// 100px scroll or less will equiv to 1 opacity
       var fadeUntil = introHeight ; // 200px scroll or more will equiv to 0 opacity
       var fading = $('div.logo');
@@ -44,6 +46,15 @@
       }
       fading.css('opacity',opacity)
       fading.css('transform', 'translateY(-' + newOffset + 'px)');
+
+    
+        if ($(document).scrollTop() > 5) {
+          $('.menu-button').addClass('move-down');
+        } else {
+          $('.menu-button').removeClass('move-down');
+        }
+
+
     })
   }
 
@@ -100,6 +111,9 @@
              $('nav.main-menu.fixed--later').removeClass('is-active');
            }
        });
+
+       console.log($(window).scrollTop());
+
   }
 
 
@@ -112,6 +126,7 @@
   $(window).scroll(function () {
        $currentScrollPos = $(document).scrollTop();
       //console.log('scroll' + $currentScrollPos);
+
    });
 
   var toggles = document.querySelectorAll(".menu-button");

@@ -13,11 +13,17 @@
 
 get_header(); ?>
 
-<main>
-	<section class="content">
-    <h1 class="green"><?php the_title();?></h1>
-    <h2 class="yellow">Coming Soon</h2>
-  </section>
+<main class="page-default">
+<?php while ( have_posts() ) : the_post(); ?>
+	<article>
+		<header>
+			<h1 class="green"><?php the_title(); ?></h1>
+		</header>
+		<section class="wrapper blog-post">
+			<?php the_content(); ?>
+		</section>
+	</article>
+<?php endwhile;  ?>
 </main>
 
 
