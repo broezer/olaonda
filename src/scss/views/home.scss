@@ -115,6 +115,7 @@ article.why{
     .usp{
       display: flex;
       margin-bottom:3vw;
+      flex-wrap: wrap;
       li{
         width:25%;
         @include aspect-ratio(1,1);
@@ -151,8 +152,22 @@ article.why{
           color:white;
           width:100%;
         }
+        @include media($small-screen){
+          width:50%;
+          &:nth-child(3){
+            background-color:$green;
+            .green{
+              color:$yellow;
+            }
+          }
+          &:nth-child(4){
+            background-color:$yellow;
+            .yellow{
+              color:$green;
+            }
+          }
 
-
+        }
       }
     }
   }
