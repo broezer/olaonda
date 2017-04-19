@@ -211,3 +211,34 @@ nav.main-menu.is-active {
     top:32px;
   }
 }
+
+
+nav.main-menu ul ul.sub-menu{
+  display: none;
+  position: absolute;
+  padding-left: 0;
+  padding-right: 0;
+
+  padding-bottom: 10px;
+  z-index: 999;
+  transform: translateX(-40%);
+  height: 30px;
+  width: 380%;
+  clear: both;
+  text-align: center;
+  @include fluid-type(padding-top, 768px, 1400px, 10px, 9px);
+  li{
+    background:$yellow;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+nav.main-menu ul .menu-item-has-children:hover{
+  ul.sub-menu{
+    display: table;
+    @include media($small-screen){
+      display: none;
+    }
+  }
+}
