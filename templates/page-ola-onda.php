@@ -136,24 +136,43 @@ get_header(); ?>
     </div>
   </article>
   <article>
-    <a class="chevron-sign" href="../rooms" title="">
-      <svg width="100%"  viewBox="141 10728 1158 187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <defs>
-              <polygon id="path-1" points="0 0 1053.19176 0 1158 93.5 1053.19176 187 0 187"></polygon>
-              <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1158" height="187" fill="white">
-                  <use xlink:href="#path-1"></use>
-              </mask>
-          </defs>
-          <g id="check-rooms" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(141.000000, 10728.000000)">
-              <use class="chevron" stroke="#89DAC1" mask="url(#mask-2)" stroke-width="40" xlink:href="#path-1"></use>
-              <text id="CHECK-OUT-OUR-ROOMS" font-family="Montserrat-Bold, Montserrat" font-size="55" font-weight="bold" letter-spacing="11.458333" fill="#89DAC1">
-                  <tspan x="86" y="114">CHECK OUT OUR ROOMS</tspan>
-              </text>
-
-          </g>
-      </svg>
-    </a>
+    <div class="wrapper">
+      <section class="left-6">
+        <a class="svg-link" href="/rooms">
+          <svg width="100%" height="125" viewBox="0 0 433 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <defs></defs>
+                <g>
+                    <rect id="Rectangle-2" stroke="#89DAC1" stroke-width="11" x="5.5" y="5.5" width="422" height="114"></rect>
+                    <text id="" font-family="Montserrat-Bold, Montserrat" font-size="24" font-weight="bold" letter-spacing="5.5999999" fill="#89DAC1">
+                        <tspan x="42" y="72">View rooms</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#89DAC1" points="374 63.5 349 76 349 51"></polygon>
+                </g>
+          </svg>
+        </a>
+      </section>
+    </div>
   </article>
+  <article class="about-us" id="about-us" name="about-us">
+
+    <header>
+      <h1 class="yellow">About Us</h1>
+      <h2 class="yellow">The hosts of Olá Onda</h2>
+    </header>
+
+    <section class="wrapper">
+      <p class="content">
+        <?php the_field('about_us'); ?>
+
+
+      </p>
+      <figure class="image" style="background-image:url('<?php echo $img['url'];?>')">
+
+      </figure>
+    </section>
+
+  </article>
+
 
 </main>
 
