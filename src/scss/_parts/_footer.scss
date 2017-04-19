@@ -80,9 +80,9 @@ section.social{
     display: inline-block;
 
     //Mobile
-    @include fluid-type(font-size, 320px, 768px, 14px * $footer-divide, 28px * $footer-divide);
-    @include fluid-type(letter-spacing, 320px, 768px, 1.1px * $footer-divide, 2px * $footer-divide);
-    @include fluid-type(line-height, 320px, 768px, 26px * $footer-divide, 60px * $footer-divide);
+    @include fluid-type(font-size, 320px, 768px, 14px , 28px  );
+    @include fluid-type(letter-spacing, 320px, 768px, 1.1px , 2px );
+    @include fluid-type(line-height, 320px, 768px, 26px , 60px );
     //Desktop
     @include fluid-type(font-size, 768px, 1400px, 28px * $footer-divide, 51px * $footer-divide);
     @include fluid-type(letter-spacing, 768px, 1400px, 2px * $footer-divide, 3.6px * $footer-divide);
@@ -98,8 +98,8 @@ section.social{
       height:auto;
 
       //Mobile
-      @include fluid-type(height, 320px, 768px, 28px * $footer-divide, 53.8px * $footer-divide);
-      @include fluid-type(width, 320px, 768px, 28px * $footer-divide , 53.8px * $footer-divide);
+      @include fluid-type(height, 320px, 768px, 28px , 53.8px );
+      @include fluid-type(width, 320px, 768px, 28px, 53.8px );
 
       //Desktop
       @include fluid-type(height, 768px, 1400px, 53.8px * $footer-divide, 97px * $footer-divide);
@@ -108,8 +108,8 @@ section.social{
         max-width:100%;
         height:auto;
         //Mobile
-        @include fluid-type(height, 320px, 768px, 28px * $footer-divide, 53.8px * $footer-divide);
-        @include fluid-type(width, 320px, 768px, 28px * $footer-divide , 53.8px * $footer-divide);
+        @include fluid-type(height, 320px, 768px, 28px , 53.8px);
+        @include fluid-type(width, 320px, 768px, 28px  , 53.8px );
 
         //Desktop
         @include fluid-type(height, 768px, 1400px, 53.8px * $footer-divide, 97px * $footer-divide);
@@ -132,6 +132,25 @@ section.social{
       }
     }
   }
+}
+
+section.social{
+  h1{
+    @include media($small-screen){
+      width:100%;
+      margin:0;
+      text-align:center;
+    }
+  }
+  ul{
+    @include media($small-screen){
+      width:30%;
+      margin-left:35%;;
+      text-align:center;
+      margin-bottom:2vw;
+    }
+  }
+
 }
 
 section.footer-menu{
@@ -169,6 +188,30 @@ section.footer-menu{
           }
           &:hover, &:active{
             color:$yellow;
+          }
+        }
+      }
+    }
+  }
+}
+
+section.footer-menu{
+  @include media($small-screen){
+    padding-bottom:2vw;
+  }
+  nav{
+    ul{
+      @include media($small-screen){
+        text-align: center;
+      }
+      li{
+        @include media($small-screen){
+          position: relative;
+          float:none;
+          transform: scale(1.5);
+          a:after{
+            display: none;
+
           }
         }
       }
