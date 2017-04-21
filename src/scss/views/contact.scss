@@ -2,8 +2,15 @@ main.contact{
   .left-col,.right-col{
     @include span-columns(5 of 10);
     @include omega(2n);
+    @include media($small-screen){
+      @include span-columns(10 of 10);
+      @include omega();
+      @include clearfix();
+    }
   }
-
+  .right-col{
+    margin-top:5vw;
+  }
   form{
     label br{
       display: none;
