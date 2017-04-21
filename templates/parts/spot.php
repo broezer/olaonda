@@ -37,7 +37,7 @@ $info = get_sub_field('info');
       </p>
     <?php endif;?>
     <?php if ($crowd):?>
-      <h3 class="green">Crowl</h3>
+      <h3 class="green">Crowd</h3>
       <p>
         <?php echo $crowd ?>
       </p>

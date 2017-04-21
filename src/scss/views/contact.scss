@@ -43,6 +43,9 @@ main.contact{
     @extend p;
     color:white;
   }
+  div.wpcf7-mail-sent-ok{
+    border-color:$yellow;
+  }
 
   section.social{
     margin-top:4vw;
