@@ -1,0 +1,96 @@
+main.contact{
+  .left-col,.right-col{
+    @include span-columns(5 of 10);
+    @include omega(2n);
+  }
+
+  form{
+    label br{
+      display: none;
+    }
+    input, textarea{
+      border: 4px solid $yellow;
+      border-radius: 0;
+      padding:15px;
+      @extend p;
+    }
+  }
+  input.wpcf7-submit{
+    background:$green;
+    width:100%;
+    border: 4px solid $green;
+    color:white;
+    transition: all 150ms ease-in;
+    @extend h4;
+    &:hover, &:active{
+      background:white;
+      color:$green;
+    }
+  }
+  .wpcf7-response-output{
+    margin:0;
+    background:$yellow;
+    @extend p;
+    color:white;
+  }
+
+  section.social{
+    margin-top:4vw;
+    background:white;
+    @include span-columns(4 of 5);
+
+  }
+  .social-links{
+    width:100%;
+    margin:0;
+
+
+    li{
+      //float:left;
+      height:auto;
+
+      //Mobile
+      @include fluid-type(height, 320px, 768px, 28px , 53.8px );
+      @include fluid-type(width, 320px, 768px, 28px, 53.8px );
+
+      //Desktop
+      @include fluid-type(height, 768px, 1400px, 53.8px , 97px );
+      @include fluid-type(width, 768px, 1400px, 53.8px , 97px );
+      svg{
+        max-width:100%;
+        height:auto;
+        //Mobile
+        @include fluid-type(height, 320px, 768px, 28px , 53.8px);
+        @include fluid-type(width, 320px, 768px, 28px  , 53.8px );
+
+        //Desktop
+        @include fluid-type(height, 768px, 1400px, 53.8px , 97px );
+        @include fluid-type(width, 768px, 1400px, 53.8px , 97px );
+        circle.bg{
+          transition: all 150ms ease-in;
+        }
+        .facebook, .pin, .insta{
+          transition: all 150ms ease-in;
+        }
+      }
+      a:link, a:visited{
+        circle.bg{
+          fill:$green;
+        }
+        .facebook, .pin, .insta{
+          fill:white;
+        }
+      }
+      a:hover, a:active{
+        circle.bg{
+          fill:white;
+        }
+        .facebook, .pin, .insta{
+          fill:$green;
+        }
+
+      }
+    }
+
+  }
+}

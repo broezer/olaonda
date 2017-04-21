@@ -208,7 +208,7 @@ section.footer-menu{
         @include media($small-screen){
           position: relative;
           float:none;
-          transform: scale(1.5);
+          transition: scale(0.5);
           a:after{
             display: none;
 
