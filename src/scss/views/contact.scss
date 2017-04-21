@@ -9,7 +9,10 @@ main.contact{
     }
   }
   .right-col{
-    margin-top:5vw;
+
+    @include media($small-screen){
+      margin-top:5vw;
+    }
   }
   form{
     label br{
