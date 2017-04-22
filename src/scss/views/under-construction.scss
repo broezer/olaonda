@@ -1,0 +1,17 @@
+.page-uc{
+  main{
+    header{
+      margin-bottom:0;
+
+    }
+  }
+  h1,h2,h3,h4{
+    text-align: center;
+  }
+  h2{
+    color:$yellow;
+  }
+  h4{
+    color:$green;
+  }
+}

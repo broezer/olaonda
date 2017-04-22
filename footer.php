@@ -66,11 +66,14 @@
     </div>
   </section>
   <section class="footer-menu">
+    <?php if (!is_page_template('templates/page-uc.php')) :?>
+
     <nav>
       <ul>
        <?php wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container' => '', 'items_wrap' => '%3$s') ); ?>
      </ul>
     </nav>
+    <?php endif;?>
   </section>
 </footer>
 <?php wp_footer(); ?>

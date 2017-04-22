@@ -41,69 +41,73 @@
 
 <body <?php body_class(); ?>>
 
-<a class="menu-button hvr-sweep-to-bottom ">
-	<span class="c-hamburger c-hamburger--htx">
-	  <span>toggle menu</span>
-	</span>
-</a>
-
 <?php
-if ( is_singular('post') || is_page_template('default') ||  is_page_template('templates/page-blog.php') ||  is_page_template('templates/page-surfguide.php')) :?>
-<nav class="main-menu fixed">
-<?php else :?>
-<nav class="main-menu scroll">
-<?php endif;?>
-	<div class="content">
-		<section class="list">
-			<ul class="">
-				<li class="logo">
-					<a href="/">
-						<img class="logo-small" src="<?php echo get_template_directory_uri(); ?>/assets/svg/olaonda.svg">
-					</a>
-				</li>
-				 <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => '', 'items_wrap' => '%3$s') ); ?>
-			</ul>
-		</section>
-	</div>
-	<div class="nav-adress">
-		<section class="content vcard">
-      <p class="adr">
-        <span class="street-address">Rua Encosta da Abadia, 4</span>
-        <span class="postal-code">2655-432</span>
-        <span class="locality">Ericeira</span>
-      </p>
-      <a class="email underline" href="mailto:info@ola-onda-ericeira.com">info@ola-onda-ericeira.com</a>
-      <p class="tel phone-number">+351 937 323 140</p>
-    </section>
-	</div>
-</nav>
+if (!is_page_template('templates/page-uc.php')) :?>
+
+	<a class="menu-button hvr-sweep-to-bottom ">
+		<span class="c-hamburger c-hamburger--htx">
+		  <span>toggle menu</span>
+		</span>
+	</a>
+
+	<?php
+	if ( is_singular('post') || is_page_template('default') ||  is_page_template('templates/page-blog.php') ||  is_page_template('templates/page-surfguide.php')) :?>
+	<nav class="main-menu fixed">
+	<?php else :?>
+	<nav class="main-menu scroll">
+	<?php endif;?>
+		<div class="content">
+			<section class="list">
+				<ul class="">
+					<li class="logo">
+						<a href="/">
+							<img class="logo-small" src="<?php echo get_template_directory_uri(); ?>/assets/svg/olaonda.svg">
+						</a>
+					</li>
+					 <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => '', 'items_wrap' => '%3$s') ); ?>
+				</ul>
+			</section>
+		</div>
+		<div class="nav-adress">
+			<section class="content vcard">
+	      <p class="adr">
+	        <span class="street-address">Rua Encosta da Abadia, 4</span>
+	        <span class="postal-code">2655-432</span>
+	        <span class="locality">Ericeira</span>
+	      </p>
+	      <a class="email underline" href="mailto:info@ola-onda-ericeira.com">info@ola-onda-ericeira.com</a>
+	      <p class="tel phone-number">+351 937 323 140</p>
+	    </section>
+		</div>
+	</nav>
 
 
-<?php if ( is_singular('post') || is_page_template('default')  ||  is_page_template('templates/page-blog.php') ||  is_page_template('templates/page-blog.php')) :?>
-<?php else :?>
-<nav class="main-menu fixed fixed--later">
-	<div class="content">
-		<section class="list">
-			<ul class="">
-				<li class="logo">
-					<a href="/">
-						<img class="logo-small" src="<?php echo get_template_directory_uri(); ?>/assets/svg/olaonda.svg">
-					</a>
-				</li>
-				 <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => '', 'items_wrap' => '%3$s') ); ?>
-			</ul>
-		</section>
-	</div>
-	<div class="nav-adress">
-		<section class="content vcard">
-      <p class="adr">
-        <span class="street-address">Rua Encosta da Abadia, 4</span>
-        <span class="postal-code">2655-432</span>
-        <span class="locality">Ericeira</span>
-      </p>
-      <a class="email underline" href="mailto:info@ola-onda-ericeira.com">info@ola-onda-ericeira.com</a>
-      <p class="tel phone-number">+351 937 323 140</p>
-    </section>
-	</div>
-</nav>
+	<?php if ( is_singular('post') || is_page_template('default')  ||  is_page_template('templates/page-blog.php') ||  is_page_template('templates/page-blog.php')) :?>
+	<?php else :?>
+	<nav class="main-menu fixed fixed--later">
+		<div class="content">
+			<section class="list">
+				<ul class="">
+					<li class="logo">
+						<a href="/">
+							<img class="logo-small" src="<?php echo get_template_directory_uri(); ?>/assets/svg/olaonda.svg">
+						</a>
+					</li>
+					 <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => '', 'items_wrap' => '%3$s') ); ?>
+				</ul>
+			</section>
+		</div>
+		<div class="nav-adress">
+			<section class="content vcard">
+	      <p class="adr">
+	        <span class="street-address">Rua Encosta da Abadia, 4</span>
+	        <span class="postal-code">2655-432</span>
+	        <span class="locality">Ericeira</span>
+	      </p>
+	      <a class="email underline" href="mailto:info@ola-onda-ericeira.com">info@ola-onda-ericeira.com</a>
+	      <p class="tel phone-number">+351 937 323 140</p>
+	    </section>
+		</div>
+	</nav>
+	<?php endif;?>
 <?php endif;?>
