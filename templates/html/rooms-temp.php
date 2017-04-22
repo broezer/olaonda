@@ -53,7 +53,7 @@
     </ul>
 
   </section>
-    <h2 class="special-notice">Currently we are building the rooms. Bookings from March ‘17</h2>
+    <h2 class="special-notice">Currently we are building the rooms. Bookings from Augustus ‘17</h2>
 </article>
 
 <article class="room">

@@ -14,6 +14,12 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+	<?php if (is_home()|| is_front_page()):?>
+		<title><?php bloginfo('name'); ?></title>
+	<?php else: ?>
+		<title><?php the_title('', ' - '); ?><?php bloginfo('name'); ?></title>
+	<?php endif ?>
+
 	<?php wp_head(); ?>
 
 	<?php

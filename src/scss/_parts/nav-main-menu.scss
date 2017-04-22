@@ -226,11 +226,19 @@ nav.main-menu ul ul.sub-menu{
   width: 380%;
   clear: both;
   text-align: center;
-  @include fluid-type(padding-top, 768px, 1400px, 10px, 9px);
+  background:$yellow;
+  @include fluid-type(padding-top, 768px, 1400px, 10px, 20px);
+  @include fluid-type(padding-bottom, 768px, 1400px, 10px, 20px);
+  @include fluid-type(top, 692px, 1400px, 42px, 52px);
   li{
     background:$yellow;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    clear: both;
+    display: block;
+    a:after{
+      display: none;
+    }
   }
 }
 
