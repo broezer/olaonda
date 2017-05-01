@@ -5,12 +5,17 @@ function wpsmu_setup(){
   require_once('lib/login.php');
   require_once('lib/acf.php');
   require_once('lib/tgmpa.php');
+
+  //Add Featured Image Support
+  add_theme_support( 'post-thumbnails' );
+
+  add_image_size( 'myfullsize', 4000, 3000, true );
+  add_image_size( 'hd', 1919, 1079, true );
 }
 
 add_action( 'after_setup_theme', 'wpsmu_setup' );
 
-//Add Featured Image Support
-add_theme_support( 'post-thumbnails' );
+
 
 //Add Google Maps Api key
 
@@ -31,5 +36,10 @@ function register_my_menu() {
   register_nav_menu('footer-menu',__( 'Footer Menu' ));
 }
 add_action( 'init', 'register_my_menu' );
+
+
+
+
+
 
 ?>

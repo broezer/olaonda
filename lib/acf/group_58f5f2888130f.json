@@ -3,6 +3,30 @@
     "title": "Adventures",
     "fields": [
         {
+            "key": "field_5906f89ffe46d",
+            "label": "Header Image",
+            "name": "header_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "large",
+            "library": "all",
+            "min_width": 1920,
+            "min_height": 1080,
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
             "key": "field_58f5f703e7839",
             "label": "Subtitle",
             "name": "subtitle",
@@ -318,5 +342,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1492533298
+    "modified": 1493629110
 }

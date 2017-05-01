@@ -6,10 +6,22 @@
  */
 get_header(); ?>
 
+
+<?php
+$image = get_field('header_image');
+$size  = 'hd';
+$image_url = $image['sizes'][ $size ];
+?>
+
+
 <main>
 
 
+  <?php if($image):?>
+  <header class="image-box rooms intro-box"  style="background-image:url('<?php echo $image_url;?>')" >
+  <?php else:?>
   <header class="image-box rooms intro-box">
+  <?php endif;?>
     <section class="content">
       <h1 class="white">Rooms</h1>
       <h2 class="white">Get a room!</h2>

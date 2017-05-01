@@ -3,6 +3,30 @@
     "title": "Home",
     "fields": [
         {
+            "key": "field_5906f865c3f3c",
+            "label": "Header Image",
+            "name": "header_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "large",
+            "library": "all",
+            "min_width": 1920,
+            "min_height": 1080,
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
             "key": "field_58d2d6e1e8038",
             "label": "Intro",
             "name": "intro_text",
@@ -211,5 +235,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1490275248
+    "modified": 1493629122
 }

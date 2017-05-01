@@ -7,8 +7,19 @@
 get_header(); ?>
 
 
+<?php
+$image = get_field('header_image');
+$size  = 'hd';
+$image_url = $image['sizes'][ $size ];
+?>
+
+
 <main class="surf">
+  <?php if($image):?>
+  <header class="image-box surf intro-box"  style="background-image:url('<?php echo $image_url;?>')" >
+  <?php else:?>
   <header class="image-box surf intro-box">
+  <?php endif;?>
     <section class="content">
       <h1 class="white"><?php the_title();?></h1>
       <h2 class="white"><?php the_field('subtitle')?></h2>

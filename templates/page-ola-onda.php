@@ -6,9 +6,19 @@
  */
 get_header(); ?>
 
+<?php
+$image = get_field('header_image');
+$size  = 'hd';
+$image_url = $image['sizes'][ $size ];
+?>
+
 <main>
   <?php //get_template_part( 'templates/html/olaonda' );?>
+  <?php if($image):?>
+  <header class="image-box ola-onda intro-box"  style="background-image:url('<?php echo $image_url;?>')" >
+  <?php else:?>
   <header class="image-box ola-onda intro-box">
+  <?php endif;?>
     <section class="content">
       <h1 class="white"><?php the_title();?></h1>
       <h2 class="white"><?php the_field('header_subtitle')?></h2>

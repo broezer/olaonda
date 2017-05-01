@@ -9,9 +9,21 @@ get_header(); ?>
 <main>
   <?php //get_template_part( 'templates/html/homepage' );?>
 
+  <?php
+  $image = get_field('header_image');
+  $size  = 'hd';
+  $image_url = $image['sizes'][ $size ];
 
-  <header class="intro intro-box">
+
+  ?>
+  <header class="intro intro-box" >
+  <?php if ($image):?>
+    <div class="content content--home" style="background-image:url('<?php echo $image_url;?>')">
+  <?php else:?>
+
     <div class="content content--home">
+
+  <?php endif;?>
       <div class="logo-container">
         <div class="logo">
           <h1>
