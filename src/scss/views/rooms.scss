@@ -37,12 +37,14 @@ section.amenities{
 
 
 h2.special-notice{
-  @extend h3;
+  @extend h2;
   @include span-columns(10);
   @include shift(1);
-  background:$yellow;
+  background:$red;
   text-transform:none;
   color:white;
+  font-weight:700;
+  font-style:normal;
   padding-top:1vw;
   padding-bottom:1vw;
   padding-left: 2.5vw;
@@ -60,6 +62,24 @@ article.room{
     }
   }
 }
+
+
+article.room:nth-child(odd){
+  header{
+    h1,h2{
+      color:$green;
+    }
+  }
+}
+
+article.room:nth-child(even){
+  header{
+    h1,h2{
+      color:$yellow;
+    }
+  }
+}
+
 section.gallery{
   @include span-columns(10);
   @include shift(1);
