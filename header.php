@@ -10,7 +10,8 @@
 <html <?php language_attributes(); ?> class="no-js">
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
@@ -41,8 +42,7 @@
 
 <body <?php body_class(); ?>>
 
-<?php
-if (!is_page_template('templates/page-uc.php')) :?>
+<?php if (!is_page_template('templates/page-uc.php')) :?>
 
 	<a class="menu-button hvr-sweep-to-bottom ">
 		<span class="c-hamburger c-hamburger--htx">
@@ -50,8 +50,7 @@ if (!is_page_template('templates/page-uc.php')) :?>
 		</span>
 	</a>
 
-	<?php
-	if ( is_singular('post') || is_page_template('default') ||  is_page_template('templates/page-blog.php') ||  is_page_template('templates/page-surfguide.php')) :?>
+	<?php if ( is_singular('post') || is_page_template('default') ||  is_page_template('templates/page-blog.php') ||  is_page_template('templates/page-surfguide.php')) :?>
 	<nav class="main-menu fixed">
 	<?php else :?>
 	<nav class="main-menu scroll">
