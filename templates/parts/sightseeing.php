@@ -6,7 +6,7 @@ $undertitle = get_sub_field('undertitle');
 ?>
 
 
-<article class="sightseeing" class="sightseeing">
+<article class="sightseeing" id="sightseeing">
 
   <header>
     <h1 class=""><?php echo $title ?></h1>

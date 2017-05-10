@@ -7,7 +7,7 @@ $content = get_sub_field('content');
 ?>
 
 
-<article class="<?php echo $class; ?>" name="<?php echo $class; ?>">
+<article class="<?php echo $class; ?>" name="<?php echo $class; ?>" id="<?php echo $class; ?>">
 
   <header>
     <h1 class="green"><?php echo $title ?></h1>

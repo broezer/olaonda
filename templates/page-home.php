@@ -13,8 +13,6 @@ get_header(); ?>
   $image = get_field('header_image');
   $size  = 'hd';
   $image_url = $image['sizes'][ $size ];
-
-
   ?>
   <header class="intro intro-box" >
   <?php if ($image):?>
@@ -146,12 +144,12 @@ get_header(); ?>
 
   <article class="testimonials">
     <blockquote>
-      “Old world charm, new world waves. Ericeira is the El Dorado of surfing. It is cheap; the food is to die for. The waves are next level fun. Ericeira will make you question why you live where you live.”
-      <footer><h4 class="green">— <cite>What Youth Magazine</cite></h4></footer>
+      “This amazing place will open in the summer of 2017. I was lucky to visit the place while still under construction and it will definitely become a very nice guesthouse. Beachview from the hill, swimming pool, super friendly owners. Can't wait to go there again!”
+      <footer><h4 class="green">— <cite>Folkert, 29</cite></h4></footer>
     </blockquote>
     <blockquote>
-      “Portugal is like California with less people, better food, less plastic, less crowd and less fake. It’s like a big neighbourhood and that’s sweet. It’s cheap and there’s no violence, no danger, no terrorism, and that’s probably the best thing ever. It’s a good place to say the least. Don’t come on a diet though, eating is the best way to really get to know Portugal and the Portuguese”
-      <footer><h4 class="green">— <cite>Frederico Morais<br/>Portuguese professional surfer</cite></h4></footer>
+      “Fantastic location! The seaview is amazing and the city centre of Ericeira is within walking distance, so you're close to all the bars and restaurants. Lovely owners with a lot of knowledge from the area. They gave some great tips about the best places to surf, best beaches and where to go for dinner or coffee. I had a very pleasant stay and I would definitely return!”
+      <footer><h4 class="green">— <cite>Naima, 24</cite></h4></footer>
     </blockquote>
   </article>
 
