@@ -99,13 +99,13 @@ $image_url = $image['sizes'][ $size ];
         <?php endif; ?>
       </section>
       <section class="right-6">
-        <h3 class="green">By Car</h3>
-        <p>
-          <?php the_field('car_text'); ?>
-        </p>
         <h3 class="green">Pickup Service</h3>
         <p>
           <?php the_field('pickup_text'); ?>
+        </p>
+        <h3 class="green">By Car</h3>
+        <p>
+          <?php the_field('car_text'); ?>
         </p>
         <h3 class="green">By bus</h3>
         <p>
