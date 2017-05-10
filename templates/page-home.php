@@ -193,11 +193,10 @@ get_header(); ?>
   ?>
   <article class="social-feed">
     <article class="insta-feed" style="background-image:url('<?php echo $images[0];?>')">
-      <a href="<?php echo $link[0]; ?>" title="Olá Onda on Instagram">
+      <a href="<?php echo $link[0]; ?>"  target="_blank" title="Olá Onda on Instagram">
         <header>
           <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
-              <desc>Created with Sketch.</desc>
+
               <defs></defs>
               <g id="MAIN_v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                   <g id="00---HOMEPAGE" transform="translate(-160.000000, -5743.000000)" fill-rule="nonzero" fill="#FFFFFF">
@@ -236,11 +235,10 @@ get_header(); ?>
 
 
     <article class="insta-feed" style="background-image:url('<?php echo $images[1];?>')">
-      <a href="<?php echo $link[0]; ?>" title="Olá Onda on Instagram">
+      <a href="<?php echo $link[0]; ?>"  target="_blank" title="Olá Onda on Instagram">
         <header>
           <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
-              <desc>Created with Sketch.</desc>
+
               <defs></defs>
               <g id="MAIN_v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                   <g id="00---HOMEPAGE" transform="translate(-160.000000, -5743.000000)" fill-rule="nonzero" fill="#FFFFFF">
