@@ -15,6 +15,11 @@ $about_us_img =  get_field('about_us_image');
 $size_02  = 'large';
 $au_image_url = $about_us_img['sizes'][ $size_02 ];
 
+
+$breakfast_img =  get_field('breakfast_image');
+$size_03  = 'large';
+$breakfast_img_url = $breakfast_img['sizes'][ $size_03 ];
+
 ?>
 
 <main>
@@ -49,6 +54,30 @@ $au_image_url = $about_us_img['sizes'][ $size_02 ];
         </div>
       </section>
     </div>
+  </article>
+  <article class="breakfast">
+
+
+
+
+
+    <div class="wrapper-11">
+      <section class="left-6">
+        <h3 class="green"><?php the_field('breakfast_title') ;?></h3>
+        <p class="content">
+          <?php the_field('breakfast_text'); ?>
+
+
+        </p>
+      </section>
+      <section class="right-4 ">
+        <figure class="image breakfast-image" style="background-image:url('<?php echo $breakfast_img_url;?>')">
+
+        </figure>
+      </section>
+
+    </div>
+
   </article>
 
   <article class="ericeira">

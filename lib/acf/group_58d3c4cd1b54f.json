@@ -84,6 +84,68 @@
             "maxlength": ""
         },
         {
+            "key": "field_5915c49a5242c",
+            "label": "Breakfast Title",
+            "name": "breakfast_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Breakfast",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5915c4c95242d",
+            "label": "Breakfast Text",
+            "name": "breakfast_text",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Some call it the most important meal of the day. That\u2019s why we take this very seriously and breakfast is included in the price of the room. All days there will be fresh juice, coffee, tea, home made granola, yogurt, warm Portuguese bread and cheese. Some days there might even be pancakes... Who knows.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_5915c54f0c56d",
+            "label": "Breakfast Image",
+            "name": "breakfast_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 1920,
+            "min_height": 1080,
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
             "key": "field_58d3c5649b1a5",
             "label": "Ericeira Title",
             "name": "ericeira_title",
@@ -411,5 +473,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1494587166
+    "modified": 1494599268
 }

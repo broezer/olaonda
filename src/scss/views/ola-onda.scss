@@ -60,9 +60,9 @@ header.ola-onda{
 }
 
 article.breakfast{
-  @include bg-cover('../assets/img/breakfast.jpg');
-  background-position: 88% 60%;
-  background-size:25%;
+  //@include bg-cover('../assets/img/breakfast.jpg');
+  //background-position: 88% 60%;
+  //background-size:25%;
 
 }
 
@@ -142,4 +142,22 @@ figure.about-us-image{
   border-radius: 50%;
   background-size: cover;
   background-position: left center;
+}
+
+
+
+figure.breakfast-image{
+  @include aspect-ratio(1,1);
+  display: block;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center center;
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+article.breakfast{
+  //padding-bottom: 12vw;
+  //padding-top: 14vw;
 }
