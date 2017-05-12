@@ -10,6 +10,11 @@ get_header(); ?>
 $image = get_field('header_image');
 $size  = 'hd';
 $image_url = $image['sizes'][ $size ];
+
+$about_us_img =  get_field('about_us_image');
+$size_02  = 'large';
+$au_image_url = $about_us_img['sizes'][ $size_02 ];
+
 ?>
 
 <main>
@@ -170,16 +175,21 @@ $image_url = $image['sizes'][ $size ];
       <h2 class="yellow">The hosts of Olá Onda</h2>
     </header>
 
-    <section class="wrapper">
-      <p class="content">
-        <?php the_field('about_us'); ?>
+    <div class="wrapper-11">
+      <section class="left-6">
+        <p class="content">
+          <?php the_field('about_us'); ?>
 
 
-      </p>
-      <figure class="image" style="background-image:url('<?php echo $img['url'];?>')">
+        </p>
+      </section>
+      <section class="right-4 ">
+        <figure class="image about-us-image" style="background-image:url('<?php echo $au_image_url;?>')">
 
-      </figure>
-    </section>
+        </figure>
+      </section>
+
+    </div>
 
   </article>
 

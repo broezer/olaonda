@@ -135,3 +135,11 @@ article.surf-bus{
   background-position: 80% 60%;
   background-size:15%;
 }
+
+figure.about-us-image{
+  @include aspect-ratio(1,1);
+  display: block;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center center;
+}
