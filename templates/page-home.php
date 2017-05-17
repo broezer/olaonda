@@ -235,7 +235,7 @@ get_header(); ?>
 
 
     <article class="insta-feed" style="background-image:url('<?php echo $images[1];?>')">
-      <a href="<?php echo $link[0]; ?>"  target="_blank" title="Olá Onda on Instagram">
+      <a href="<?php echo $link[1]; ?>"  target="_blank" title="Olá Onda on Instagram">
         <header>
           <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
