@@ -144,12 +144,12 @@ get_header(); ?>
 
   <article class="testimonials">
     <blockquote>
-      “This amazing place will open in the summer of 2017. I was lucky to visit the place while still under construction and it will definitely become a very nice guesthouse. Beachview from the hill, swimming pool, super friendly owners. Can't wait to go there again!”
-      <footer><h4 class="green">— <cite>Folkert, 29</cite></h4></footer>
+      <?php the_field('testimonial_01');?>
+      <footer><h4 class="green">— <cite><?php the_field('testimonial_01_name');?></cite></h4></footer>
     </blockquote>
     <blockquote>
-      “Fantastic location! The seaview is amazing and the city centre of Ericeira is within walking distance, so you're close to all the bars and restaurants. Lovely owners with a lot of knowledge from the area. They gave some great tips about the best places to surf, best beaches and where to go for dinner or coffee. I had a very pleasant stay and I would definitely return!”
-      <footer><h4 class="green">— <cite>Naima, 24</cite></h4></footer>
+      <?php the_field('testimonial_02');?>
+      <footer><h4 class="green">— <cite><?php the_field('testimonial_02_name');?></cite></h4></footer>
     </blockquote>
   </article>
 
