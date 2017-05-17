@@ -3,6 +3,8 @@ $title = get_sub_field('title');
 $class = strtolower($title);
 $undertitle = get_sub_field('undertitle');
 $img = get_sub_field('image');
+$size  = 'large';
+$image_url = $img['sizes'][ $size ];
 $content = get_sub_field('content');
 ?>
 
@@ -33,7 +35,7 @@ $content = get_sub_field('content');
         </a>
       <?php endif;?>
     </p>
-    <figure class="image" style="background-image:url('<?php echo $img['url'];?>')">
+    <figure class="image" style="background-image:url('<?php echo $image_url;?>')">
 
     </figure>
   </section>
