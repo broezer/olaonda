@@ -50,7 +50,7 @@ $breakfast_img_url = $breakfast_img['sizes'][ $size_03 ];
       <section class="images">
         <div class="content">
           <img class="image-01" src="../wp-content/themes/olaonda/assets/img/to-the-beach.jpg" alt="Ola"/>
-          <img class="image-02" src="../wp-content/themes/olaonda/assets/img/intro-beach.jpg" alt="Ola"/>
+          <img class="image-02" src="../wp-content/themes/olaonda/assets/img/intro-palms.jpg" alt="Ola"/>
         </div>
       </section>
     </div>
