@@ -32,7 +32,7 @@ $undertitle = get_sub_field('undertitle');
               <?php echo $text; ?>
             </p>
             <?php if($class === 'ericeira surfguide' || $class === 'ericeira surf spot guide'):?>
-              <a class="svg-link" href="../surf/ericeira-surf-guide/">
+              <a class="svg-link" href="../surf/ericeira-surf-spot-guide/">
                 <svg width="100%" height="125" viewBox="0 0 433 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <defs></defs>
                       <g>
