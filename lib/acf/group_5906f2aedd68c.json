@@ -39,7 +39,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "Ol\u00e1 Onda Guesthouse has 5 rooms for 2 to 3 people. All rooms have a private bathroom with a roomy rainshower. All beds are made by ourselves, with wood from the Portuguese countryside. Big, sturdy & comfortable were the keywords in building them.",
+            "default_value": "Olá Onda Guesthouse has 5 rooms for 2 to 3 people. All rooms have a private bathroom with a roomy rainshower. All beds are made by ourselves, with wood from the Portuguese countryside. Big, sturdy & comfortable were the keywords in building them.",
             "placeholder": "",
             "maxlength": "",
             "rows": 4,
@@ -58,7 +58,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "Currently we are building the rooms. Bookings from Augustus \u201817",
+            "default_value": "Currently we are building the rooms. Bookings from Augustus ‘17",
             "placeholder": "",
             "maxlength": "",
             "rows": 2,
@@ -143,6 +143,31 @@
                             "maxlength": "",
                             "rows": 2,
                             "new_lines": "br"
+                        },
+                        {
+                            "key": "field_597f1ac2be20e",
+                            "label": "Foto",
+                            "name": "photos",
+                            "type": "gallery",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "min": "",
+                            "max": "",
+                            "insert": "append",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
                         }
                     ],
                     "min": "",
@@ -170,5 +195,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1493629203
+    "modified": 1501502264
 }

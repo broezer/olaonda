@@ -12,7 +12,18 @@
     fixLater();
     //loadInstagram();
 
+    $('.ola-slider').lightSlider({
+        gallery: true,
+        item: 1,
+        loop:true,
+        slideMargin: 0,
+        thumbItem: 5,
+        controls: false,
+        vertical:false,
+        vThumbWidth:200
+      }
 
+    );
   });
 
   $(window).resize(function(){
@@ -47,7 +58,7 @@
       fading.css('opacity',opacity)
       fading.css('transform', 'translateY(-' + newOffset + 'px)');
 
-    
+
         if ($(document).scrollTop() > 5) {
           $('.menu-button').addClass('move-down');
         } else {

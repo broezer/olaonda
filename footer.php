@@ -86,6 +86,7 @@
 <!-- bower:js -->
 <script src="<?php echo get_template_directory_uri(); ?>/bower_components/jquery/dist/jquery.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/bower_components/isMobile/isMobile.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/bower_components/lightslider/dist/js/lightslider.min.js"></script>
 <!-- endbower -->
 
 <!-- custom:js -->

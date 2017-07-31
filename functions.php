@@ -11,6 +11,9 @@ function wpsmu_setup(){
 
   add_image_size( 'myfullsize', 4000, 3000, true );
   add_image_size( 'hd', 1919, 1079, true );
+  add_image_size( 'slider-thumb', 320, 216, array( 'center', 'top' ) );
+
+
 }
 
 add_action( 'after_setup_theme', 'wpsmu_setup' );

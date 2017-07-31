@@ -12,12 +12,9 @@ body{
   min-width:321px;
 }
 
-img
-
-main{
-  //margin-top:60px
-
-
+#rum_sst_tab{
+  border-radius: 0;
+  font-family: $heading-font-family;
 }
 
 .noscroll {
@@ -150,7 +147,7 @@ p > a, a.email{
 
   }
 }
-
+@import "_parts/light-slider";
 @import "_parts/menu-button";
 @import "_parts/nav-main-menu";
 @import "_parts/intro";

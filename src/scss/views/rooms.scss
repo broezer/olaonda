@@ -54,11 +54,30 @@ h2.special-notice{
 
 article.room{
   header{
-    @include fluid-type(margin-bottom, 320px, 768px, 16px, 31px);
-    @include fluid-type(margin-bottom, 768px, 1440px, 31px, 55px);
+    @include fluid-type(margin-bottom, 320px, 768px, 0, 0);
+    @include fluid-type(margin-bottom, 768px, 1440px, 0, 0);
     p{
       @include fluid-type(margin-top, 320px, 768px, 9px, 17px);
       @include fluid-type(margin-top, 768px, 1400px, 17px, 30px);
+    }
+  }
+  section{
+    @include span-columns(10);
+     @include shift(1);
+     @include omega();
+     .lSSlideOuter .lSPager.lSGallery li{
+       background:$green;
+       img{
+         opacity: 1;
+         transition: all 700ms $base-timing;
+       }
+     }
+    .lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li:hover{
+      border-radius:0;
+      img{
+        opacity: 0.5;
+      }
+
     }
   }
 }

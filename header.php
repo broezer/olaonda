@@ -34,6 +34,7 @@
 	<?php else:?>
 
 	<!-- vendor:css -->
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/vendor.min.css">
 	<!-- endvendor -->
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/main.min.css" />
 	<?php endif;?>
