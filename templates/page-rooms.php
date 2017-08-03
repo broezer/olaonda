@@ -76,7 +76,7 @@ $image_url = $image['sizes'][ $size ];
       </ul>
 
     </section>
-      <h2 class="special-notice"><?php the_field('message');?></h2>
+      
   </article>
 
   <?php
