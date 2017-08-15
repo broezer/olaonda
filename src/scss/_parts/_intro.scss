@@ -11,6 +11,12 @@ header.intro-box{
   }
 }
 
+.page-template-page-home{
+  header.intro-box{
+      @include aspect-ratio(21,12);
+  }
+}
+
 header.intro{
   //@include aspect-ratio(21,9);
   //width:96%;
@@ -44,7 +50,7 @@ header.intro{
       background-repeat:no-repeat;
       background-position: center center;
       width: 40%;
-      height: 20vw;;
+      height: 12vw;;
       margin:0 auto;
       @include media($small-screen){
         width:40%;
