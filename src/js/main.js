@@ -40,7 +40,7 @@
     $(window).scroll(function(e){
       e.preventDefault();
       var fadeStart = 80 ;// 100px scroll or less will equiv to 1 opacity
-      var fadeUntil = introHeight ; // 200px scroll or more will equiv to 0 opacity
+      var fadeUntil = introHeight / 2.2 ; // 200px scroll or more will equiv to 0 opacity
       var fading = $('div.logo');
 
       var offset = $(document).scrollTop()
