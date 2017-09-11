@@ -16,7 +16,7 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-NB4NN6L');</script>
 	<!-- End Google Tag Manager -->
-	
+
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -88,7 +88,7 @@
 	        <span class="locality">Ericeira</span>
 	      </p>
 	      <a class="email underline" href="mailto:info@ola-onda-ericeira.com">info@ola-onda-ericeira.com</a>
-	      <p class="tel phone-number">+351 937 323 140</p>
+	      <a class="tel phone-number" href="tel:+351937323140">+351 937 323 140</a>
 	    </section>
 		</div>
 	</nav>
@@ -117,7 +117,7 @@
 	        <span class="locality">Ericeira</span>
 	      </p>
 	      <a class="email underline" href="mailto:info@ola-onda-ericeira.com">info@ola-onda-ericeira.com</a>
-	      <p class="tel phone-number">+351 937 323 140</p>
+	      <a class="tel phone-number" href="tel:+351937323140">+351 937 323 140</a>
 	    </section>
 		</div>
 	</nav>
