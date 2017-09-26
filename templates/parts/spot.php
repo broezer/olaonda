@@ -1,7 +1,9 @@
 <?php
 $title = get_sub_field('title');
-$img = get_sub_field('image');
 
+$image = get_sub_field('image');
+$size  = 'hd';
+$image_url = $image['sizes'][ $size ];
 
 $type = get_sub_field('type');
 $conditions = get_sub_field('conditions');
@@ -13,7 +15,7 @@ $info = get_sub_field('info');
 
 <article>
   <?php if ($img):?>
-    <header class="image-box" style="background-image:url('<?php echo $img['url'];?>')">
+    <header class="image-box" style="background-image:url('<?php echo $image_url;?>')">
       <section class="content" >
         <h1 class="white"><?php echo $title ?></h1>
       </section>
