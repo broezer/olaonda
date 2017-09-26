@@ -14,7 +14,7 @@ $info = get_sub_field('info');
 
 
 <article>
-  <?php if ($img):?>
+  <?php if ($image):?>
     <header class="image-box" style="background-image:url('<?php echo $image_url;?>')">
       <section class="content" >
         <h1 class="white"><?php echo $title ?></h1>
