@@ -2,7 +2,7 @@
 $title = get_sub_field('title');
 
 $image = get_sub_field('image');
-$size  = 'hd';
+$size  = 'large';
 $image_url = $image['sizes'][ $size ];
 
 $type = get_sub_field('type');
