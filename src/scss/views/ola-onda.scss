@@ -124,6 +124,7 @@ article.sun{
   background:$yellow;
   display: flex;
   @include bg-cover('../assets/svg/sun.svg');
+	background-color:$yellow;
   background-position: 80% 50%;
   background-size:15%;
 }
@@ -140,6 +141,7 @@ article.surf-bus{
   @include bg-cover('../assets/svg/bus.svg');
   background-position: 80% 60%;
   background-size:15%;
+	background-color:white;
 }
 
 figure.about-us-image{
