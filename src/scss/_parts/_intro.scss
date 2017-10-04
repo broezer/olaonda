@@ -29,8 +29,11 @@ header.intro{
   }
   @include border();
   .content{
-    //@include bg-cover('../assets/img/homepage.jpg');
+    //@include bg-cover('');
     //display:table;
+		background-size:cover;
+		background-position: center center;
+		background-repeat:no-repeat;
   }
   .logo-container{
     display:table;
