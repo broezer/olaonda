@@ -12,7 +12,12 @@ get_header(); ?>
 		<header>
 			<h1 class="green"><?php the_title(); ?></h1>
       <h2 class="green">Get in touch with us</h2>
+			<br/>
+			<section class="blog-post">
+					<?php the_content(); ?>
+			</section>
 		</header>
+
 		<section class="wrapper ">
 			<div class="left-col">
         <section class="vcard">
