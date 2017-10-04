@@ -47,10 +47,10 @@ get_header(); ?>
           <span class="ericeira"> Ericeira </span><br>
           <span class="with-us"> with us </span>
         </h1>
-        <img class="intro-beach" src="../wp-content/themes/olaonda/assets/img/intro-praia.jpg" alt="Olá Onda"/>
+        <img class="intro-beach" src="../wp-content/themes/olaonda/assets/img/intro-pool.jpg" alt="Olá Onda"/>
       </section>
       <section class="right-4">
-        <img class="intro-beach" src="../wp-content/themes/olaonda/assets/img/intro-coxos.jpg" alt="Olá Onda"/>
+        <img class="intro-beach" src="../wp-content/themes/olaonda/assets/img/intro-home.jpg" alt="Olá Onda"/>
         <a class="svg-link" href="/guesthouse/">
           <svg width="100%" height="125" viewBox="0 0 433 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <defs></defs>

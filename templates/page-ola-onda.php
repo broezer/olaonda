@@ -49,8 +49,8 @@ $breakfast_img_url = $breakfast_img['sizes'][ $size_03 ];
       </header>
       <section class="images">
         <div class="content">
-          <img class="image-01" src="../wp-content/themes/olaonda/assets/img/to-the-beach.jpg" alt="Ola"/>
-          <img class="image-02" src="../wp-content/themes/olaonda/assets/img/intro-palms.jpg" alt="Ola"/>
+          <img class="image-01" src="../wp-content/themes/olaonda/assets/img/to-the-beach.jpg" alt="Olá Onda"/>
+          <img class="image-02" src="../wp-content/themes/olaonda/assets/img/intro-palms.jpg" alt="Olá Onda"/>
         </div>
       </section>
     </div>
@@ -92,7 +92,7 @@ $breakfast_img_url = $breakfast_img['sizes'][ $size_03 ];
         </p>
       </section>
       <section class="right-5 ericeira-img">
-        <img class="ericeira" src="../wp-content/themes/olaonda/assets/img/ericeira.jpg" alt="Ola"/>
+        <img class="ericeira" src="../wp-content/themes/olaonda/assets/img/intro-praia.jpg" alt="Ola"/>
       </section>
     </div>
   </article>
