@@ -178,7 +178,7 @@ get_header(); ?>
       curl_close($ch);
       return $result;
     }
-    $result = fetchData("https://api.instagram.com/v1/users/4493500693/media/recent/?access_token=4493500693.1677ed0.ba6587e1f9004855b04648af332997c4&count=2");
+    $result = fetchData("https://api.instagram.com/v1/users/4493500693/media/recent/?access_token=4493500693.1677ed0.24ec3b2477af4d46a39186f03ace03d8&count=2");
     $result = json_decode($result);
     $items = array();
     foreach ($result->data as $post) {
