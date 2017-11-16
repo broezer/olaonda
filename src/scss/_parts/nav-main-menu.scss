@@ -250,3 +250,30 @@ nav.main-menu ul .menu-item-has-children:hover{
     }
   }
 }
+
+/*Language switcher*/
+nav.main-menu{
+	.menu-item-language-current{
+		position: relative;
+		/*
+		&:after{
+			display: block;
+			content:'';
+			position: absolute;
+			left:10px;
+			bottom:10px;
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 6px 3px 0 3px;
+			border-color: $yellow transparent transparent transparent;
+		}
+		*/
+	}
+	.menu-item-language > a , .menu-item-language-current > a{
+		color:$yellow;
+		&:visited, &:link{
+			color:$yellow;
+		}
+	}
+}

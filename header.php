@@ -78,6 +78,7 @@
 					</li>
 					 <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => '', 'items_wrap' => '%3$s') ); ?>
 				</ul>
+				
 			</section>
 		</div>
 		<div class="nav-adress">

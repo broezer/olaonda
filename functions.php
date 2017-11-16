@@ -19,6 +19,19 @@ function wpsmu_setup(){
 add_action( 'after_setup_theme', 'wpsmu_setup' );
 
 
+//https://support.advancedcustomfields.com/forums/topic/removing-paragraph-tags-from-wysiwyg-fields/
+function the_field_without_wpautop( $field_name ) {
+
+	remove_filter('acf_the_content', 'wpautop');
+	add_filter('acf_the_content', 'nl2br');
+	the_field( $field_name );
+
+	add_filter('acf_the_content', 'wpautop');
+
+
+}
+
+
 
 //Add Google Maps Api key
 

@@ -34,9 +34,9 @@ get_header(); ?>
   </header>
 
   <article class="about-ola-onda">
-    <div class="full-width">
-      <?php the_field('intro_text');?>
-    </div>
+    <p class="full-width">
+      <?php the_field_without_wpautop('intro_text');?>
+    </p>
   </article>
 
   <article class="enjoy-with-us">
