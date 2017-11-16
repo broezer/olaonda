@@ -47,10 +47,10 @@ get_header(); ?>
           <span class="ericeira"> Ericeira </span><br>
           <span class="with-us"> with us </span>
         </h1>
-        <img class="intro-beach" src="../wp-content/themes/olaonda/assets/img/intro-pool.jpg" alt="Olá Onda"/>
+        <img class="intro-beach" src="<?php echo get_template_directory_uri(); ?>/assets/img/intro-pool.jpg" alt="Olá Onda"/>
       </section>
       <section class="right-4">
-        <img class="intro-beach" src="../wp-content/themes/olaonda/assets/img/intro-home.jpg" alt="Olá Onda"/>
+        <img class="intro-beach" src="<?php echo get_template_directory_uri(); ?>/assets/img/intro-home.jpg" alt="Olá Onda"/>
         <a class="svg-link" href="/guesthouse/">
           <svg width="100%" height="125" viewBox="0 0 433 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <defs></defs>
@@ -79,7 +79,7 @@ get_header(); ?>
     </header>
     <div class="wrapper">
       <section class="left-4">
-        <img class="rooms-01" src="../wp-content/themes/olaonda/assets/img/rooms-01.jpg" alt="Ola"/>
+        <img class="rooms-01" src="<?php echo get_template_directory_uri(); ?>/assets/img/rooms-01.jpg" alt="Ola"/>
         <a class="svg-link" href="/rooms">
           <svg width="100%" height="125" viewBox="0 0 433 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <defs></defs>
@@ -97,7 +97,7 @@ get_header(); ?>
         <p class="base">
           <?php the_field('text_about_rooms');?>
         </p>
-        <img class="rooms-02" src="../wp-content/themes/olaonda/assets/img/ocean-view.jpg" alt="Ola"/>
+        <img class="rooms-02" src="<?php echo get_template_directory_uri(); ?>/assets/img/ocean-view.jpg" alt="Ola"/>
       </section>
     </div>
   </article>
