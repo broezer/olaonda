@@ -271,9 +271,16 @@ nav.main-menu{
 		*/
 	}
 	.wpml-ls-item > a, .menu-item-language > a , .menu-item-language-current > a{
-		color:$yellow;
+		//color:$yellow;
+
 		&:visited, &:link{
 			color:$yellow;
+			@include media($small-screen){
+				color: white;
+			}
+		}
+		&:hover, &:active{
+			color:$green
 		}
 	}
 }
