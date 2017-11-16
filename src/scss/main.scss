@@ -110,7 +110,7 @@ main, footer{
         @include span-columns(6 of 10);
     }
   }
-  p.full-width{
+  .full-width{
     @include span-columns(10);
     @include shift(1);
   }

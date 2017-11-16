@@ -1,0 +1,240 @@
+{
+    "key": "group_58d2d6dcc4959",
+    "title": "Home",
+    "fields": [
+        {
+            "key": "field_59bbc749e4953",
+            "label": "Header Image",
+            "name": "header_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "large",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_58d2d6e1e8038",
+            "label": "Intro",
+            "name": "intro_text",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_58d2d708e8039",
+            "label": "Title - About Rooms",
+            "name": "title_about_rooms",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Stay in our modern rooms",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d2d746e803a",
+            "label": "Undertitle - About Rooms",
+            "name": "undertitle_about_rooms",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d2d767e803b",
+            "label": "Text - About Rooms",
+            "name": "text_about_rooms",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Olá Onda Guesthouse is a typical Portuguese villa, renovated so it offers all you may need on your holiday. The house is surrounded by a big garden with different plants, cacti and fruit trees. There is an open air kitchen and free use of the wifi.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_58d2d79ce803d",
+            "label": "Title - Why",
+            "name": "title_why",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "WHY WOULD YOU STAY WITH US?",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d2d7b1e803e",
+            "label": "Untertitle - Why",
+            "name": "untertitle_why",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Reasons to stay at Olá Onda guest house",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d2d7e6e8040",
+            "label": "Text - See The Ocean",
+            "name": "text_see_the_ocean",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "right after you wake up, and check out the stars in the quiet nights from your own balcony or bed",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_58d2d7fde8041",
+            "label": "Title - Surf & Ericeira",
+            "name": "title_surf_ericeira",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "SURF & ERICEIRA",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d2d824e8042",
+            "label": "Underitle - Surf & Ericeira",
+            "name": "undertitle_surf_ericeira",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Ericeira is the first World Surf Reserve in Europe",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_58d2d856e8043",
+            "label": "Text - Surf Ericeira",
+            "name": "text_surf_ericeira",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Part of the beautiful coastline of Ericeira, and therefore the surf spots, is protected area being Europe’s only World Surf Reserve. The coast is littered with golden sand beaches, stunning cliffs and great waves for everyone; beginners, intermediates and advanced surfers. Next to that, the town of Ericeira is a most pleasant place to stay. You’ll find tiny blue and white houses, small cobblestone streets, sunny terraces and friendly people. All a stone’s throw away from the beautiful city of Lisbon, Sintra and Cascais. Read more on where to surf in our Ericeira Surf Spot Guide (link)",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/page-home.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1510399568
+}
