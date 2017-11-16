@@ -78,6 +78,7 @@
   </section>
 </footer>
 <?php wp_footer(); ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 <?php
   $hostname = $_SERVER['HTTP_HOST']; // For local development
