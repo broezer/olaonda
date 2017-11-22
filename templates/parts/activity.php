@@ -5,7 +5,7 @@ $undertitle = get_sub_field('undertitle');
 $img = get_sub_field('image');
 $size  = 'large';
 $image_url = $img['sizes'][ $size ];
-$content = get_sub_field('content');
+$content = get_sub_field_without_wpautop('content');
 ?>
 
 
