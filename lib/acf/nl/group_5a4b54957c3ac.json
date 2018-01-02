@@ -1,9 +1,9 @@
 {
-    "key": "group_58f4a5b732b0f",
+    "key": "group_5a4b54957c3ac",
     "title": "Surfguide",
     "fields": [
         {
-            "key": "field_58f4a6bdb7b65",
+            "key": "field_5a4b54958ced5",
             "label": "Subtitle",
             "name": "subtitle",
             "type": "text",
@@ -22,7 +22,26 @@
             "maxlength": ""
         },
         {
-            "key": "field_58f4a6c7b5fc3",
+            "key": "field_59bbcd21db906",
+            "label": "title",
+            "name": "title",
+            "type": "text",
+            "instructions": "",
+            "required": "",
+            "conditional_logic": "",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a4b54958cee4",
             "label": "Intro",
             "name": "intro",
             "type": "wysiwyg",
@@ -41,7 +60,26 @@
             "delay": 0
         },
         {
-            "key": "field_58f4a5bee8755",
+            "key": "field_59bbcd21db917",
+            "label": "Title",
+            "name": "title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a4b54958ceef",
             "label": "Surfguide",
             "name": "surfguide",
             "type": "flexible_content",
@@ -64,7 +102,7 @@
                     "display": "row",
                     "sub_fields": [
                         {
-                            "key": "field_58f4a626e8756",
+                            "key": "field_5a4b5495a18ff",
                             "label": "title",
                             "name": "title",
                             "type": "text",
@@ -93,7 +131,7 @@
                     "display": "row",
                     "sub_fields": [
                         {
-                            "key": "field_58f4a64ae8759",
+                            "key": "field_5a4b5495a190f",
                             "label": "Title",
                             "name": "title",
                             "type": "text",
@@ -112,7 +150,7 @@
                             "maxlength": ""
                         },
                         {
-                            "key": "field_58f4a76fd121f",
+                            "key": "field_5a4b5495a191b",
                             "label": "Image",
                             "name": "image",
                             "type": "image",
@@ -136,7 +174,7 @@
                             "mime_types": ""
                         },
                         {
-                            "key": "field_58f4a650e875a",
+                            "key": "field_5a4b5495a1926",
                             "label": "Type",
                             "name": "type",
                             "type": "textarea",
@@ -155,7 +193,7 @@
                             "new_lines": "wpautop"
                         },
                         {
-                            "key": "field_58f4a65ee875b",
+                            "key": "field_5a4b5495a1931",
                             "label": "Conditions",
                             "name": "conditions",
                             "type": "textarea",
@@ -174,7 +212,7 @@
                             "new_lines": "wpautop"
                         },
                         {
-                            "key": "field_58f4a674e875c",
+                            "key": "field_5a4b5495a193d",
                             "label": "Crowd",
                             "name": "crowd",
                             "type": "textarea",
@@ -193,7 +231,7 @@
                             "new_lines": "wpautop"
                         },
                         {
-                            "key": "field_58f4a67fe875d",
+                            "key": "field_5a4b5495a194a",
                             "label": "Info",
                             "name": "info",
                             "type": "wysiwyg",
@@ -216,6 +254,106 @@
                     "max": ""
                 }
             ]
+        },
+        {
+            "key": "field_59bbcd21db924",
+            "label": "Image",
+            "name": "image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_59bbcd21db930",
+            "label": "Type",
+            "name": "type",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 2,
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_59bbcd21db93c",
+            "label": "Conditions",
+            "name": "conditions",
+            "type": "textarea",
+            "instructions": "Works best with",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 2,
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_59bbcd21db948",
+            "label": "Crowd",
+            "name": "crowd",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 2,
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_59bbcd21db954",
+            "label": "Info",
+            "name": "info",
+            "type": "textarea",
+            "instructions": "Extra Information",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 2,
+            "new_lines": "wpautop"
         }
     ],
     "location": [
@@ -237,5 +375,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1514886279
+    "modified": 1514886298
 }

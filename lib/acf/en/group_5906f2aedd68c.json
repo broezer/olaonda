@@ -27,6 +27,25 @@
             "mime_types": ""
         },
         {
+            "key": "field_5a4b4e2bec05e",
+            "label": "Subtitle",
+            "name": "subtitle",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_5906f2bb10e82",
             "label": "intro",
             "name": "intro",
@@ -195,5 +214,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1514883677
+    "modified": 1514884669
 }

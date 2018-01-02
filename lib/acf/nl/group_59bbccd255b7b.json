@@ -49,7 +49,7 @@
             "key": "field_59bbccd260c35",
             "label": "Intro",
             "name": "intro",
-            "type": "textarea",
+            "type": "wysiwyg",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -59,10 +59,10 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
-            "maxlength": "",
-            "rows": 2,
-            "new_lines": "br"
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         },
         {
             "key": "field_59bbccd260c41",
@@ -77,11 +77,8 @@
                 "class": "",
                 "id": ""
             },
-            "button_label": "Add Row",
-            "min": "",
-            "max": "",
-            "layouts": [
-                {
+            "layouts": {
+                "58f4a642e8758": {
                     "key": "58f4a642e8758",
                     "name": "spot",
                     "label": "Activity",
@@ -129,7 +126,7 @@
                             "key": "field_59bbccd26a1f2",
                             "label": "Content",
                             "name": "content",
-                            "type": "textarea",
+                            "type": "wysiwyg",
                             "instructions": "",
                             "required": 1,
                             "conditional_logic": 0,
@@ -139,10 +136,10 @@
                                 "id": ""
                             },
                             "default_value": "",
-                            "placeholder": "",
-                            "maxlength": "",
-                            "rows": 3,
-                            "new_lines": "br"
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
                         },
                         {
                             "key": "field_59bbccd26a1ff",
@@ -172,16 +169,7 @@
                     "min": "",
                     "max": ""
                 },
-                {
-                    "key": "58f5fdd4e2a7c",
-                    "name": "",
-                    "label": "",
-                    "display": "row",
-                    "sub_fields": [],
-                    "min": "",
-                    "max": ""
-                },
-                {
+                "58f5f30049d10": {
                     "key": "58f5f30049d10",
                     "name": "sigthseeing",
                     "label": "Sigthseeing",
@@ -320,7 +308,10 @@
                     "min": "1",
                     "max": "1"
                 }
-            ]
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
         }
     ],
     "location": [
@@ -342,5 +333,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1514884096
+    "modified": 1514885335
 }
