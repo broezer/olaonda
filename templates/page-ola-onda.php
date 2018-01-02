@@ -88,7 +88,7 @@ $breakfast_img_url = $breakfast_img['sizes'][ $size_03 ];
     <div class="wrapper-11">
       <section class="left-6">
         <p class="">
-          <?php the_field('ericeira_text'); ?>
+          <?php the_field_without_wpautop('ericeira_text'); ?>
         </p>
       </section>
       <section class="right-5 ericeira-img">
@@ -105,7 +105,7 @@ $breakfast_img_url = $breakfast_img['sizes'][ $size_03 ];
         </section>
       </header>
       <p class="full-width">
-        <?php the_field('surf_text'); ?>
+        <?php the_field_without_wpautop('surf_text'); ?>
       <p>
   </article>
 
@@ -135,15 +135,15 @@ $breakfast_img_url = $breakfast_img['sizes'][ $size_03 ];
       <section class="right-6">
         <h3 class="green">Pickup Service</h3>
         <p>
-          <?php the_field('pickup_text'); ?>
+          <?php the_field_without_wpautop('pickup_text'); ?>
         </p>
         <h3 class="green">By Car</h3>
         <p>
-          <?php the_field('car_text'); ?>
+          <?php the_field_without_wpautop('car_text'); ?>
         </p>
         <h3 class="green">By bus</h3>
         <p>
-          <?php the_field('bus_text'); ?>
+          <?php the_field_without_wpautop('bus_text'); ?>
         </p>
       </section>
     </div>
@@ -154,7 +154,7 @@ $breakfast_img_url = $breakfast_img['sizes'][ $size_03 ];
       <section class="left-6">
         <h3 class="white">What's the weather like in Ericeira?</h3>
         <p>
-          <?php the_field('weather_text'); ?>
+          <?php the_field_without_wpautop('weather_text'); ?>
         </p>
       </section>
     </div>
@@ -164,7 +164,7 @@ $breakfast_img_url = $breakfast_img['sizes'][ $size_03 ];
       <section class="right-7 shift-4">
         <h3 class="white">and the sea temperature?</h3>
         <p>
-          <?php the_field('sea_text'); ?>
+          <?php the_field_without_wpautop('sea_text'); ?>
         </p>
       </section>
     </div>
@@ -174,7 +174,7 @@ $breakfast_img_url = $breakfast_img['sizes'][ $size_03 ];
       <section class="left-6">
         <h3 class="yellow">Ericeira Beach Bus</h3>
         <p>
-          <?php the_field('beach_text'); ?>
+          <?php the_field_without_wpautop('beach_text'); ?>
         </p>
       </section>
     </div>
