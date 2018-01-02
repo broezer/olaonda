@@ -1,6 +1,6 @@
 {
     "key": "group_59bbccf8b2bb4",
-    "title": "Rooms",
+    "title": "Kamers",
     "fields": [
         {
             "key": "field_59bbccf8bf113",
@@ -195,5 +195,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1505479931
+    "modified": 1514884125
 }
