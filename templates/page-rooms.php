@@ -23,8 +23,8 @@ $image_url = $image['sizes'][ $size ];
   <header class="image-box rooms intro-box">
   <?php endif;?>
     <section class="content">
-      <h1 class="white">Rooms</h1>
-      <h2 class="white">Get a room!</h2>
+      <h1 class="white"><?php the_title();?></h1>
+      <h2 class="white"><?php the_field('subtitle')?></h2>
     </section>
   </header>
 
@@ -76,7 +76,7 @@ $image_url = $image['sizes'][ $size ];
       </ul>
 
     </section>
-      
+
   </article>
 
   <?php

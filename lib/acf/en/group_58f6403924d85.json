@@ -3,7 +3,7 @@
     "title": "Surf",
     "fields": [
         {
-            "key": "field_5906f91e9cc69",
+            "key": "field_59bbcc5e04466",
             "label": "Header Image",
             "name": "header_image",
             "type": "image",
@@ -18,8 +18,8 @@
             "return_format": "array",
             "preview_size": "large",
             "library": "all",
-            "min_width": 1920,
-            "min_height": 1080,
+            "min_width": "",
+            "min_height": "",
             "min_size": "",
             "max_width": "",
             "max_height": "",
@@ -271,5 +271,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1493629254
+    "modified": 1511290771
 }
