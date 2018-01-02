@@ -71,6 +71,11 @@
                 "param": "page_parent",
                 "operator": "==",
                 "value": "45"
+            },
+            {
+                "param": "page",
+                "operator": "!=",
+                "value": "1294"
             }
         ]
     ],
@@ -84,5 +89,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1514892363
+    "modified": 1514894220
 }
