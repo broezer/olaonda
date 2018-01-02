@@ -27,9 +27,9 @@ $image_url = $image['sizes'][ $size ];
   </header>
 
   <article class="">
-    <p class="full-width medium-italic">
-      <?php the_field('intro');?>
-    </p>
+		<p class="full-width medium-italic">
+			<?php the_field_without_wpautop('intro');?>
+		</p>
   </article>
 
 
