@@ -46,10 +46,12 @@ function spotguide() {
 		'show_in_admin_bar'     => true,
 		'show_in_nav_menus'     => true,
 		'can_export'            => true,
-		'has_archive'           => '/surf/ericeira-surf-spot-guide/',
+		//'has_archive'           => '/surf/ericeira-surf-spot-guide/',
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
 		'capability_type'       => 'post',
+		'slug'									=> '/surf/ericeira-surf-spot-guide/',
+		'with_front' 						=> false
 	);
 	register_post_type( 'surf_spot', $args );
 
