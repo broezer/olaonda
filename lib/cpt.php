@@ -50,8 +50,8 @@ function spotguide() {
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
 		'capability_type'       => 'post',
-		'slug'									=> '/surf/ericeira-surf-spot-guide/',
-		'with_front' 						=> false
+		'rewrite'            => array( 'slug'	=> 'surf/ericeira-surf-spot-guide',  'with_front' => false),
+
 	);
 	register_post_type( 'surf_spot', $args );
 
