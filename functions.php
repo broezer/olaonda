@@ -5,6 +5,7 @@ function wpsmu_setup(){
   require_once('lib/login.php');
   require_once('lib/acf.php');
   require_once('lib/tgmpa.php');
+	require_once('lib/cpt.php');
 
   //Add Featured Image Support
   add_theme_support( 'post-thumbnails' );
