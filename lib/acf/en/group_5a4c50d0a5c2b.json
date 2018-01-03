@@ -126,7 +126,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "post"
+                "value": "surf_spot"
             }
         ]
     ],
@@ -138,5 +138,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1514951055
+    "modified": 1514951880
 }
