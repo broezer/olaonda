@@ -36,7 +36,7 @@ $breakfast_img_url = $breakfast_img['sizes'][ $size_03 ];
   </header>
   <article class="about-ola-onda">
     <p class="full-width ">
-	     <?php the_field_without_wpautop('intro');?>
+	     <?php the_field_without_wpautop('intro_text');?>
     </p>
   </article>
   <article class="walk-to-the-beach">
