@@ -320,6 +320,11 @@
                 "param": "page_template",
                 "operator": "==",
                 "value": "templates\/page-adventures.php"
+            },
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/page-sightseeing.php"
             }
         ]
     ],
@@ -333,5 +338,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1514884897
+    "modified": 1517227177
 }
