@@ -104,7 +104,7 @@
 <!-- endcustom-min -->
 <?php endif;?>
 
-<?php if(is_page_template('templates/page-ola-onda.php')):?>
+<?php if(is_page_template('templates/page-ola-onda.php') || is_singular('surf_spot') ):?>
   <?php get_template_part( 'templates/parts/google-maps' );?>
 <?php endif;?>
 
