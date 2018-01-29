@@ -32,6 +32,22 @@ function the_field_without_wpautop( $field_name ) {
 
 }
 
+function get_field_without_wpautop($field_name) {
+
+	// Temporarily remove the filter for this get_sub_field call
+	remove_filter('acf_the_content', 'wpautop');
+	add_filter('acf_the_content', 'nl2br');
+	// Get the sub field without the wpautop filter
+	$field = get_field($field_name);
+
+	// Re-establish the wpautop filter for everything
+	add_filter('acf_the_content', 'wpautop');
+
+	// Return our non-wpautop'd field
+	return $field;
+}
+
+
 function get_sub_field_without_wpautop($field_name) {
 
 	// Temporarily remove the filter for this get_sub_field call
