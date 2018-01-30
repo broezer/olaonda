@@ -164,6 +164,27 @@
                             "max_height": "",
                             "max_size": "",
                             "mime_types": ""
+                        },
+                        {
+                            "key": "field_5a6fffb6e090a",
+                            "label": "Link to page",
+                            "name": "page_url",
+                            "type": "page_link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "page"
+                            ],
+                            "taxonomy": [],
+                            "allow_null": 0,
+                            "allow_archives": 1,
+                            "multiple": 0
                         }
                     ],
                     "min": "",
@@ -303,6 +324,27 @@
                                     "max": ""
                                 }
                             ]
+                        },
+                        {
+                            "key": "field_5a6fffeae090b",
+                            "label": "Link to Page",
+                            "name": "page_url",
+                            "type": "page_link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "page"
+                            ],
+                            "taxonomy": [],
+                            "allow_null": 0,
+                            "allow_archives": 1,
+                            "multiple": 0
                         }
                     ],
                     "min": "1",
@@ -340,5 +382,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1517227274
+    "modified": 1517289491
 }
