@@ -90,7 +90,9 @@
 	      </p>
 	      <a class="email underline" href="mailto:info@ola-onda-ericeira.com">info@ola-onda-ericeira.com</a>
 	      <a class="tel phone-number" href="tel:+351937323140">+351 937 323 140</a>
+
 	    </section>
+
 		</div>
 	</nav>
 
@@ -119,6 +121,7 @@
 	      </p>
 	      <a class="email underline" href="mailto:info@ola-onda-ericeira.com">info@ola-onda-ericeira.com</a>
 	      <a class="tel phone-number" href="tel:+351937323140">+351 937 323 140</a>
+				
 	    </section>
 		</div>
 	</nav>
