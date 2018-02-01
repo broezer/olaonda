@@ -198,12 +198,23 @@ section.footer-menu{
       }
     }
   }
-  h2.credits, h2.credits a, h2.credits a:link {
+	.credits{
+		display: block;
+		width: 100%;
+	}
+  .credits, .credits a, .credits a:link {
+		@extend p;
+		@extend h2;
     color:white;
     text-align:center;
+		font-weight: 300;
+		font-style: italic;
     @include fluid-type(font-size, 768px, 1400px, 8px, 10px);
+		&:after, &:before{
+			display: none;
+		}
   }
-  h2.credits a:hover {
+  .credits a:hover {
     color:$yellow;
 
   }

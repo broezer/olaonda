@@ -81,7 +81,7 @@
        <?php wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container' => '', 'items_wrap' => '%3$s') ); ?>
      </ul>
     </nav>
-    <h2 class="credits">code &amp; design -  <a href="https://brucemoerdjiman.com" target="_blank">Bruce Moerdjiman</a></h2>
+    <span class="credits">code &amp; design -  <a href="https://brucemoerdjiman.com" target="_blank">Bruce Moerdjiman</a></span>
     <?php endif;?>
   </section>
 </footer>
