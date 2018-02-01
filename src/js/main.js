@@ -3,6 +3,7 @@
   var menuHeight = $('nav.main-menu').height();
   var $currentScrollPos = 0;
 
+	var isMobile = window.matchMedia("only screen and (max-width: 425px)");
 
   $(document).ready(function(){
     //console.log('Hello World');
@@ -26,6 +27,8 @@
     );
   });
 
+
+
   $(window).resize(function(){
     var introHeight = $('header.intro-box').height();
     var menuHeight = $('nav.main-menu').height();
@@ -36,34 +39,45 @@
   });
 
 
+
+
   var animateLogo = function(){
     $(window).scroll(function(e){
-      e.preventDefault();
-      var fadeStart = 80 ;// 100px scroll or less will equiv to 1 opacity
-      var fadeUntil = introHeight / 2.2 ; // 200px scroll or more will equiv to 0 opacity
-      var fading = $('div.logo');
+			e.preventDefault();
+			var fadeStart = 80 ;// 100px scroll or less will equiv to 1 opacity
+			var fadeUntil = introHeight / 2.2 ; // 200px scroll or more will equiv to 0 opacity
+			var fading = $('div.logo');
 
-      var offset = $(document).scrollTop()
-          ,opacity=0
-      ;
+			var offset = $(document).scrollTop()
+					,opacity=0
+			;
 
-      var newOffset = offset - fadeStart;
-      if( offset<=fadeStart ){
-          newOffset = 0;
-          opacity=1;
-      }else if( offset<=fadeUntil ){
-          newOffset = offset - fadeStart;
-          opacity=1-offset/fadeUntil;
-      }
-      fading.css('opacity',opacity)
-      fading.css('transform', 'translateY(-' + newOffset + 'px)');
+			var newOffset = offset - fadeStart;
+
+			if (isMobile.matches) {
+				 //Conditional script here
+		 	}else{
+
+				if( offset<=fadeStart ){
+						newOffset = 0;
+						opacity=1;
+				}else if( offset<=fadeUntil ){
+						newOffset = offset - fadeStart;
+						opacity=1-offset/fadeUntil;
+				}
+				fading.css('opacity',opacity)
+				fading.css('transform', 'translateY(-' + newOffset + 'px)');
 
 
-        if ($(document).scrollTop() > 5) {
-          $('.menu-button').addClass('move-down');
-        } else {
-          $('.menu-button').removeClass('move-down');
-        }
+
+			}
+
+				if ($(document).scrollTop() > 5) {
+					$('.menu-button').addClass('move-down');
+				} else {
+					$('.menu-button').removeClass('move-down');
+				}
+
 
 
     })

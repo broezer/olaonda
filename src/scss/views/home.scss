@@ -1,3 +1,24 @@
+.page-template-page-home{
+  header.intro-box{
+      @include aspect-ratio(21,9);
+			@include media($small-screen){
+				margin-bottom:35vw;
+				.content{
+					overflow:visible;
+					h2{
+						color:$green;
+					}
+				}
+			}
+
+  }
+	header.intro .logo-container{
+			@include media($small-screen){
+				margin-top:26vw;
+			}
+	}
+}
+
 /*Enjoy Ola */
 h1.enjoy-ola{
   @include span-columns(5 of 6);
