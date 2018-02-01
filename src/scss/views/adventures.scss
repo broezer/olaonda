@@ -50,7 +50,7 @@ main.adventures{
       @include shift(1);
       @include aspect-ratio(3,4);
     }
-    a{
+    a.svg-link{
       position: relative;
       margin-top:4vw;
       margin-left:-2px;

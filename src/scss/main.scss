@@ -125,6 +125,7 @@ p > a, a.email{
   position: relative;
   text-decoration: none;
   color:$gray;
+	display: inline-block;
   &:before{
     content: "";
     position: absolute;

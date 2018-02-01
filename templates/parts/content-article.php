@@ -24,7 +24,7 @@ $undertitle = get_sub_field('undertitle');
 
           if( get_row_layout() == 'text' ):
 
-            $text = get_sub_field('text');
+            $text = get_sub_field_without_wpautop('text');
 
           ?>
           <section class="wrapper">
@@ -52,7 +52,7 @@ $undertitle = get_sub_field('undertitle');
           elseif( get_row_layout() == 'text_img' ):
             $img = get_sub_field('image');
             $title = get_sub_field('title');
-            $text = get_sub_field('text');
+            $text = get_sub_field_without_wpautop('text');
           ?>
 
           <div class="wrapper">
