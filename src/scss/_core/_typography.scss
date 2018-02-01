@@ -4,6 +4,9 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
+	-webkit-font-feature-settings: "liga" 0, "clig" 0;
+     -moz-font-feature-settings: "liga" 0, "clig" 0;
+          font-feature-settings: "liga" 0, "clig" 0;
 }
 
 h1,
