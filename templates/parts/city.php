@@ -1,7 +1,7 @@
 <?php
 $title = get_sub_field('name');
 $class = strtolower($title);
-$img = get_sub_field('image');
+$image = get_sub_field('image');
 $size  = 'large';
 $image_url = $image['sizes'][ $size ];
 $content = get_sub_field('content');
@@ -16,7 +16,7 @@ $content = get_sub_field('content');
       <?php echo $content; ?>
     </p>
   </section>
-  <figure class="image" style="background-image:url('<?php echo $image_url['url'];?>')">
+  <figure class="image" style="background-image:url('<?php echo $image_url;?>')">
 
   </figure>
 </article>
