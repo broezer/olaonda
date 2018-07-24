@@ -18,7 +18,7 @@ article.spots{
 	&:last-child{
 		padding-bottom:80vh;
 		@include media($small-screen){
-			padding-bottom:10vh;
+			height: calc(100vh - 105px);
 		}
 	}
 }
