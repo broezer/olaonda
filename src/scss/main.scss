@@ -116,6 +116,21 @@ main, footer{
   }
 }
 
+main.sightseeing, main.adventure{
+	margin-top:10vw;
+}
+
+main.adventure{
+	img{
+		display: block;
+		position: relative;
+		width:80%;
+		height:auto;
+		margin:0 auto;
+		margin-bottom:2vw;
+	}
+}
+
 footer{
   max-width:100%;
   position: relative;

@@ -14,7 +14,7 @@ $image_url = $image['sizes'][ $size ];
 ?>
 
 
-<main class="adventures">
+<main class="adventures sightseeing">
 
     <?php
     // check if the flexible content field has rows of data
