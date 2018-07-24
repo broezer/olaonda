@@ -31,9 +31,9 @@ $post_object = get_sub_field('surf_spot');
 			<?php if( !empty($location) ): ?>
 				<div class="marker marker-<?php echo $id;?>" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>">
 					<section>
-					<h2 class="yellow"><?php the_sub_field('title'); ?></h2>
+					<h4 class="yellow marker-title"><?php the_sub_field('title'); ?></h2>
 
-					<a href="<?php the_permalink();?>" title="Ola Onda Surfspot Guide - <?php the_title();?>">Read More</a>
+					<a href="<?php the_permalink();?>" title="Ola Onda Surfspot Guide - <?php the_title();?>">Click to read more</a>
 					</section>
 				</div>
 

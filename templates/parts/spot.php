@@ -7,13 +7,11 @@ $image = get_sub_field('image');
 $size  = 'large';
 $image_url = $image['sizes'][ $size ];
 
-
-
 $type = get_sub_field('type');
 $conditions = get_sub_field('conditions');
 $crowd = get_sub_field('crowd');
 $info = get_sub_field('info');
-
+$post_object = get_sub_field('surf_spot');
 ?>
 
 
@@ -25,18 +23,28 @@ $info = get_sub_field('info');
       </section>
     </header>
   <?php else:?>
-    <header>
-      <h1 class="yellow"><?php echo $title ?></h1>
+		<header class="image-box image-box--noborder">
+      <section class="content" >
+        <h1 class="white"><?php echo $title ?></h1>
+      </section>
     </header>
-  <?php endif;?>
-  <section class="wrapper">
-    <?php if ($type):?>
-      <h3 class="green">Type</h3>
-      <p>
-        <?php echo $type ?>
-      </p>
-    <?php endif;?>
-  
 
+  <?php endif;?>
+  <section class="meta">
+    <?php if ($type):?>
+      <h3 class="white">Type</h3>
+      <?php echo $type ?>
+    <?php endif;?>
   </section>
+	<?php
+		if( $post_object ):
+		$post = $post_object;
+		setup_postdata( $post );
+		?>
+		<a class="spot-link" href="<?php the_permalink();?>" title="Olá Onda Ericeira - Surfspot Guide - <?php the_title();?>">
+			<h3 class="white">Want to know more?</h3>
+			<p>Read here</p>
+		</a>
+		<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+	<?php endif;?>
 </article>

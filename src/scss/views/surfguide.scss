@@ -9,7 +9,15 @@ main.surfguide{
 			margin-right:2%;
 		}
 	}
+	article.area-title{
+		header{
+	    margin-left: 0;
+	    margin-bottom: 0;
+		}
+	}
+
 }
+
 
 article.spots{
 	margin-top:30px;
@@ -66,13 +74,57 @@ aside.surf-map{
 	#guide-intro{
 		margin-top:34px;
 	}
+	article.spots{
+		display: flex;
+    flex-wrap: wrap;
+	}
 	header.image-box{
 		margin-left:0;
 		margin-right:0;
 		width:100%;
+		background-image:none;
+		margin-bottom:2px;
 		@include border-small();
+		@include bg-cover('../assets/svg/waves.svg');
+
+	}
+	header.image-box--noborder{
+		border:none;
+	}
+	section.meta, a.spot-link{
+		float:left;
+		background:$green;
+		width: 50%;
+    margin-left: 0;
+    padding-left: 6%;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+		h3{
+			font-weight:300;
+		}
+		p{
+			@extend h4;
+			color:white;
+		}
+	}
+	a.spot-link{
+		background:$yellow;
+		width:calc(50% - 2px);
+		margin-left:2px;
+		transition: background 200ms ease-in;
+		&:hover{
+			background:$green;
+		}
 	}
 }
+
+
+h4.marker-title{
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+
 
 .cf:before,
 .cf:after {
