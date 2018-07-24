@@ -36,10 +36,10 @@ aside.surf-map{
   position: sticky;
   top: 105px;
 	@include media($small-screen){
-		top:0;
+		top:50vh;
 		height: 50vh;
 		width:100%;
-		z-index:99;
+		z-index:10;
 	}
 	.acf-map{
 		height:100%;
@@ -58,6 +58,7 @@ aside.surf-map{
 		width: 96%;
 		margin-left:2%;
 		margin-right:2%;
+		transform: translateY(-50vh);
 	}
 	#guide-intro{
 		margin-top:34px;
