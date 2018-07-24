@@ -87,6 +87,7 @@
 </footer>
 <?php wp_footer(); ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/bower_components/waypoints/lib/noframework.waypoints.min.js"></script>
 
 <?php
   $hostname = $_SERVER['HTTP_HOST']; // For local development
@@ -96,7 +97,10 @@
 <script src="<?php echo get_template_directory_uri(); ?>/bower_components/jquery/dist/jquery.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/bower_components/isMobile/isMobile.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/bower_components/lightslider/dist/js/lightslider.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/bower_components/waypoints/lib/noframework.waypoints.js"></script>
 <!-- endbower -->
+
+
 
 <!-- custom:js -->
 <script src="<?php echo get_template_directory_uri(); ?>/src/js/main.js"></script>
@@ -112,7 +116,7 @@
 <!-- endcustom-min -->
 <?php endif;?>
 
-<?php if(is_page_template('templates/page-ola-onda.php') || is_singular('surf_spot') ):?>
+<?php if(is_page_template('templates/page-ola-onda.php') || is_singular('surf_spot') || is_page_template('templates/page-surfguide.php') ):?>
   <?php get_template_part( 'templates/parts/google-maps' );?>
 <?php endif;?>
 

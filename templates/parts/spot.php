@@ -1,9 +1,13 @@
 <?php
 $title = get_sub_field('title');
+global $b;
+$id = $b - 1;
 
 $image = get_sub_field('image');
 $size  = 'large';
 $image_url = $image['sizes'][ $size ];
+
+
 
 $type = get_sub_field('type');
 $conditions = get_sub_field('conditions');
@@ -13,7 +17,7 @@ $info = get_sub_field('info');
 ?>
 
 
-<article>
+<article class="spots" id="<?php echo $id;?>" >
   <?php if ($image):?>
     <header class="image-box" style="background-image:url('<?php echo $image_url;?>')">
       <section class="content" >
@@ -32,24 +36,7 @@ $info = get_sub_field('info');
         <?php echo $type ?>
       </p>
     <?php endif;?>
-    <?php if ($conditions):?>
-      <h3 class="yellow">Works best with</h3>
-      <p>
-        <?php echo $conditions ?>
-      </p>
-    <?php endif;?>
-    <?php if ($crowd):?>
-      <h3 class="green">Crowd</h3>
-      <p>
-        <?php echo $crowd ?>
-      </p>
-    <?php endif;?>
-    <?php if ($info):?>
-      <h3 class="yellow">Information &amp; board rental</h3>
-      <p>
-        <?php echo $info ?>
-      </p>
-    <?php endif;?>
+  
 
   </section>
 </article>
