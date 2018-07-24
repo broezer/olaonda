@@ -39,7 +39,18 @@ main.adventures{
 
     }
   }
-
+	article{
+		a.svg-link{
+      position: relative;
+      margin-top:4vw;
+      margin-left:-2px;
+      display: block;
+      width:80%;
+      &:before{
+        display:none;
+      }
+    }
+	}
   article.surfing section{
     p.content{
       @include span-columns(4 of 10);
