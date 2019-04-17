@@ -6,15 +6,27 @@ main.adventures{
     //display: flex;
     //flex-wrap: wrap;
     //flex-direction: row;
-
+    @include media($small-screen){
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+    }
     p.content{
       @include span-columns(5 of 10);
+      @include media($small-screen){
+        width:100%;
+      }
     }
     figure{
       @include aspect-ratio(1,1);
       @include span-columns(5 of 10);
       background-size:cover;
       background-position: center center;
+      @include media($small-screen){
+        @include aspect-ratio(16,9);
+        width:100%;
+        margin-bottom: calc(15px + 15 * (100vw - 320px) / 448);
+      }
     }
   }
 
@@ -28,6 +40,9 @@ main.adventures{
       flex-wrap: wrap;
       flex-direction: row-reverse;
       justify-content: space-between;
+      @include media($small-screen){
+        flex-direction: column-reverse;
+      }
     }
 
     p.content{
@@ -36,6 +51,10 @@ main.adventures{
     }
     figure{
       @include span-columns(5 of 10);
+      @include media($small-screen){
+        width:100%;
+        margin-bottom: calc(15px + 15 * (100vw - 320px) / 448);
+      }
 
     }
   }
@@ -49,17 +68,36 @@ main.adventures{
       &:before{
         display:none;
       }
+      @include media($small-screen){
+        width:100%;
+      }
     }
-	}
+  }
+  
+
   article.surfing section{
+    @include media($small-screen){
+      display:flex;
+      flex-wrap:wrap;
+      flex-direction: column-reverse;
+    }
     p.content{
       @include span-columns(4 of 10);
+      @include media($small-screen){
+        width:100%;
+      }
 
     }
     figure{
       @include span-columns(5 of 10);
       @include shift(1);
       @include aspect-ratio(3,4);
+      @include media($small-screen){
+        width:100%;
+        margin:0;
+        margin-bottom: calc(15px + 15 * (100vw - 320px) / 448);
+        @include aspect-ratio(16,9);
+      }
     }
     a.svg-link{
       position: relative;
@@ -69,6 +107,9 @@ main.adventures{
       width:80%;
       &:before{
         display:none;
+      }
+      @include media($small-screen){
+        width:100%;
       }
     }
   }
@@ -113,6 +154,9 @@ article.sightseeing{
       p.content{
         width:100%;
       }
+      @include media($small-screen){
+        width:100%;
+      }
     }
 
     figure{
@@ -120,6 +164,9 @@ article.sightseeing{
       @include aspect-ratio(4,3);
       background-size:cover;
       background-position: center center;
+      @include media($small-screen){
+        width:100%;
+      }
     }
   }
 

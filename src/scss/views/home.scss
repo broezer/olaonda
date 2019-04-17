@@ -38,7 +38,7 @@ h1.enjoy-ola{
 .enjoy{
   color:$green;
   //Mobile
-  @include fluid-type(font-size, 320px, 768px, 38.5px, 81px);
+  @include fluid-type(font-size, 320px, 768px, 34px, 34px);
   //Desktop large
   @include fluid-type(font-size, 768px, 1200px, 81px, 130px);
   //Desktop xL
@@ -48,7 +48,7 @@ h1.enjoy-ola{
 .ericeira{
   color:$yellow;
   //Mobile
-  @include fluid-type(font-size, 320px, 768px, 26px, 56px);
+  @include fluid-type(font-size, 320px, 768px, 34px, 34px);
   //Desktop large
   @include fluid-type(font-size, 768px, 1200px, 56px, 88px);
   //Desktop xl
@@ -58,7 +58,7 @@ h1.enjoy-ola{
 .with-us{
   color:$green;
   //Mobile
-  @include fluid-type(font-size, 320px, 768px, 28px, 62px);
+  @include fluid-type(font-size, 320px, 768px, 34px, 34px);
   //Desktop large
   @include fluid-type(font-size, 768px, 1200px, 62px, 98px);
   //Desktop xl
@@ -172,6 +172,7 @@ article.why{
           text-align:center;
           color:white;
           width:100%;
+          font-size: 11px;
         }
         @include media($small-screen){
           width:50%;
@@ -301,10 +302,15 @@ a.chevron-sign{
 .testimonials{
   blockquote{
     @include span-columns(5);
-    @include omega(2n);
+    @include media($small-screen){
+      width:100%;
+    }
   }
   blockquote:first-child{
-      @include shift(1);
+      @include media($small-screen){
+        width:100%;
+  
+      }
   }
 }
 
@@ -328,6 +334,9 @@ article.social-feed{
   .insta-feed{
     width:34%;
     @include aspect-ratio(1,1);
+    @include media($small-screen){
+      width:100%;
+    }
     header{
       display: table;
       margin:0;
@@ -340,6 +349,10 @@ article.social-feed{
   }
   .blog-item{
     width:62%;
+    @include media($small-screen){
+      width: 100%;
+      min-height: 185px;
+    }
   }
 
   .insta-feed, .blog-item{
@@ -380,9 +393,15 @@ article.social-feed{
     }
 	}
 	.insta-feed{
-		background-size:160%;
+    background-size:160%;
+    @include media($small-screen){
+      background-size:cover;
+    }
 		&:hover{
-			background-size:180%;
+      background-size:180%;
+      @include media($small-screen){
+        background-size:cover;
+      }
 		}
 	}
 }

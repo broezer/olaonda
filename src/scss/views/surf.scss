@@ -28,12 +28,19 @@ main.surf{
 
       section{
           @include span-columns(6 of 10);
+          @include media($small-screen){
+            width:100%;
+          }
       }
       figure{
           @include span-columns(4 of 10);
           @include aspect-ratio(16,11);
           background-size:cover;
           background-position: center center;
+          @include media($small-screen){
+            width:100%;
+            @include aspect-ratio(16,9);
+          }
       }
       section, figure{
         margin-right:0;

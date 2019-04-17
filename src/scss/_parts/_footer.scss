@@ -16,6 +16,9 @@ footer.footer{
     width:15%;
     display: block;
     margin:0 auto;
+    @include media($small-screen){
+      width:40%;
+    }
 }
 
 footer{

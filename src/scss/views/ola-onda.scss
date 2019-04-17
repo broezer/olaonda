@@ -58,16 +58,35 @@ header.ola-onda{
     }
   }
 }
+.page-template-page-ola-onda main article{
+  .wrapper-11{
 
-article.breakfast{
-  //@include bg-cover('../assets/img/breakfast.jpg');
-  //background-position: 88% 60%;
-  //background-size:25%;
+    @include media($small-screen){
+     
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+.page-template-page-ola-onda main  article.breakfast{
+
+  .wrapper-11{
+    @include media($small-screen){
+      flex-direction: column;
+    }
+  }
+  
 
 }
 
+
+
 section.ericeira-img{
   padding-right:$column*0.75;
+  @include media($small-screen){
+   padding-right:$column*0.5;
+  }
 }
 
 article.world-surf-reserve{
@@ -80,6 +99,14 @@ article.world-surf-reserve{
 .location{
   .wrapper{
     display: flex;
+    @include media($small-screen){
+      display: block;
+    }
+    .left-4{
+      @include media($small-screen){
+        min-height: 400px;
+      }
+    }
   }
   .acf-map{
     position: absolute;
@@ -127,6 +154,11 @@ article.sun{
 	background-color:$yellow;
   background-position: 80% 50%;
   background-size:15%;
+  @include media($small-screen){
+    background-position: center;
+    background-size: 50%;
+
+  }
 }
 article.sea-temp{
   background:$green;
@@ -135,13 +167,24 @@ article.sea-temp{
   background-position: 20% 50%;
   background-size:15%;
   padding-right:$gutter;
+  @include media($small-screen){
+    background-position: center;
+    background-size: 50%;
+
+  }
 }
 
 article.surf-bus{
   @include bg-cover('../assets/svg/bus.svg');
   background-position: 80% 60%;
   background-size:15%;
-	background-color:white;
+  background-color:white;
+  @include media($small-screen){
+    background-position: center;
+    background-size: 50%;
+    background:none;
+    
+  }  
 }
 
 figure.about-us-image{
@@ -150,6 +193,10 @@ figure.about-us-image{
   border-radius: 50%;
   background-size: cover;
   background-position: left center;
+  @include media($small-screen){
+    width: 60%;
+    margin: 0 12%;
+  }
 }
 
 
@@ -163,9 +210,14 @@ figure.breakfast-image{
   width:80%;
   margin-left:10%;
   margin-right:10%;
+  @include media($small-screen){
+    width: 60%;
+    margin: 0 12%;
+  }
 }
 
 article.breakfast{
   //padding-bottom: 12vw;
   //padding-top: 14vw;
 }
+

@@ -8,6 +8,9 @@
       height:auto;
       margin:0 auto;
       margin-bottom:2vw;
+      @include media($small-screen){
+        width:100%;
+      }
     }
   }
 }

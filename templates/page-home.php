@@ -143,14 +143,16 @@ get_header(); ?>
   </article>
 
   <article class="testimonials">
-    <blockquote>
-      <?php the_field('testimonial_01');?>
-      <footer><h4 class="green">— <cite><?php the_field('testimonial_01_name');?></cite></h4></footer>
-    </blockquote>
-    <blockquote>
-      <?php the_field('testimonial_02');?>
-      <footer><h4 class="green">— <cite><?php the_field('testimonial_02_name');?></cite></h4></footer>
-    </blockquote>
+    <div class="wrapper">
+      <blockquote>
+        <?php the_field('testimonial_01');?>
+        <footer><h4 class="green">— <cite><?php the_field('testimonial_01_name');?></cite></h4></footer>
+      </blockquote>
+      <blockquote>
+        <?php the_field('testimonial_02');?>
+        <footer><h4 class="green">— <cite><?php the_field('testimonial_02_name');?></cite></h4></footer>
+      </blockquote>
+    </div>
   </article>
 
 
