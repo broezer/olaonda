@@ -126,9 +126,9 @@ p, a{
   line-height: rem(48);
 
   //Mobile
-  @include fluid-type(font-size, 320px, 768px, 8px , 16px * $base-divide);
-  @include fluid-type(letter-spacing, 320px, 768px, 1px , 3.3px * $base-divide);
-  @include fluid-type(line-height, 320px, 768px, 16px , 32px * $base-divide);
+  @include fluid-type(font-size, 320px, 768px, 14px * $base-divide , 16px * $base-divide);
+  @include fluid-type(letter-spacing, 320px, 768px, 3.3px * $base-divide , 3.3px * $base-divide);
+  @include fluid-type(line-height, 320px, 768px, 32px * $base-divide , 32px * $base-divide);
   //Dekstop
   @include fluid-type(font-size, 768px, 1400px, 11.5px * $base-divide, 18px * $base-divide);
   @include fluid-type(letter-spacing, 768px, 1400px, 3.3px * $base-divide, 5px * $base-divide);
