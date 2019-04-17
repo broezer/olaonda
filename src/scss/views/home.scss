@@ -57,6 +57,7 @@ h1.enjoy-ola{
 }
 .with-us{
   color:$green;
+  white-space: nowrap;
   //Mobile
   @include fluid-type(font-size, 320px, 768px, 34px, 34px);
   //Desktop large
