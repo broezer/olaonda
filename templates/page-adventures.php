@@ -28,7 +28,14 @@ $image_url = $image['sizes'][ $size ];
 
   <article class="">
     <p class="full-width medium-italic">
-      <?php the_field_without_wpautop('intro');?>
+      
+      <?php 
+      $text = get_field('intro');
+      $stripped_text = str_replace(array('<p>','</p>'),'',$text);
+      //the_field('intro', false, false);
+      echo $stripped_text;
+      ?>
+      
     </p>
   </article>
 

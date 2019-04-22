@@ -21,7 +21,12 @@ $link = get_sub_field('page_url');
 
   <section class="wrapper">
     <p class="content">
-      <?php echo $content; ?>
+      <?php //echo $content; ?>
+			<?php 
+      $stripped_text = str_replace(array('<p>','</p>'),'',$content);
+      //the_field('intro', false, false);
+      echo $stripped_text;
+      ?>
 			<?php if ($link):?>
 			<a class="svg-link" href="<?php echo $link;?>">
 				<svg width="100%" height="125" viewBox="0 0 433 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
