@@ -131,3 +131,30 @@ section.gallery{
     }
   }
 }
+
+
+ul.prices{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  margin-bottom:$base-spacing;
+  margin-top:$base-spacing;
+  li{
+    width:30%;
+    text-align:center;
+    padding-bottom:$small-spacing;
+    &:nth-child(even){
+      //background:$green;
+      border:3px solid $green;
+    }
+    &:nth-child(odd){
+      //background:$yellow;
+      border:3px solid $yellow;
+    }
+    p{
+      font-weight:700;
+      color:black;
+    }
+  }
+}

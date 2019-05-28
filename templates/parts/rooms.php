@@ -4,6 +4,7 @@ $undertitle = get_sub_field('undertitle');
 //$img = get_sub_field('image');
 $content = get_sub_field('copy');
 $images = get_sub_field('photos');
+
 ?>
 
 
@@ -14,9 +15,26 @@ $images = get_sub_field('photos');
     <p class="">
       <?php echo $content;?>
     </p>
+    <?php 
+    // check for rows (sub repeater)
+    if( have_rows('prices') ): ?>
+      <ul class="prices">
+      <?php 
+
+      // loop through rows (sub repeater)
+      while( have_rows('prices') ): the_row();
+          // display each item as a list - with a class of completed ( if completed )
+          $month = get_sub_field('month');
+          $price = get_sub_field('price');
+        ?>
+        <li>
+          <p><?php echo $month;?><br/><?php echo $price;?></p>
+        </li>
+      <?php endwhile; ?>
+      </ul>
+  <?php endif; //if( get_sub_field('items') ): ?>
   </header>
   <section>
-
     <?php
 
 
