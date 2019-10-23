@@ -178,7 +178,7 @@
                 "5906f30c33818": {
                     "key": "5906f30c33818",
                     "name": "room",
-                    "label": "room",
+                    "label": "Section",
                     "display": "block",
                     "sub_fields": [
                         {
@@ -268,7 +268,7 @@
                     "max": ""
                 }
             },
-            "button_label": "Add Room",
+            "button_label": "Add Section",
             "min": "",
             "max": ""
         }
@@ -292,5 +292,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1571866563
+    "modified": 1571866964
 }
