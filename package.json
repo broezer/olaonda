@@ -27,5 +27,8 @@
     "gulp-sourcemaps": "^1.5.2",
     "gulp-uglify": "^2.0.0",
     "wiredep": "^3.0.1"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0"
   }
 }

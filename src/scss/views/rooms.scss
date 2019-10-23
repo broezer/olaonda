@@ -2,7 +2,7 @@ header.rooms{
     @include bg-cover('../assets/img/rooms-header.jpg');
 }
 
-section.amenities{
+section.amenities, section.prices{
   @include span-columns(10);
   @include shift(1);
   //Mobile
@@ -132,8 +132,11 @@ section.gallery{
   }
 }
 
+section.prices{
+  padding-top:0;
+}
 
-ul.prices{
+ul.prices, section.prices ul.prices{
   width:100%;
   display: flex;
   justify-content: space-between;
@@ -141,9 +144,13 @@ ul.prices{
   margin-bottom:$base-spacing;
   margin-top:$base-spacing;
   li{
-    width:30%;
+    width:33%;
     text-align:center;
     padding-bottom:$small-spacing;
+    @include media($small-screen){
+      width:100%;
+      margin-bottom:4px;
+    }
     &:nth-child(even){
       //background:$green;
       border:3px solid $green;
