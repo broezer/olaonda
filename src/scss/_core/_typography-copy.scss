@@ -123,10 +123,18 @@ h4{
 p, a{
   font-weight:300;
   color: $gray;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  line-height: 1.8em;
-  
+  font-size: rem(24);
+  letter-spacing: rem(5);
+  line-height: rem(48);
+
+  //Mobile
+  @include fluid-type(font-size, 320px, 768px, 14px * $base-divide , 16px * $base-divide);
+  @include fluid-type(letter-spacing, 320px, 768px, 3.3px * $base-divide , 3.3px * $base-divide);
+  @include fluid-type(line-height, 320px, 768px, 32px * $base-divide , 32px * $base-divide);
+  //Dekstop
+  @include fluid-type(font-size, 768px, 1400px, 11.5px * $base-divide, 18px * $base-divide);
+  @include fluid-type(letter-spacing, 768px, 1400px, 3.3px * $base-divide, 5px * $base-divide);
+  @include fluid-type(line-height, 768px, 1400px, 17.7px * $base-divide, 32px * $base-divide);
   &.medium-italic{
     font-weight:500;
     font-style:italic;
@@ -140,8 +148,12 @@ blockquote{
   @include fluid-type(margin-bottom, 320px, 768px, 42px, 84px);
   @include fluid-type(margin-bottom, 768px, 1400px, 84px, 150px);
 
+  //@include fluid-type(line-height, 320px, 768px, 17px, 34px);
+  //@include fluid-type(line-height, 768px, 1400px, 34px, 62px);
   footer{
     text-align:right;
+    //@include fluid-type(margin-top, 320px, 768px, 17px, 34px);
+    //@include fluid-type(margin-top, 768px, 1400px, 34px, 60px);
     margin-top:2vw;
   }
   cite{

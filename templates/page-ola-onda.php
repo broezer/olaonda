@@ -187,7 +187,7 @@ $breakfast_img_url = $breakfast_img['sizes'][ $size_03 ];
               <defs></defs>
                 <g>
                     <rect id="Rectangle-2" stroke="#89DAC1" stroke-width="11" x="5.5" y="5.5" width="422" height="114"></rect>
-                    <text id="" font-family="Montserrat-Bold, Montserrat" font-size="24" font-weight="bold" letter-spacing="5.5999999" fill="#89DAC1">
+                    <text id="" font-family="Montserrat" font-size="24" font-weight="bold" letter-spacing="5.5999999" fill="#89DAC1">
                         <tspan x="42" y="72">View rooms</tspan>
                     </text>
                     <polygon id="Triangle" fill="#89DAC1" points="374 63.5 349 76 349 51"></polygon>
