@@ -222,7 +222,7 @@ get_header(); ?>
     -->
     <?php // Display blog posts on any page @ https://m0n.co/l
       $temp = $wp_query; $wp_query= null;
-      $wp_query = new WP_Query(); $wp_query->query('posts_per_page=2' . '&paged='.$paged);
+      $wp_query = new WP_Query(); $wp_query->query('posts_per_page=4' . '&paged='.$paged);
       while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
       <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
       <article class="blog-item" style="background-image:url('<?php echo $url;?>')">

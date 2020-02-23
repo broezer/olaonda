@@ -351,6 +351,7 @@ article.social-feed{
   .blog-item{
     @include span-columns(6);
     @include aspect-ratio(16,7.5);
+    @include omega(1n);
     @include media($small-screen){
       width: 100%;
       min-height: 185px;
