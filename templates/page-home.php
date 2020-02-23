@@ -169,7 +169,7 @@ get_header(); ?>
       <p>
 
   </article>
-
+  
   <?php
   function fetchData($url){
       $ch = curl_init();
@@ -193,7 +193,10 @@ get_header(); ?>
     //echo date('M j, Y', $date[0]);
     //echo $images[1];
   ?>
-  <article class="social-feed">
+
+  
+  <article class="social-feed"> 
+    <!--
     <article class="insta-feed" style="background-image:url('<?php echo $images[0];?>')">
       <a href="<?php echo $link[0]; ?>"  target="_blank" title="Olá Onda on Instagram">
         <header>
@@ -216,7 +219,7 @@ get_header(); ?>
         </header>
       </a>
     </article>
-
+    -->
     <?php // Display blog posts on any page @ https://m0n.co/l
       $temp = $wp_query; $wp_query= null;
       $wp_query = new WP_Query(); $wp_query->query('posts_per_page=2' . '&paged='.$paged);
@@ -235,7 +238,7 @@ get_header(); ?>
     <?php endwhile; ?>
 
 
-
+    <!--
     <article class="insta-feed" style="background-image:url('<?php echo $images[1];?>')">
       <a href="<?php echo $link[1]; ?>"  target="_blank" title="Olá Onda on Instagram">
         <header>
@@ -258,6 +261,9 @@ get_header(); ?>
         </header>
       </a>
     </article>
+    -->
+
+
   </article>
 
 </main>
