@@ -16,6 +16,9 @@ nav.main-menu{
   .list{
     @include span-columns(12);
     text-align:center;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   ul{
     display: table;
@@ -49,8 +52,8 @@ nav.main-menu{
       }
       &.logo{
         @include fluid-type(max-width, 768px, 1400px, 100px, 140px);
-        padding-left:1vw;
-        padding-right:1.5vw;
+        padding-left:0vw;
+        padding-right:2.5vw;
         a{
           &:after{
             display: none;
@@ -83,6 +86,7 @@ nav.main-menu{
 .nav-adress{
   display: block;
   clear: both;
+  width:100%;
   //background:$green;
   section.content{
       @include fluid-type(max-width, 1440px, 1920px, 1200px, 1400px);
@@ -90,8 +94,12 @@ nav.main-menu{
       padding-top:0;
       padding-bottom:0;
       text-align:left;
+      
       p.adr{
-        margin-left:1vw;
+        //margin-left:1vw;
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
       }
       p, a{
         font-weight:300;

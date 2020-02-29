@@ -97,8 +97,8 @@ h3{
   text-transform: uppercase;
   margin:0;
   //Mobile
-  @include fluid-type(font-size, 320px, 768px, 16px, 16px * $base-divide);
-  @include fluid-type(letter-spacing, 320px, 768px, 3.3px , 3.3px * $base-divide);
+  @include fluid-type(font-size, 320px, 768px, 12px, 12px * $base-divide);
+  @include fluid-type(letter-spacing, 320px, 768px, 2.3px , 2.3px * $base-divide);
   @include fluid-type(line-height, 320px, 768px, 32px , 32px * $base-divide);
   //Dekstop
   @include fluid-type(font-size, 768px, 1400px, 11.5px * $base-divide, 18px * $base-divide);

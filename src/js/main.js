@@ -25,6 +25,27 @@
       }
 
     );
+
+    $('.ola-months').lightSlider({
+      item: 3,
+      loop:false,
+      slideMargin: 20,
+      controls: true,
+      vertical:false,
+      prevHtml: '',
+      nextHtml: '',
+      responsive : [
+          {
+              breakpoint:768,
+              settings: {
+                  item:1,
+                }
+          }
+      ]
+    }
+
+  );
+
   });
 
 

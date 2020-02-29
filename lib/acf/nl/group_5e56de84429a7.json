@@ -1,9 +1,9 @@
 {
-    "key": "group_5906f2aedd68c",
+    "key": "group_5e56de84429a7",
     "title": "Rooms",
     "fields": [
         {
-            "key": "field_5906f8f890e38",
+            "key": "field_5e56de84429c2",
             "label": "Header Image",
             "name": "header_image",
             "type": "image",
@@ -28,7 +28,7 @@
             "mime_types": ""
         },
         {
-            "key": "field_5a4b4e2bec05e",
+            "key": "field_5e56de84429cc",
             "label": "Subtitle",
             "name": "subtitle",
             "type": "text",
@@ -48,7 +48,7 @@
             "maxlength": ""
         },
         {
-            "key": "field_5906f2bb10e82",
+            "key": "field_5e56de84429d6",
             "label": "intro",
             "name": "intro",
             "type": "textarea",
@@ -68,7 +68,7 @@
             "new_lines": "br"
         },
         {
-            "key": "field_5906f2d710e83",
+            "key": "field_5e56de84429e0",
             "label": "Message",
             "name": "message",
             "type": "textarea",
@@ -88,7 +88,7 @@
             "new_lines": "br"
         },
         {
-            "key": "field_5906f30610e84",
+            "key": "field_5e56de84429e9",
             "label": "Rooms",
             "name": "rooms",
             "type": "flexible_content",
@@ -109,7 +109,7 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_5906f31610e85",
+                            "key": "field_5e56de8455893",
                             "label": "Title",
                             "name": "title",
                             "type": "text",
@@ -129,7 +129,7 @@
                             "maxlength": ""
                         },
                         {
-                            "key": "field_5906f32510e86",
+                            "key": "field_5e56de84558a3",
                             "label": "Undertitle",
                             "name": "undertitle",
                             "type": "text",
@@ -149,7 +149,7 @@
                             "maxlength": ""
                         },
                         {
-                            "key": "field_5906f33610e87",
+                            "key": "field_5e56de84558af",
                             "label": "Copy",
                             "name": "copy",
                             "type": "textarea",
@@ -169,7 +169,7 @@
                             "new_lines": "br"
                         },
                         {
-                            "key": "field_597f1ac2be20e",
+                            "key": "field_5e56de84558bd",
                             "label": "Foto",
                             "name": "photos",
                             "type": "gallery",
@@ -197,9 +197,9 @@
                             "mime_types": ""
                         },
                         {
-                            "key": "field_5e56e8a0668c8",
+                            "key": "field_5e56e7f37759b",
                             "label": "Subtitle",
-                            "name": "Subtitle",
+                            "name": "subtitle",
                             "type": "text",
                             "instructions": "",
                             "required": 0,
@@ -210,14 +210,14 @@
                                 "id": ""
                             },
                             "wpml_cf_preferences": 2,
-                            "default_value": "Availability & Room Price (per night)",
+                            "default_value": "Beschikbaarheid & Kamer Prijs (per night)",
                             "placeholder": "",
                             "prepend": "",
                             "append": "",
                             "maxlength": ""
                         },
                         {
-                            "key": "field_5e53a39e517b0",
+                            "key": "field_5e56de84558c8",
                             "label": "Prices",
                             "name": "price",
                             "type": "group",
@@ -233,7 +233,7 @@
                             "layout": "table",
                             "sub_fields": [
                                 {
-                                    "key": "field_5e53a3b7517b3",
+                                    "key": "field_5e56de853348d",
                                     "label": "April",
                                     "name": "april",
                                     "type": "number",
@@ -255,31 +255,9 @@
                                     "step": ""
                                 },
                                 {
-                                    "key": "field_5e53a3ed517b4",
-                                    "label": "May",
+                                    "key": "field_5e56de85334a8",
+                                    "label": "Mei",
                                     "name": "may",
-                                    "type": "number",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "default_value": "",
-                                    "placeholder": "",
-                                    "prepend": "",
-                                    "append": "",
-                                    "min": "",
-                                    "max": "",
-                                    "step": "",
-                                    "wpml_cf_preferences": "1"
-                                },
-                                {
-                                    "key": "field_5e53a3fd517b5",
-                                    "label": "June",
-                                    "name": "june",
                                     "type": "number",
                                     "instructions": "",
                                     "required": 0,
@@ -299,8 +277,30 @@
                                     "step": ""
                                 },
                                 {
-                                    "key": "field_5e53a402517b6",
-                                    "label": "July",
+                                    "key": "field_5e56de85334b4",
+                                    "label": "Juni",
+                                    "name": "june",
+                                    "type": "number",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "wpml_cf_preferences": 0,
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "min": "",
+                                    "max": "",
+                                    "step": ""
+                                },
+                                {
+                                    "key": "field_5e56de85334d8",
+                                    "label": "Juli",
                                     "name": "july",
                                     "type": "number",
                                     "instructions": "",
@@ -321,8 +321,8 @@
                                     "step": ""
                                 },
                                 {
-                                    "key": "field_5e53a40c517b7",
-                                    "label": "August",
+                                    "key": "field_5e56de85334ec",
+                                    "label": "Augustus",
                                     "name": "august",
                                     "type": "number",
                                     "instructions": "",
@@ -343,7 +343,7 @@
                                     "step": ""
                                 },
                                 {
-                                    "key": "field_5e53a41c517b8",
+                                    "key": "field_5e56de85334fb",
                                     "label": "September",
                                     "name": "september",
                                     "type": "number",
@@ -365,8 +365,8 @@
                                     "step": ""
                                 },
                                 {
-                                    "key": "field_5e53a425517b9",
-                                    "label": "October",
+                                    "key": "field_5e56de853350e",
+                                    "label": "Oktober",
                                     "name": "october",
                                     "type": "number",
                                     "instructions": "",
@@ -389,7 +389,7 @@
                             ]
                         },
                         {
-                            "key": "field_5e53a14b7c9e2",
+                            "key": "field_5e56de856a56e",
                             "label": "April",
                             "name": "april",
                             "type": "checkbox",
@@ -442,7 +442,7 @@
                             "save_custom": 0
                         },
                         {
-                            "key": "field_5e53a2b2d0774",
+                            "key": "field_5e56de8588a2c",
                             "label": "May",
                             "name": "may",
                             "type": "checkbox",
@@ -496,7 +496,7 @@
                             "save_custom": 0
                         },
                         {
-                            "key": "field_5e53a2c6d0775",
+                            "key": "field_5e56de858d664",
                             "label": "June",
                             "name": "june",
                             "type": "checkbox",
@@ -549,7 +549,7 @@
                             "save_custom": 0
                         },
                         {
-                            "key": "field_5e53a2d8d0776",
+                            "key": "field_5e56de85aa869",
                             "label": "July",
                             "name": "july",
                             "type": "checkbox",
@@ -603,7 +603,7 @@
                             "save_custom": 0
                         },
                         {
-                            "key": "field_5e53b6b5f1786",
+                            "key": "field_5e56de85c7033",
                             "label": "August",
                             "name": "august",
                             "type": "checkbox",
@@ -657,7 +657,7 @@
                             "save_custom": 0
                         },
                         {
-                            "key": "field_5e53a306d0778",
+                            "key": "field_5e56de85e4a07",
                             "label": "September",
                             "name": "september",
                             "type": "checkbox",
@@ -710,7 +710,7 @@
                             "save_custom": 0
                         },
                         {
-                            "key": "field_5e53a324d0779",
+                            "key": "field_5e56de8610f9d",
                             "label": "October",
                             "name": "october",
                             "type": "checkbox",
@@ -764,7 +764,7 @@
                             "save_custom": 0
                         },
                         {
-                            "key": "field_5e53a57b77ddf",
+                            "key": "field_5e56de862f08e",
                             "label": "Extra Copy",
                             "name": "copy2",
                             "type": "textarea",
@@ -812,5 +812,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1582756615
+    "modified": 1582756637
 }

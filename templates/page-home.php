@@ -171,6 +171,7 @@ get_header(); ?>
   </article>
   
   <?php
+  /*
   function fetchData($url){
       $ch = curl_init();
       curl_setopt($ch, CURLOPT_URL, $url);
@@ -192,6 +193,7 @@ get_header(); ?>
     //echo $images[0];
     //echo date('M j, Y', $date[0]);
     //echo $images[1];
+    */
   ?>
 
   

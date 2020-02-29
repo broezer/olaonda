@@ -16,7 +16,9 @@ section.amenities, section.prices{
     padding-right:2vw;
     li{
       width:25%;
-        text-align: center;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
     }
   }
   svg{
@@ -32,6 +34,8 @@ section.amenities, section.prices{
 
     @include fluid-type(padding-top, 320px, 768px, 10px, 17px);
     @include fluid-type(padding-top, 768px, 1440px, 17px, 31px);
+    align-self: flex-end;
+    width:100%;
   }
 }
 
@@ -86,8 +90,11 @@ article.room{
 article.room:nth-child(odd){
   header{
     h1,h2{
-      color:$green;
+      color:$green; 
     }
+  }
+  h3{
+    color:$green;
   }
 }
 
@@ -97,7 +104,17 @@ article.room:nth-child(even){
       color:$yellow;
     }
   }
+  h3{
+    color:$yellow;
+  }
 }
+
+article.room:nth-child(even), article.room:nth-child(odd){
+  .ola-months li h3{
+    color: $dark-gray;
+  }
+}
+
 
 section.gallery{
   @include span-columns(10);
@@ -130,6 +147,10 @@ section.gallery{
       }
     }
   }
+}
+
+section.dates{
+  padding-top:15px;
 }
 
 section.prices{
@@ -165,4 +186,10 @@ ul.prices, section.prices ul.prices{
       color:black;
     }
   }
+}
+
+
+main article .left-4.book-room{
+  float: none;
+  margin: 0 auto;
 }

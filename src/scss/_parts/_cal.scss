@@ -1,0 +1,58 @@
+.cal {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    div{
+        text-align:center;
+        background:$green;
+        color:white;
+        font-weight:400;
+    }
+    .checked{
+        background:#969A99;
+    }
+    .day, .empty{
+        background:#EAEAEA;
+        color: #969A99;
+    }
+}
+
+.monday { grid-area: 1 / 1 / 2 / 2; }
+.tuesday { grid-area: 1 / 2 / 2 / 3; }
+.wednesday { grid-area: 1 / 3 / 2 / 4; }
+.thursday { grid-area: 1 / 4 / 2 / 5; }
+.friday { grid-area: 1 / 5 / 2 / 6; }
+.saturday { grid-area: 1 / 6 / 2 / 7; }
+.sunday { grid-area: 1 / 7 / 2 / 8; }
+
+
+@import "_cal/april";
+@import "_cal/may";
+@import "_cal/june";
+@import "_cal/july";
+@import "_cal/august";
+@import "_cal/september";
+@import "_cal/october";
+
+.cal-legend {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 4px;
+    grid-row-gap: 0px;
+    width:260px;
+    min-width: 260px;
+    font-size: 14px;
+    line-height: 1.8em;
+    margin-top:5px;
+    margin-bottom:15px;
+
+    .div1 { grid-area: 1 / 1 / 2 / 2; background:$green; }
+    .div2 { grid-area: 1 / 2 / 2 / 4;  }
+    .div3 { grid-area: 1 / 4 / 2 / 5; background:#969A99;}
+    .div4 { grid-area: 1 / 5 / 2 / 7;  }
+}
+    
+    

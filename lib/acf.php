@@ -32,6 +32,19 @@ function my_acf_json_load_point( $paths ) {
 
 }
 
+function my_acf_admin_head() {
+    ?>
+    <style type="text/css">
+
+    /* css here */
+    ul.acf-radio-list li label, ul.acf-checkbox-list li label{
+        font-family: monospace;
+    }
+    </style>
+    <?php
+}
+
+add_action('acf/input/admin_head', 'my_acf_admin_head');
 
 
-?>
+

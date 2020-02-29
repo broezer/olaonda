@@ -36,6 +36,7 @@
 	  if ($hostname == 'olaonda.test'  ): //Set hostname as provided
 	?>
 	<!-- bower:css -->
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/bower_components/lightslider/src/css/lightslider.css" />
 	<!-- endbower -->
 
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/dev.css" />
@@ -83,14 +84,13 @@
 		</div>
 		<div class="nav-adress">
 			<section class="content vcard">
-	      <p class="adr">
-	        <span class="street-address">Rua Encosta da Abadia, 4</span>
-	        <span class="postal-code">2655-432</span>
-	        <span class="locality">Ericeira</span>
-	      </p>
-	      <a class="email underline" href="mailto:info@ola-onda-ericeira.com">info@ola-onda-ericeira.com</a>
-	      <a class="tel phone-number" href="tel:+351937323140">+351 937 323 140</a>
-
+				<p class="adr">
+					<span class="street-address">Rua Encosta da Abadia, 4</span>
+					<span class="postal-code">2655-432</span>
+					<span class="locality">Ericeira</span>
+					<a class="email underline" href="mailto:info@ola-onda-ericeira.com">info@ola-onda-ericeira.com</a>
+					<a class="tel phone-number" href="tel:+351937323140">+351 937 323 140</a>
+				</p>
 	    </section>
 
 		</div>
@@ -117,10 +117,11 @@
 	      <p class="adr">
 	        <span class="street-address">Rua Encosta da Abadia, 4</span>
 	        <span class="postal-code">2655-432</span>
-	        <span class="locality">Ericeira</span>
+			<span class="locality">Ericeira</span>
+			<a class="email underline" href="mailto:info@ola-onda-ericeira.com">info@ola-onda-ericeira.com</a>
+	        <a class="tel phone-number" href="tel:+351937323140">+351 937 323 140</a>
 	      </p>
-	      <a class="email underline" href="mailto:info@ola-onda-ericeira.com">info@ola-onda-ericeira.com</a>
-	      <a class="tel phone-number" href="tel:+351937323140">+351 937 323 140</a>
+	      
 
 	    </section>
 		</div>

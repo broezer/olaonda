@@ -3,7 +3,10 @@ $title = get_sub_field('title');
 $undertitle = get_sub_field('undertitle');
 //$img = get_sub_field('image');
 $content = get_sub_field('copy');
+$subtitle = get_sub_field('Subtitle');
+$extra_content = get_sub_field('copy2');
 $images = get_sub_field('photos');
+
 
 ?>
 
@@ -15,24 +18,6 @@ $images = get_sub_field('photos');
     <p class="">
       <?php echo $content;?>
     </p>
-    <?php 
-    // check for rows (sub repeater)
-    if( have_rows('prices') ): ?>
-      <ul class="prices">
-      <?php 
-
-      // loop through rows (sub repeater)
-      while( have_rows('prices') ): the_row();
-          // display each item as a list - with a class of completed ( if completed )
-          $month = get_sub_field('month');
-          $price = get_sub_field('price');
-        ?>
-        <li>
-          <p><?php echo $month;?><br/><?php echo $price;?></p>
-        </li>
-      <?php endwhile; ?>
-      </ul>
-  <?php endif; //if( get_sub_field('items') ): ?>
   </header>
   <section>
     <?php
@@ -50,6 +35,30 @@ $images = get_sub_field('photos');
             <?php endforeach; ?>
         </ul>
     <?php endif; ?>
+  </section>
+  <section class="dates">
+
+    <h3><?php echo $subtitle;?></h3>           
+    
+    <ul class="ola-months">  
+      <li><?php get_template_part( 'templates/parts/cal/april'); ?></li>
+      <li><?php get_template_part( 'templates/parts/cal/may'); ?></li>
+      <li><?php get_template_part( 'templates/parts/cal/june'); ?></li>
+      <li><?php get_template_part( 'templates/parts/cal/july'); ?></li>
+      <li><?php get_template_part( 'templates/parts/cal/august'); ?></li>
+      <li><?php get_template_part( 'templates/parts/cal/september'); ?></li>
+      <li><?php get_template_part( 'templates/parts/cal/october'); ?></li>
+    </uL>
+    <div class="parent cal-legend">
+      <div class="div1"> </div>
+      <div class="div2">Available </div>
+      <div class="div3"> </div>
+      <div class="div4">Booked</div>
+    </div>
+    <p class="">
+      <?php echo $extra_content;?>
+    </p>
+
   </section>
 
 </article>
