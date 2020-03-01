@@ -27,7 +27,7 @@
     );
 
     $('.ola-months').lightSlider({
-      item: 5,
+      item: 3,
       loop:false,
       slideMargin: 20,
       controls: true,
@@ -38,7 +38,7 @@
           {
               breakpoint:768,
               settings: {
-                  item:3,
+                  item:1,
                 }
           }
       ]
