@@ -29,20 +29,19 @@ $image_url = $image['sizes'][ $size ];
   </header>
 
   <article class="rooms">
-    <p class="full-width">
+    <p class="full-width medium-italic">
       <?php the_field('intro');?>
     </p>
     <section class="amenities">
 
       <ul>
-        <li>
-          <svg width="73px" viewBox="264 1321 73 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <g id="iconmonstr-wireless-7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(264.000000, 1321.000000)">
-                  <path d="M6.66133815e-15,15.732 C9.213,6.012 21.942,0 36,0 C50.061,0 62.787,6.012 72,15.732 L65.883,22.182 C58.236,14.118 47.67,9.126 36,9.126 C24.33,9.126 13.764,14.118 6.117,22.182 L0,15.732 L6.66133815e-15,15.732 Z M17.16,33.834 C21.981,28.746 28.641,25.602 36,25.602 C43.359,25.602 50.019,28.746 54.84,33.834 L61.119,27.21 C54.69,20.427 45.81,16.233 36,16.233 C26.19,16.233 17.31,20.427 10.881,27.21 L17.16,33.834 L17.16,33.834 Z M28.134,45.411 C30.147,43.287 32.928,41.976 36,41.976 C39.069,41.976 41.853,43.287 43.866,45.411 L50.037,38.901 C46.446,35.112 41.484,32.769 36.003,32.769 C30.522,32.769 25.56,35.115 21.969,38.901 L28.134,45.411 L28.134,45.411 Z M36,48.462 C32.814,48.462 30.231,51.045 30.231,54.231 C30.231,57.417 32.814,60 36,60 C39.186,60 41.769,57.417 41.769,54.231 C41.769,51.045 39.186,48.462 36,48.462 L36,48.462 Z" id="Shape" fill="#89DAC1" fill-rule="nonzero"></path>
-              </g>
-          </svg>
-          <h3>free<br/>wifi</h3>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" width="71px" viewBox="0 0 24 24" id="kitchen" fill="#89DAC1">
+          <path d="M16 22h5v2h-5v-2zm-13 2h5v-2h-5v2zm10-19h-2v1h2v-1zm10-5v21h-22v-21h22zm-14 15h-3v2h3v-2zm0-3h-3v2h3v-2zm0-3h-3v2h3v-2zm5 6h-4v2h4v-2zm0-3h-4v2h4v-2zm0-3h-4v2h4v-2zm4 6h-3v2h3v-2zm0-3h-3v2h3v-2zm0-3h-3v2h3v-2zm0-5h-12v3h12v-3zm-8 1h-2v1h2v-1z"/>
+        </svg>
+          <h3>kitchen</h3>
         </li>
+        
         <li>
           <svg width="72px"  viewBox="546 1330 72 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Shower_symbol" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(546.333333, 1330.000000)">
@@ -51,7 +50,7 @@ $image_url = $image['sizes'][ $size ];
                 </g>
             </g>
           </svg>
-          <h3>private bathrooms </h3>
+          <h3>bathrooms</h3>
         </li>
         <li>
           <svg width="71px"  viewBox="826 1329 71 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -60,35 +59,53 @@ $image_url = $image['sizes'][ $size ];
                   <path d="M69.3682051,32.0241103 L61.6208205,17.9493241 L61.6951282,17.9493241 L61.6951282,4.92565517 C61.6951282,2.26253793 59.5265641,0.0961103448 56.8608205,0.0961103448 L12.8918462,0.0961103448 C10.2261026,0.0961103448 8.05753846,2.26253793 8.05753846,4.92565517 L8.05753846,17.9493241 L8.13184615,17.9493241 L0.384102564,32.0241103 L69.3682051,32.0241103 Z M17.8564615,13.2897655 C17.8564615,11.728331 19.1283077,10.4577379 20.6912821,10.4577379 L48.5530769,10.4577379 C50.3964103,10.4577379 51.8962051,11.9556966 51.8962051,13.7972138 L51.8962051,14.3996966 C51.8962051,16.2408552 50.3964103,17.7391724 48.5530769,17.7391724 L21.1992308,17.7391724 C19.3558974,17.7391724 17.8564615,16.2412138 17.8564615,14.3996966 L17.8564615,13.2897655 Z M11.4092821,17.9496828 L16.1086154,17.9496828 C17.2332821,19.5541517 19.0938462,20.6077793 21.1992308,20.6077793 L48.5534359,20.6077793 C50.6584615,20.6077793 52.5193846,19.5541517 53.6440513,17.9496828 L58.3433846,17.9496828 L64.511641,29.1555034 L5.24102564,29.1555034 L11.4092821,17.9496828 Z M69.7526667,34.3049379 L69.7526667,47.4889103 C69.7526667,49.7869517 67.8813333,51.6568 65.5810256,51.6568 L4.172,51.6568 C1.87169231,51.6564414 0,49.7869517 0,47.4885517 L0,34.3045793 L69.7526667,34.3045793 L69.7526667,34.3049379 Z" id="Shape" fill="#89DAC1" fill-rule="nonzero"></path>
               </g>
           </svg>
-          <h3>big<br/>beds</h3>
+          <h3>kingsize beds</h3>
         </li>
         <li>
-        <svg xmlns="http://www.w3.org/2000/svg" width="71px" viewBox="0 0 24 24" id="kitchen" fill="#FFE581">
-          <path d="M16 22h5v2h-5v-2zm-13 2h5v-2h-5v2zm10-19h-2v1h2v-1zm10-5v21h-22v-21h22zm-14 15h-3v2h3v-2zm0-3h-3v2h3v-2zm0-3h-3v2h3v-2zm5 6h-4v2h4v-2zm0-3h-4v2h4v-2zm0-3h-4v2h4v-2zm4 6h-3v2h3v-2zm0-3h-3v2h3v-2zm0-3h-3v2h3v-2zm0-5h-12v3h12v-3zm-8 1h-2v1h2v-1z"/>
-        </svg>
-          <h3>private kitchen</h3>
+          <svg width="55px" height="60px" viewBox="0 0 55 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+              <g id="MAIN_v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="02---Rooms" transform="translate(-439.000000, -1272.000000)" fill="#FFE581" fill-rule="nonzero">
+                      <g id="Terrace" transform="translate(467.458160, 1301.667974) rotate(-15.000000) translate(-467.458160, -1301.667974) translate(439.458160, 1271.167974)">
+                          <path d="M30.1358919,4.76610722 L30.1358919,2.31814553 C30.1358919,1.0385292 29.0996809,0 27.8177464,0 C26.5358119,0 25.4996009,1.0385292 25.4996009,2.31814553 L25.4996009,4.75683464 C9.46730636,5.9669066 1.45811354,17.7245408 0,27.7203843 C4.32334142,21.5147087 14.224141,21.5147087 18.5451643,27.7203843 C22.8012795,21.6074345 32.558354,21.486891 36.8979225,27.7203843 C41.2189457,21.5147087 51.3144695,21.5147087 55.6354928,27.7203843 C54.1866518,17.7732218 46.0731425,6.08513203 30.1358919,4.76610722 Z M8.7208635,18.4408477 C13.2412473,12.3371705 19.4561955,9.68984833 25.9539574,9.30503617 C21.3014393,13.0650682 18.9462034,18.7700244 18.5451643,21.2875304 C15.6150283,19.2568349 12.0937652,18.3156679 8.7208635,18.4408477 Z M36.9048769,21.2898486 C36.5223829,18.8233417 34.3015995,13.0836134 29.6884898,9.31199061 C36.030936,9.72230237 42.2760201,12.3000802 46.8752208,18.4408477 C43.1545973,18.3156679 39.6866515,19.3727422 36.9048769,21.2898486 Z M30.1358919,28.1816953 L30.1358919,60.3576411 C30.1358919,60.3576411 25.4996009,60.3576411 25.4996009,60.3576411 L25.4996009,28.1283779 C27.0759398,27.604477 28.4436457,27.5673867 30.1358919,28.1816953 Z" id="Shape"></path>
+                      </g>
+                  </g>
+              </g>
+          </svg>
+          <h3>terrace</h3>
         </li>
       </ul>
       
       
     </section>
-    <h2 class="special-notice"><?php the_field('message');?></h2>
+    
     <section class="prices">
     
     <?php 
         // check for rows (sub repeater)
         if( have_rows('prices') ): ?>
        <ul class="prices">
+         <li>
+            <div>Month</div>
+            <div>Per night (4 persons)</div>
+            <div>Per night (3 persons)</div>
+            <div>Per night (2 persons)</div>
+          </li>
         <?php 
 
         // loop through rows (sub repeater)
         while( have_rows('prices') ): the_row();
             // display each item as a list - with a class of completed ( if completed )
             $month = get_sub_field('month');
-            $price = get_sub_field('price');
+            $price_04 = get_sub_field('price_04');
+            $price_03 = get_sub_field('price_03');
+            $price_02 = get_sub_field('price_02');
           ?>
           <li>
-            <p><?php echo $month;?><br/><?php echo $price;?></p>
+            <div><?php echo $month;?></div>
+            <div>€<?php echo $price_04;?>,-</div>
+            <div>€<?php echo $price_03;?>,-</div>
+            <div>€<?php echo $price_02;?>,-</div>
           </li>
         <?php endwhile; ?>
         </ul>
