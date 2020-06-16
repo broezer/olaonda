@@ -127,7 +127,28 @@ $image_url = $image['sizes'][ $size ];
           if( get_row_layout() == 'room' ):
 
             get_template_part( 'templates/parts/rooms-casa');
+          
+       
 
+          endif;
+
+      endwhile;
+
+  else :
+
+      // no layouts found
+
+  endif;
+
+  // check if the flexible content field has rows of data
+  if( have_rows('calendar') ):
+
+       // loop through the rows of data
+      while ( have_rows('calendar') ) : the_row();
+
+          if( get_row_layout() == 'months' ):
+
+            get_template_part( 'templates/parts/rooms-casa-cal');
 
           endif;
 
@@ -140,6 +161,43 @@ $image_url = $image['sizes'][ $size ];
   endif;
 
   ?>
+      <section class="prices">
+      <?php 
+          // check for rows (sub repeater)
+          if( have_rows('prices') ): ?>
+        <ul class="prices">
+          <li>
+              <div>Month</div>
+              <div>Per night (4 persons)</div>
+              <div>Per night (3 persons)</div>
+              <div>Per night (2 persons)</div>
+            </li>
+          <?php 
+
+          // loop through rows (sub repeater)
+          while( have_rows('prices') ): the_row();
+              // display each item as a list - with a class of completed ( if completed )
+              $month = get_sub_field('month');
+              $price_04 = get_sub_field('price_04');
+              $price_03 = get_sub_field('price_03');
+              $price_02 = get_sub_field('price_02');
+            ?>
+            <li>
+              <div><?php echo $month;?></div>
+              <div>€<?php echo $price_04;?>,-</div>
+              <div>€<?php echo $price_03;?>,-</div>
+              <div>€<?php echo $price_02;?>,-</div>
+            </li>
+          <?php endwhile; ?>
+          </ul>
+          <?php endif; //if( get_sub_field('items') ): ?>
+          
+      </section>
+      <p class="full-width">
+        <?php the_field('notice');?>
+      </p>
+  
+  </article>
 
   <article>
     <div class="wrapper">

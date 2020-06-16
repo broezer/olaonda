@@ -46,7 +46,7 @@ $images = get_sub_field('photos');
       <li><?php get_template_part( 'templates/parts/cal/august'); ?></li>
       <li><?php get_template_part( 'templates/parts/cal/september'); ?></li>
       <li><?php get_template_part( 'templates/parts/cal/october'); ?></li>
-    </uL>
+    </ul>
     <div class="parent cal-legend">
       <div class="div1"> </div>
       <div class="div2">Available </div>
