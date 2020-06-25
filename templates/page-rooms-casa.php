@@ -62,7 +62,7 @@ $image_url = $image['sizes'][ $size ];
           <h3>kingsize beds</h3>
         </li>
         <li>
-          <svg width="55px" height="60px" viewBox="0 0 55 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <svg width="55px" viewBox="0 0 55 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
               <g id="MAIN_v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                   <g id="02---Rooms" transform="translate(-439.000000, -1272.000000)" fill="#FFE581" fill-rule="nonzero">
