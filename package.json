@@ -29,6 +29,6 @@
     "wiredep": "^3.0.1"
   },
   "dependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   }
 }
