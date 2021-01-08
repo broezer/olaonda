@@ -26,7 +26,7 @@ if(ICL_LANGUAGE_CODE=='en'){
     <?php    
             endforeach;
     ?>
-    <div class="div31 empty"></div>
+    
     <div class="div32 empty"></div>
     <div class="div33 empty"></div>
     <div class="div34 empty"></div>

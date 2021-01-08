@@ -40,7 +40,9 @@ $images = get_sub_field('photos');
 
     <h3><?php echo $subtitle;?></h3>           
     
-    <ul class="ola-months">  
+    <ul class="ola-months"> 
+      <li><?php get_template_part( 'templates/parts/cal/april'); ?></li> 
+      <li><?php get_template_part( 'templates/parts/cal/may'); ?></li>
       <li><?php get_template_part( 'templates/parts/cal/june'); ?></li>
       <li><?php get_template_part( 'templates/parts/cal/july'); ?></li>
       <li><?php get_template_part( 'templates/parts/cal/august'); ?></li>
