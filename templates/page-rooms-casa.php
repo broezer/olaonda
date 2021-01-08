@@ -50,7 +50,7 @@ $image_url = $image['sizes'][ $size ];
                 </g>
             </g>
           </svg>
-          <h3>bathrooms</h3>
+          <h3>bathroom</h3>
         </li>
         <li>
           <svg width="71px"  viewBox="826 1329 71 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
