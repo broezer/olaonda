@@ -302,7 +302,9 @@ a.chevron-sign{
 /*testiomonials*/
 .testimonials{
   blockquote{
-    @include span-columns(5);
+    //@include shift(1);
+    //@include span-columns(10);
+    width:100%;
     @include media($small-screen){
       width:100%;
     }

@@ -123,7 +123,7 @@ get_header(); ?>
           <h2><span class="yellow">See</span> the ocean<br/>right after you<br/>wake up</h2>
         </li>
       </ul>
-    </wrapper>
+    </section>
     <div class="wrapper">
       <section class="left-4 discover-more">
         <a class="svg-link" href="/guesthouse/">
@@ -142,7 +142,7 @@ get_header(); ?>
     </div>
   </article>
 
-  <article class="testimonials">
+  <article class="why testimonials">
     <div class="wrapper">
       <blockquote>
         <?php the_field('testimonial_01');?>
@@ -152,6 +152,22 @@ get_header(); ?>
         <?php the_field('testimonial_02');?>
         <footer><h4 class="green">— <cite><?php the_field('testimonial_02_name');?></cite></h4></footer>
       </blockquote>
+    </div>
+		<div class="wrapper">
+      <section class="left-4 discover-more">
+        <a class="svg-link" href="https://cutt.ly/2jmJGsQ">
+					<svg width="100%" height="125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 460 125">
+              <defs></defs>
+                <g>
+                    <rect id="Rectangle-2" stroke="#89DAC1" stroke-width="11" x="5.5" y="5.5" height="114" width="450"></rect>
+                    <text id="" font-family="'Montserrat', sans-serif" font-size="24" font-weight="bold" letter-spacing="5.5999999" fill="#89DAC1">
+                        <tspan x="42" y="72">Read our reviews</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#89DAC1" points="425 63.5 400 76 400 51"></polygon>
+                </g>
+          </svg>
+        </a>
+      </section>
     </div>
   </article>
 
@@ -169,7 +185,7 @@ get_header(); ?>
       <p>
 
   </article>
-  
+
   <?php
   /*
   function fetchData($url){
@@ -196,8 +212,8 @@ get_header(); ?>
     */
   ?>
 
-  
-  <article class="social-feed"> 
+
+  <article class="social-feed">
     <!--
     <article class="insta-feed" style="background-image:url('<?php echo $images[0];?>')">
       <a href="<?php echo $link[0]; ?>"  target="_blank" title="Olá Onda on Instagram">

@@ -137,8 +137,8 @@ p, a{
 blockquote{
   @extend p;
   color:$gray;
-  @include fluid-type(margin-bottom, 320px, 768px, 42px, 84px);
-  @include fluid-type(margin-bottom, 768px, 1400px, 84px, 150px);
+  @include fluid-type(margin-bottom, 320px, 768px, 42px, 42px);
+  @include fluid-type(margin-bottom, 768px, 1400px, 42px, 42px);
 
   footer{
     text-align:right;
@@ -149,7 +149,7 @@ blockquote{
     width:100%;
   }
   &:last-child{
-    margin-bottom:0;
+    //margin-bottom:0;
   }
 }
 
